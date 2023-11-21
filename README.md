@@ -4,7 +4,7 @@ I'm Wen Jun
 
 ## Blog ✍️
 
-Besides writing code, I like to write articles about things that I find interesting. You can read the articles at **[charly3pins.dev](https://charly3pins.dev)**
+Besides writing code, I like to write articles about things that I find interesting. You can read the articles at
 
 Latest posts:
 - **[Deep Learning](https://wenjun78.github.io/portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)** 
