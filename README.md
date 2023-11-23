@@ -8,16 +8,19 @@ Besides writing code, I like to write articles about things that I find interest
 
 Latest posts:
 
-- **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%Selection.html)**
-- **[Regularized Linear Modeling]
-- **[Dimensionality Reduction]
-- **[Lazy Learning]
-- **[Probabilistic Learning]
-- **[Decision Tree]
-- **[Forecasting]
-- **[Neural Network]
-- **[Apriori Association Rules Learning]
-- **[Deep Learning](https://wenjun78.github.io/portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)** 
+- **[Feature Selection](https://wenjun78.github.io/Portfolio/Feature%Selection.html)**
+- **[Regularized Linear Modeling](https://wenjun78.github.io/Portfolio/Regularized%Linear%Regression.html)**
+- **[Dimensionality Reduction](https://wenjun78.github.io/Portfolio/Dimensionality%Reduction.html)**
+- **[Lazy Learning](https://wenjun78.github.io/Portfolio/Lazy%Learning.html)**
+- **[Probabilistic Learning](https://wenjun78.github.io/Portfolio/Probabilistic%Learning.html)**
+- **[Decision Tree](https://wenjun78.github.io/Portfolio/Decision%Tree.html)**
+- **[Forecasting](https://wenjun78.github.io/Portfolio/Forecasting.html)**
+- **[Neural Network](https://wenjun78.github.io/Portfolio/Neural%Network.html)**
+- **[Apriori Association Rules Learning](https://wenjun78.github.io/Portfolio/Apriori%Association.html)**
+- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)**
+- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)**
+- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)** 
+- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)** 
 
 
 
