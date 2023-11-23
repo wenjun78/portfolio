@@ -8,7 +8,7 @@ Besides writing code, I like to write articles about things that I find interest
 
 Latest posts:
 
-- **[Feature Selection]
+- **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%Selection.html)**
 - **[Regularized Linear Modeling]
 - **[Dimensionality Reduction]
 - **[Lazy Learning]
