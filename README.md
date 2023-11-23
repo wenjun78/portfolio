@@ -18,9 +18,9 @@ Machine Learning:
 - **[Forecasting](https://wenjun78.github.io/Portfolio/Forecasting.html)**
 - **[Blackbox](https://wenjun78.github.io/Portfolio/Black%Box.html)**
 - **[Apriori Association Rules Learning](https://wenjun78.github.io/Portfolio/Apriori%Association.html)**
-- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)**
-- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)**
-- **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)**
+- **[Specialized Machine Learning Topics](https://wenjun78.github.io/Portfolio/Specialized%Machine%Learning%Topics.html)**
+- **[Big Data Longitudinal Analysis](https://wenjun78.github.io/Portfolio/Big%Data%Longitudinal%Analysis.html)**
+- **[Function Optimization](https://wenjun78.github.io/Portfolio/Function%Optimization.html)**
 - **[Deep Learning](https://wenjun78.github.io/Portfolio/22L8204%20Lau%20ZH5103%20Assignment%205.html)**
 
 App:
