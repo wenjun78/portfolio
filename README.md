@@ -22,19 +22,19 @@ Each project in my portfolio is a testament to my ability to analyze, interpret,
 
 Machine Learning:
 
-- **[Feature Selection](https://wenjun78.github.io/Portfolio/Feature%20Selection.html)**
-- **[Regularized Linear Modeling](https://wenjun78.github.io/Portfolio/Regularized%20Linear%20Regression.html)**
-- **[Dimensionality Reduction](https://wenjun78.github.io/Portfolio/Dimensionality%20Reduction.html)**
-- **[Lazy Learning](https://wenjun78.github.io/Portfolio/Lazy%20Learning.html)**
-- **[Naive Bayes](https://wenjun78.github.io/Portfolio/Naive%20Bayes.html)**
-- **[Decision Tree](https://wenjun78.github.io/Portfolio/Decision%20Tree.html)**
-- **[Forecasting](https://wenjun78.github.io/Portfolio/Forecasting.html)**
-- **[Blackbox](https://wenjun78.github.io/Portfolio/Black%20Box.html)**
-- **[Apriori Association Rules Learning](https://wenjun78.github.io/Portfolio/Apriori%20Association.html)**
-- **[Specialized Machine Learning Topics](https://wenjun78.github.io/Portfolio/Specialized%20Machine%20Learning%20Topics.html)**
-- **[Big Data Longitudinal Analysis](https://wenjun78.github.io/Portfolio/Big%20Data%20Longitudinal%20Analysis.html)**
-- **[Function Optimization](https://wenjun78.github.io/Portfolio/Optimization.html)**
-- **[Deep Learning](https://wenjun78.github.io/Portfolio/DeepLearning.html)**
+- **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
+- **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
+- **[Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html)**
+- **[Lazy Learning](https://wenjun78.github.io/portfolio/Lazy%20Learning.html)**
+- **[Naive Bayes](https://wenjun78.github.io/portfolio/Naive%20Bayes.html)**
+- **[Decision Tree](https://wenjun78.github.io/portfolio/Decision%20Tree.html)**
+- **[Forecasting](https://wenjun78.github.io/portfolio/Forecasting.html)**
+- **[Blackbox](https://wenjun78.github.io/portfolio/Black%20Box.html)**
+- **[Apriori Association Rules Learning](https://wenjun78.github.io/portfolio/Apriori%20Association.html)**
+- **[Specialized Machine Learning Topics](https://wenjun78.github.io/portfolio/Specialized%20Machine%20Learning%20Topics.html)**
+- **[Big Data Longitudinal Analysis](https://wenjun78.github.io/portfolio/Big%20Data%20Longitudinal%20Analysis.html)**
+- **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
+- **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**
 
 App:
 - **[R Shiny App](https://f7cnn8-wj-lau.shinyapps.io/Assign5/)** 
