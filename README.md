@@ -22,7 +22,7 @@ Each project in my portfolio is a testament to my ability to analyze, interpret,
 
 Machine Learning:
 
-- **[Feature Selection](https://wenjun78.github.io/Portfolio/Feature%20election.html)**
+- **[Feature Selection](https://wenjun78.github.io/Portfolio/Feature%20Selection.html)**
 - **[Regularized Linear Modeling](https://wenjun78.github.io/Portfolio/Regularized%20Linear%20Regression.html)**
 - **[Dimensionality Reduction](https://wenjun78.github.io/Portfolio/Dimensionality%20Reduction.html)**
 - **[Lazy Learning](https://wenjun78.github.io/Portfolio/Lazy%20Learning.html)**
@@ -33,7 +33,7 @@ Machine Learning:
 - **[Apriori Association Rules Learning](https://wenjun78.github.io/Portfolio/Apriori%20Association.html)**
 - **[Specialized Machine Learning Topics](https://wenjun78.github.io/Portfolio/Specialized%20Machine%20Learning%20Topics.html)**
 - **[Big Data Longitudinal Analysis](https://wenjun78.github.io/Portfolio/Big%20Data%20Longitudinal%20Analysis.html)**
-- **[Function Optimization](https://wenjun78.github.io/Portfolio/Function%20Optimization.html)**
+- **[Function Optimization](https://wenjun78.github.io/Portfolio/Optimization.html)**
 - **[Deep Learning](https://wenjun78.github.io/Portfolio/DeepLearning.html)**
 
 App:
