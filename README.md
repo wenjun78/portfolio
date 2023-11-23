@@ -10,7 +10,7 @@ Besides writing code, I like to write articles about things that I find interest
 Machine Learning:
 
 - **[Feature Selection](https://wenjun78.github.io/Portfolio/Feature%20election.html)**
-- **[Regularized Linear Modeling](https://wenjun78.github.io/Portfolio/Regularized%20Linear%Regression.html)**
+- **[Regularized Linear Modeling](https://wenjun78.github.io/Portfolio/Regularized%20Linear%20Regression.html)**
 - **[Dimensionality Reduction](https://wenjun78.github.io/Portfolio/Dimensionality%20Reduction.html)**
 - **[Lazy Learning](https://wenjun78.github.io/Portfolio/Lazy%20Learning.html)**
 - **[Naive Bayes](https://wenjun78.github.io/Portfolio/Naive%20Bayes.html)**
