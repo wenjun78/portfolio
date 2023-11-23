@@ -5,7 +5,4 @@ show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
 plugins:
-   :handshake:
-   :octocat:
-   :dart:
-   :writing_hand:
+  - jemoji
