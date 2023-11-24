@@ -21,7 +21,6 @@ My GitHub page serves as a dynamic portfolio displaying my diverse range of proj
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
 Machine Learning:
-
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
 - **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
 - **[Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html)**
@@ -35,6 +34,14 @@ Machine Learning:
 - **[Big Data Longitudinal Analysis](https://wenjun78.github.io/portfolio/Big%20Data%20Longitudinal%20Analysis.html)**
 - **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
 - **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**
+
+Power BI Dashboard:
+- **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**
+- **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**
+- **[Education Statistics 2020-22: Student Enrollment](https://tinyurl.com/edustat20-22SE)**
+- **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)**
+- **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)**
+- **[Insight into the inpatient services of Hospital XYZ (2020)](https://tinyurl.com/laujpmc23)**
 
 App:
 - **[R Shiny App](https://f7cnn8-wj-lau.shinyapps.io/Assign5/)** 
