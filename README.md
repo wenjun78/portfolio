@@ -38,7 +38,6 @@ Machine Learning:
 Power BI Dashboard:
 - **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**
 - **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**
-- **[Education Statistics 2020-22: Student Enrollment](https://tinyurl.com/edustat20-22SE)**
 - **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)**
 - **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)**
 - **[Insight into the inpatient services of Hospital XYZ (2020)](https://tinyurl.com/laujpmc23)**
