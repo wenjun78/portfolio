@@ -20,7 +20,7 @@ Let's Connect:
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning, including interactive dashboards and R Shiny app.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
-Machine Learning:
+Machine Learning Portfolio:
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
 - **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
 - **[Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html)**
@@ -35,14 +35,14 @@ Machine Learning:
 - **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
 - **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**
 
-Power BI Dashboard:
+Power BI Dashboards:
 - **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**
 - **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**
 - **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)**
 - **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)**
 - **[Insight into the inpatient services of Hospital XYZ (2020)](https://tinyurl.com/laujpmc23)**
 
-Tableau Dashboard:
+Tableau Dashboards:
 - **[Tableau in Data Job Sphere: An Analytical Dashboard](https://public.tableau.com/views/TableauinDataJobSphereAnAnalyticalDashboard/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link)**
 
 App:
