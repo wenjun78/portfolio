@@ -43,6 +43,7 @@ Power BI Dashboards:
 - **[Insight into the inpatient services of Hospital XYZ (2020)](https://tinyurl.com/laujpmc23)**
 
 Tableau Dashboards:
+- **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)**
 - **[Tableau in Data Job Sphere: An Analytical Dashboard](https://public.tableau.com/views/TableauinDataJobSphereAnAnalyticalDashboard/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link)**
 
 App:
