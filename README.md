@@ -20,7 +20,7 @@ Let's Connect:
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning, including interactive dashboards and R Shiny app.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
-Project:
+Projects:
 - **[Analyzing Students' Mental Health](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)** | SQL
 - **[Exploring London's Travel Network](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit)** | SQL | Amazon Redshift
 
