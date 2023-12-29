@@ -20,6 +20,10 @@ Let's Connect:
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning, including interactive dashboards and R Shiny app.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
+Project:
+- **[Analyzing Students' Mental Health]([https://wenjun78.github.io/portfolio/Feature%20Selection.html](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)**
+- **[Exploring London's Travel Network]([https://wenjun78.github.io/portfolio/Feature%20Selection.html](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit))**
+
 Machine Learning Portfolio:
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
 - **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
