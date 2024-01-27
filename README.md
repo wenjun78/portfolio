@@ -23,7 +23,7 @@ Each project in my portfolio is a testament to my ability to analyze, interpret,
 Projects:
 - **[Analyzing Students' Mental Health](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)** (SQL)
 - **[Exploring London's Travel Network](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit)** (SQL & Amazon Redshift)
-- **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scarping/Web_Scraping.html)** (Python)
+- **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web Scarping/Web_Scraping.html)** (Python)
 
 Machine Learning Portfolio:
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
