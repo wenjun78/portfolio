@@ -3,16 +3,16 @@
 
 ## About Me :octocat:
 
-👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics and machine learning. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
+👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, data science, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
 
 ### Technical Expertise 👨‍💻
-Data Analytics: I am proficient in data analytics, with a particular emphasis on utilizing Power BI and Tableau. My portfolio showcases my ability to transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
+**Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing Power BI and Tableau. My portfolio showcases my ability to transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
 
-Data Science and Machine Learning: I have a robust background in data science and machine learning, with skills in feature selection, regularized linear modelling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and Black Box models. My expertise also extends to specialized areas like Apriori association rules learning and big data longitudinal analysis.
+**Data Science and Machine Learning:** I have a robust background in data science and machine learning, with skills in feature selection, regularized linear modelling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and Black Box models. My expertise also extends to specialized areas like Apriori association rules learning and big data longitudinal analysis.
 
-Deep Learning: My interest in AI includes deep learning, where I delve into neural networks and function optimization to tackle complex challenges.
+**Deep Learning:** My interest in AI includes deep learning, where I delve into neural networks and function optimization to tackle complex challenges.
 
-App Development: I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.
+**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.
 
 ### Goals :dart:
 I am committed to continuous learning and improvement in the fields of data science, machine learning, and data analytics. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
