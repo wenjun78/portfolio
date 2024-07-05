@@ -1,7 +1,7 @@
 # My Analytical Adventures: A Blend of Science, Art, and Data
 ![](https://user-images.githubusercontent.com/74038190/240906093-9be4d344-6782-461a-b5a6-32a07bf7b34e.gif)
 
-## About Me :octocat:
+## About Me 👦
 
 👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, data science, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
 
