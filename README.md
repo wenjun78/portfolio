@@ -22,8 +22,9 @@ I am committed to continuous learning and improvement in the fields of data scie
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning, including interactive dashboards and R Shiny app.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
-Projects:
-- **[Loan Repayment Challenge](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
+Analytical Projects:
+- **[Car Price Prediction Model Analysis](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
+- **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)
 - **[Analyzing Students' Mental Health](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)** (SQL)
 - **[Exploring London's Travel Network](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit)** (SQL & Amazon Redshift)
@@ -45,11 +46,12 @@ Machine Learning Portfolio:
 - **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**
 
 Power BI Dashboards:
+- **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)**
 - **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**
 - **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**
 - **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)**
 - **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)**
-- **[Insight into the inpatient services of Hospital XYZ (2020)](https://tinyurl.com/laujpmc23)**
+- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**
 
 Tableau Dashboards:
 - **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)**
