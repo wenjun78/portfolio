@@ -1,0 +1,1001 @@
+user_id,transaction_id,transaction_amount,is_flagged,fraudulent,verification_method,risk_pattern
+user_1,txn_1,1359,0,1,extra_verification,None
+user_2,txn_2,278,0,0,standard,None
+user_3,txn_3,101,0,0,standard,None
+user_4,txn_4,1568,0,0,standard,None
+user_5,txn_5,613,0,0,extra_verification,None
+user_6,txn_6,551,0,1,extra_verification,None
+user_7,txn_7,507,0,1,standard,None
+user_8,txn_8,335,0,0,extra_verification,None
+user_9,txn_9,1558,0,1,standard,None
+user_10,txn_10,259,1,1,standard,Invalid IP Address
+user_11,txn_11,1435,0,1,extra_verification,None
+user_12,txn_12,1566,0,0,standard,None
+user_13,txn_13,1877,1,0,extra_verification,High Velocity Transactions
+user_14,txn_14,1166,1,1,standard,Unverified User
+user_15,txn_15,228,1,0,extra_verification,Fraudulent BIN
+user_16,txn_16,1259,0,0,extra_verification,None
+user_17,txn_17,914,0,0,standard,None
+user_18,txn_18,115,0,0,extra_verification,None
+user_19,txn_19,111,1,1,standard,Multiple Account Usage
+user_20,txn_20,241,0,0,standard,None
+user_21,txn_21,497,0,1,extra_verification,None
+user_22,txn_22,526,1,0,extra_verification,Geolocation Mismatch
+user_23,txn_23,1084,1,1,standard,Unusual Time of Transaction
+user_24,txn_24,1282,1,0,extra_verification,Blacklisted Email Domain
+user_25,txn_25,104,0,0,standard,None
+user_26,txn_26,1199,0,1,standard,None
+user_27,txn_27,457,0,1,standard,None
+user_28,txn_28,1516,0,0,standard,None
+user_29,txn_29,1380,1,0,extra_verification,Suspicious Proxy Usage
+user_30,txn_30,1486,0,1,standard,None
+user_31,txn_31,1166,0,0,standard,None
+user_32,txn_32,909,1,1,standard,Multiple Account Usage
+user_33,txn_33,501,1,0,extra_verification,Suspicious Proxy Usage
+user_34,txn_34,969,1,1,standard,Blacklisted Email Domain
+user_35,txn_35,1256,0,0,standard,None
+user_36,txn_36,619,1,0,extra_verification,Expired Card
+user_37,txn_37,1707,0,0,standard,None
+user_38,txn_38,1830,1,0,extra_verification,High Velocity Transactions
+user_39,txn_39,63,1,1,standard,Duplicate Card Usage
+user_40,txn_40,1604,0,1,extra_verification,None
+user_41,txn_41,1700,1,1,standard,Unverified User
+user_42,txn_42,376,1,1,standard,Multiple Account Usage
+user_43,txn_43,1479,1,0,extra_verification,Repeated Login Attempts
+user_44,txn_44,915,0,1,standard,None
+user_45,txn_45,746,1,1,standard,Unusual Time of Transaction
+user_46,txn_46,619,0,1,standard,None
+user_47,txn_47,368,1,0,extra_verification,Fraudulent BIN
+user_48,txn_48,490,1,0,extra_verification,Foreign Currency Transaction
+user_49,txn_49,1613,1,0,extra_verification,Unusual Time of Transaction
+user_50,txn_50,739,1,1,standard,High Velocity Transactions
+user_51,txn_51,259,1,0,extra_verification,High Velocity Transactions
+user_52,txn_52,239,1,1,standard,Suspicious Proxy Usage
+user_53,txn_53,828,0,1,standard,None
+user_54,txn_54,248,0,1,standard,None
+user_55,txn_55,785,1,1,standard,Compromised Device
+user_56,txn_56,1785,1,1,standard,Blacklisted Email Domain
+user_57,txn_57,754,0,0,extra_verification,None
+user_58,txn_58,1286,1,0,extra_verification,Invalid IP Address
+user_59,txn_59,591,1,1,standard,Suspicious Proxy Usage
+user_60,txn_60,1702,1,1,standard,Expired Card
+user_61,txn_61,138,0,0,extra_verification,None
+user_62,txn_62,1544,1,0,extra_verification,Foreign Currency Transaction
+user_63,txn_63,990,1,1,standard,Compromised Device
+user_64,txn_64,1148,0,0,standard,None
+user_65,txn_65,305,1,1,standard,Geolocation Mismatch
+user_66,txn_66,1938,0,1,standard,None
+user_67,txn_67,825,1,1,standard,Repeated Login Attempts
+user_68,txn_68,211,1,0,extra_verification,Geolocation Mismatch
+user_69,txn_69,1180,1,0,extra_verification,Multiple Account Usage
+user_70,txn_70,650,1,0,extra_verification,Invalid IP Address
+user_71,txn_71,1748,1,0,extra_verification,High Velocity Transactions
+user_72,txn_72,1337,0,0,standard,None
+user_73,txn_73,1316,0,1,standard,None
+user_74,txn_74,1863,0,0,extra_verification,None
+user_75,txn_75,1814,0,1,standard,None
+user_76,txn_76,790,1,1,standard,Blacklisted Email Domain
+user_77,txn_77,1232,1,0,extra_verification,Blacklisted Email Domain
+user_78,txn_78,443,0,0,standard,None
+user_79,txn_79,1492,1,0,extra_verification,Compromised Device
+user_80,txn_80,192,1,1,standard,Suspicious Proxy Usage
+user_81,txn_81,143,1,1,standard,Expired Card
+user_82,txn_82,1404,0,0,extra_verification,None
+user_83,txn_83,516,0,0,extra_verification,None
+user_84,txn_84,1633,1,1,standard,Invalid IP Address
+user_85,txn_85,642,0,1,standard,None
+user_86,txn_86,213,1,0,extra_verification,High Velocity Transactions
+user_87,txn_87,1801,0,1,extra_verification,None
+user_88,txn_88,526,1,1,standard,Fraudulent BIN
+user_89,txn_89,1824,1,1,standard,Geolocation Mismatch
+user_90,txn_90,256,1,0,extra_verification,Unusual Time of Transaction
+user_91,txn_91,828,1,1,standard,Fraudulent BIN
+user_92,txn_92,619,1,1,standard,Multiple Account Usage
+user_93,txn_93,978,1,0,extra_verification,Repeated Login Attempts
+user_94,txn_94,1351,1,0,extra_verification,Blacklisted Email Domain
+user_95,txn_95,1758,1,1,standard,Unusual Time of Transaction
+user_96,txn_96,797,1,0,extra_verification,Duplicate Card Usage
+user_97,txn_97,383,1,0,extra_verification,Unusual Time of Transaction
+user_98,txn_98,808,1,0,extra_verification,Unverified User
+user_99,txn_99,777,0,0,standard,None
+user_100,txn_100,479,0,1,extra_verification,None
+user_101,txn_101,1422,0,1,standard,None
+user_102,txn_102,596,1,1,standard,Fraudulent BIN
+user_103,txn_103,1487,0,1,standard,None
+user_104,txn_104,1968,0,0,standard,None
+user_105,txn_105,1449,0,1,extra_verification,None
+user_106,txn_106,1377,0,0,standard,None
+user_107,txn_107,196,1,1,standard,Compromised Device
+user_108,txn_108,1297,1,1,standard,High Velocity Transactions
+user_109,txn_109,1350,1,0,extra_verification,Suspicious Proxy Usage
+user_110,txn_110,400,0,1,extra_verification,None
+user_111,txn_111,1143,0,0,extra_verification,None
+user_112,txn_112,1543,1,0,extra_verification,Unverified User
+user_113,txn_113,551,0,0,extra_verification,None
+user_114,txn_114,384,1,1,standard,Unverified User
+user_115,txn_115,996,0,0,standard,None
+user_116,txn_116,827,1,0,extra_verification,Unverified User
+user_117,txn_117,602,0,0,standard,None
+user_118,txn_118,1945,0,1,extra_verification,None
+user_119,txn_119,1360,1,1,standard,Expired Card
+user_120,txn_120,1459,0,0,standard,None
+user_121,txn_121,1190,0,0,standard,None
+user_122,txn_122,499,1,0,extra_verification,Blacklisted Email Domain
+user_123,txn_123,1452,0,0,extra_verification,None
+user_124,txn_124,714,1,1,standard,Duplicate Card Usage
+user_125,txn_125,1776,0,1,extra_verification,None
+user_126,txn_126,1623,0,1,extra_verification,None
+user_127,txn_127,1639,1,1,standard,Compromised Device
+user_128,txn_128,164,1,1,standard,Expired Card
+user_129,txn_129,519,1,1,standard,Compromised Device
+user_130,txn_130,1733,1,1,standard,Foreign Currency Transaction
+user_131,txn_131,115,1,0,extra_verification,Foreign Currency Transaction
+user_132,txn_132,1698,0,0,standard,None
+user_133,txn_133,696,0,1,extra_verification,None
+user_134,txn_134,871,1,1,standard,Blacklisted Email Domain
+user_135,txn_135,598,1,0,extra_verification,High Velocity Transactions
+user_136,txn_136,185,0,1,standard,None
+user_137,txn_137,482,0,1,standard,None
+user_138,txn_138,1920,1,1,standard,Repeated Login Attempts
+user_139,txn_139,1981,1,1,standard,Repeated Login Attempts
+user_140,txn_140,1211,0,1,standard,None
+user_141,txn_141,1844,0,1,standard,None
+user_142,txn_142,1520,0,0,extra_verification,None
+user_143,txn_143,694,0,0,extra_verification,None
+user_144,txn_144,485,1,0,extra_verification,Unverified User
+user_145,txn_145,1392,0,0,standard,None
+user_146,txn_146,1072,0,0,extra_verification,None
+user_147,txn_147,860,0,1,standard,None
+user_148,txn_148,1861,1,0,extra_verification,Invalid IP Address
+user_149,txn_149,1922,0,1,standard,None
+user_150,txn_150,1366,1,1,standard,High Velocity Transactions
+user_151,txn_151,989,1,0,extra_verification,High Velocity Transactions
+user_152,txn_152,342,1,0,extra_verification,Suspicious Proxy Usage
+user_153,txn_153,592,1,0,extra_verification,Duplicate Card Usage
+user_154,txn_154,335,1,1,standard,Invalid IP Address
+user_155,txn_155,555,1,0,extra_verification,Unverified User
+user_156,txn_156,1575,0,1,standard,None
+user_157,txn_157,1199,0,1,extra_verification,None
+user_158,txn_158,1153,0,1,extra_verification,None
+user_159,txn_159,588,0,0,extra_verification,None
+user_160,txn_160,1579,1,1,standard,Fraudulent BIN
+user_161,txn_161,1247,0,0,extra_verification,None
+user_162,txn_162,927,0,0,standard,None
+user_163,txn_163,1888,0,1,extra_verification,None
+user_164,txn_164,1245,0,1,standard,None
+user_165,txn_165,867,0,0,extra_verification,None
+user_166,txn_166,791,0,1,standard,None
+user_167,txn_167,499,0,1,standard,None
+user_168,txn_168,333,1,1,standard,Geolocation Mismatch
+user_169,txn_169,1093,1,1,standard,Invalid IP Address
+user_170,txn_170,1060,1,1,standard,Fraudulent BIN
+user_171,txn_171,236,1,1,standard,Foreign Currency Transaction
+user_172,txn_172,1597,0,1,standard,None
+user_173,txn_173,146,0,1,standard,None
+user_174,txn_174,1813,1,0,extra_verification,Suspicious Proxy Usage
+user_175,txn_175,274,1,0,extra_verification,Blacklisted Email Domain
+user_176,txn_176,363,1,0,extra_verification,High Value Transaction
+user_177,txn_177,1335,0,0,standard,None
+user_178,txn_178,377,0,1,standard,None
+user_179,txn_179,1672,1,1,standard,Compromised Device
+user_180,txn_180,1443,0,0,extra_verification,None
+user_181,txn_181,914,1,1,standard,Invalid IP Address
+user_182,txn_182,1271,0,0,extra_verification,None
+user_183,txn_183,180,0,1,standard,None
+user_184,txn_184,838,0,1,extra_verification,None
+user_185,txn_185,831,1,0,extra_verification,Blacklisted Email Domain
+user_186,txn_186,1270,0,0,extra_verification,None
+user_187,txn_187,1008,0,0,standard,None
+user_188,txn_188,1133,0,1,extra_verification,None
+user_189,txn_189,564,0,1,standard,None
+user_190,txn_190,1183,1,1,standard,Unusual Time of Transaction
+user_191,txn_191,1812,1,1,standard,Multiple Account Usage
+user_192,txn_192,1980,1,1,standard,Multiple Account Usage
+user_193,txn_193,73,0,1,standard,None
+user_194,txn_194,1443,1,0,extra_verification,Unusual Time of Transaction
+user_195,txn_195,1526,1,1,standard,Repeated Login Attempts
+user_196,txn_196,284,1,0,extra_verification,Unverified User
+user_197,txn_197,1446,1,0,extra_verification,Blacklisted Email Domain
+user_198,txn_198,1862,1,0,extra_verification,Geolocation Mismatch
+user_199,txn_199,1149,1,0,extra_verification,High Value Transaction
+user_200,txn_200,1587,0,0,standard,None
+user_201,txn_201,596,0,1,extra_verification,None
+user_202,txn_202,1624,1,1,standard,High Velocity Transactions
+user_203,txn_203,1362,1,0,extra_verification,Compromised Device
+user_204,txn_204,746,1,1,standard,Duplicate Card Usage
+user_205,txn_205,278,0,1,extra_verification,None
+user_206,txn_206,651,0,0,extra_verification,None
+user_207,txn_207,940,0,0,standard,None
+user_208,txn_208,373,0,1,extra_verification,None
+user_209,txn_209,979,1,0,extra_verification,High Velocity Transactions
+user_210,txn_210,56,0,1,extra_verification,None
+user_211,txn_211,1528,0,0,standard,None
+user_212,txn_212,1843,1,1,standard,Geolocation Mismatch
+user_213,txn_213,1523,1,1,standard,Multiple Account Usage
+user_214,txn_214,589,1,1,standard,Unverified User
+user_215,txn_215,1075,0,0,extra_verification,None
+user_216,txn_216,1610,1,1,standard,Repeated Login Attempts
+user_217,txn_217,415,1,1,standard,Foreign Currency Transaction
+user_218,txn_218,1089,0,1,extra_verification,None
+user_219,txn_219,1919,1,1,standard,Multiple Account Usage
+user_220,txn_220,267,1,0,extra_verification,Compromised Device
+user_221,txn_221,1832,1,1,standard,Geolocation Mismatch
+user_222,txn_222,1330,1,0,extra_verification,Fraudulent BIN
+user_223,txn_223,661,1,0,extra_verification,Foreign Currency Transaction
+user_224,txn_224,1773,0,1,standard,None
+user_225,txn_225,1358,0,0,standard,None
+user_226,txn_226,1089,1,1,standard,Blacklisted Email Domain
+user_227,txn_227,1297,1,0,extra_verification,Geolocation Mismatch
+user_228,txn_228,457,1,0,extra_verification,Unusual Time of Transaction
+user_229,txn_229,363,1,1,standard,Compromised Device
+user_230,txn_230,815,1,1,standard,Unverified User
+user_231,txn_231,1611,0,1,extra_verification,None
+user_232,txn_232,380,1,1,standard,Unverified User
+user_233,txn_233,1154,0,1,standard,None
+user_234,txn_234,1644,1,1,standard,Repeated Login Attempts
+user_235,txn_235,1939,1,0,extra_verification,Compromised Device
+user_236,txn_236,1136,1,0,extra_verification,Compromised Device
+user_237,txn_237,1931,0,1,extra_verification,None
+user_238,txn_238,51,1,1,standard,Duplicate Card Usage
+user_239,txn_239,1276,0,0,standard,None
+user_240,txn_240,713,1,1,standard,High Value Transaction
+user_241,txn_241,1050,1,0,extra_verification,High Velocity Transactions
+user_242,txn_242,89,0,0,standard,None
+user_243,txn_243,279,0,1,standard,None
+user_244,txn_244,1952,1,0,extra_verification,Geolocation Mismatch
+user_245,txn_245,793,1,1,standard,Foreign Currency Transaction
+user_246,txn_246,1849,1,1,standard,High Value Transaction
+user_247,txn_247,1753,0,1,extra_verification,None
+user_248,txn_248,1702,0,1,extra_verification,None
+user_249,txn_249,679,1,0,extra_verification,Fraudulent BIN
+user_250,txn_250,540,0,1,extra_verification,None
+user_251,txn_251,168,1,0,extra_verification,Fraudulent BIN
+user_252,txn_252,543,1,0,extra_verification,High Velocity Transactions
+user_253,txn_253,1848,1,0,extra_verification,Geolocation Mismatch
+user_254,txn_254,1211,0,1,extra_verification,None
+user_255,txn_255,1989,0,1,standard,None
+user_256,txn_256,211,0,0,standard,None
+user_257,txn_257,225,0,1,standard,None
+user_258,txn_258,1548,1,1,standard,Repeated Login Attempts
+user_259,txn_259,1045,0,1,standard,None
+user_260,txn_260,1721,1,1,standard,High Velocity Transactions
+user_261,txn_261,191,0,1,standard,None
+user_262,txn_262,1607,0,1,standard,None
+user_263,txn_263,1140,0,1,extra_verification,None
+user_264,txn_264,1618,1,0,extra_verification,Blacklisted Email Domain
+user_265,txn_265,307,0,0,extra_verification,None
+user_266,txn_266,312,0,0,extra_verification,None
+user_267,txn_267,1401,1,1,standard,Invalid IP Address
+user_268,txn_268,1023,1,0,extra_verification,Multiple Account Usage
+user_269,txn_269,1989,1,1,standard,Geolocation Mismatch
+user_270,txn_270,1175,1,0,extra_verification,Expired Card
+user_271,txn_271,388,1,0,extra_verification,High Velocity Transactions
+user_272,txn_272,592,1,0,extra_verification,Blacklisted Email Domain
+user_273,txn_273,1130,0,0,extra_verification,None
+user_274,txn_274,1836,1,1,standard,Invalid IP Address
+user_275,txn_275,1292,0,0,standard,None
+user_276,txn_276,916,1,1,standard,High Value Transaction
+user_277,txn_277,483,0,0,extra_verification,None
+user_278,txn_278,1952,0,1,standard,None
+user_279,txn_279,1154,0,1,standard,None
+user_280,txn_280,1596,1,0,extra_verification,Geolocation Mismatch
+user_281,txn_281,1544,1,1,standard,Repeated Login Attempts
+user_282,txn_282,1462,1,1,standard,Foreign Currency Transaction
+user_283,txn_283,461,1,1,standard,Invalid IP Address
+user_284,txn_284,1510,0,0,extra_verification,None
+user_285,txn_285,688,1,0,extra_verification,Blacklisted Email Domain
+user_286,txn_286,867,1,1,standard,Blacklisted Email Domain
+user_287,txn_287,1425,1,0,extra_verification,Duplicate Card Usage
+user_288,txn_288,1380,0,0,extra_verification,None
+user_289,txn_289,814,1,1,standard,Multiple Account Usage
+user_290,txn_290,947,1,1,standard,Compromised Device
+user_291,txn_291,1892,1,0,extra_verification,Fraudulent BIN
+user_292,txn_292,1109,1,0,extra_verification,Geolocation Mismatch
+user_293,txn_293,974,1,1,standard,Geolocation Mismatch
+user_294,txn_294,297,1,1,standard,Suspicious Proxy Usage
+user_295,txn_295,557,1,0,extra_verification,Blacklisted Email Domain
+user_296,txn_296,510,0,0,standard,None
+user_297,txn_297,181,0,1,standard,None
+user_298,txn_298,742,1,1,standard,Unusual Time of Transaction
+user_299,txn_299,93,0,0,standard,None
+user_300,txn_300,1254,1,1,standard,Invalid IP Address
+user_301,txn_301,1184,0,1,standard,None
+user_302,txn_302,521,1,1,standard,Duplicate Card Usage
+user_303,txn_303,1255,1,1,standard,Blacklisted Email Domain
+user_304,txn_304,501,1,0,extra_verification,Fraudulent BIN
+user_305,txn_305,64,1,0,extra_verification,Invalid IP Address
+user_306,txn_306,195,0,1,standard,None
+user_307,txn_307,1499,1,0,extra_verification,Multiple Account Usage
+user_308,txn_308,1342,0,1,standard,None
+user_309,txn_309,170,0,1,standard,None
+user_310,txn_310,518,1,1,standard,Repeated Login Attempts
+user_311,txn_311,188,0,1,standard,None
+user_312,txn_312,1904,1,0,extra_verification,Multiple Account Usage
+user_313,txn_313,114,0,1,standard,None
+user_314,txn_314,1810,1,1,standard,Suspicious Proxy Usage
+user_315,txn_315,726,0,0,extra_verification,None
+user_316,txn_316,195,0,0,standard,None
+user_317,txn_317,1102,1,1,standard,Multiple Account Usage
+user_318,txn_318,537,0,0,extra_verification,None
+user_319,txn_319,620,0,1,standard,None
+user_320,txn_320,1420,1,1,standard,Suspicious Proxy Usage
+user_321,txn_321,1044,1,0,extra_verification,Compromised Device
+user_322,txn_322,488,1,0,extra_verification,Blacklisted Email Domain
+user_323,txn_323,1154,1,0,extra_verification,Geolocation Mismatch
+user_324,txn_324,320,0,1,standard,None
+user_325,txn_325,1531,1,0,extra_verification,Suspicious Proxy Usage
+user_326,txn_326,1965,1,0,extra_verification,Expired Card
+user_327,txn_327,1857,1,1,standard,Invalid IP Address
+user_328,txn_328,1219,1,0,extra_verification,High Velocity Transactions
+user_329,txn_329,1230,0,1,standard,None
+user_330,txn_330,1018,0,0,standard,None
+user_331,txn_331,547,0,1,extra_verification,None
+user_332,txn_332,1656,1,0,extra_verification,Invalid IP Address
+user_333,txn_333,1018,0,0,extra_verification,None
+user_334,txn_334,1703,0,0,standard,None
+user_335,txn_335,883,1,1,standard,Invalid IP Address
+user_336,txn_336,439,0,1,standard,None
+user_337,txn_337,243,0,0,extra_verification,None
+user_338,txn_338,248,1,0,extra_verification,Invalid IP Address
+user_339,txn_339,1399,0,1,extra_verification,None
+user_340,txn_340,932,1,0,extra_verification,Fraudulent BIN
+user_341,txn_341,775,0,0,standard,None
+user_342,txn_342,917,0,1,standard,None
+user_343,txn_343,891,1,0,extra_verification,Compromised Device
+user_344,txn_344,1006,0,1,extra_verification,None
+user_345,txn_345,1819,1,1,standard,Suspicious Proxy Usage
+user_346,txn_346,1543,1,0,extra_verification,Geolocation Mismatch
+user_347,txn_347,160,1,1,standard,Multiple Account Usage
+user_348,txn_348,1429,1,1,standard,Unusual Time of Transaction
+user_349,txn_349,1388,0,0,standard,None
+user_350,txn_350,1373,0,0,extra_verification,None
+user_351,txn_351,251,1,0,extra_verification,Multiple Account Usage
+user_352,txn_352,174,0,1,extra_verification,None
+user_353,txn_353,874,0,1,extra_verification,None
+user_354,txn_354,1541,0,0,extra_verification,None
+user_355,txn_355,744,0,1,extra_verification,None
+user_356,txn_356,1689,1,0,extra_verification,Expired Card
+user_357,txn_357,1814,0,0,extra_verification,None
+user_358,txn_358,273,1,1,standard,High Value Transaction
+user_359,txn_359,559,0,1,standard,None
+user_360,txn_360,442,0,0,extra_verification,None
+user_361,txn_361,439,1,1,standard,Repeated Login Attempts
+user_362,txn_362,1148,1,1,standard,Blacklisted Email Domain
+user_363,txn_363,968,1,0,extra_verification,High Velocity Transactions
+user_364,txn_364,337,1,1,standard,Multiple Account Usage
+user_365,txn_365,914,0,1,extra_verification,None
+user_366,txn_366,425,1,0,extra_verification,Unusual Time of Transaction
+user_367,txn_367,620,1,1,standard,Suspicious Proxy Usage
+user_368,txn_368,997,0,1,standard,None
+user_369,txn_369,561,0,0,standard,None
+user_370,txn_370,1840,1,1,standard,Suspicious Proxy Usage
+user_371,txn_371,1940,1,1,standard,Multiple Account Usage
+user_372,txn_372,204,1,0,extra_verification,Repeated Login Attempts
+user_373,txn_373,957,1,1,standard,Repeated Login Attempts
+user_374,txn_374,1704,1,1,standard,Fraudulent BIN
+user_375,txn_375,1814,1,0,extra_verification,Invalid IP Address
+user_376,txn_376,1803,1,0,extra_verification,Fraudulent BIN
+user_377,txn_377,1177,0,0,standard,None
+user_378,txn_378,250,1,1,standard,Duplicate Card Usage
+user_379,txn_379,153,1,1,standard,Unverified User
+user_380,txn_380,1385,0,1,extra_verification,None
+user_381,txn_381,1157,0,1,extra_verification,None
+user_382,txn_382,1762,1,1,standard,Foreign Currency Transaction
+user_383,txn_383,80,1,0,extra_verification,High Velocity Transactions
+user_384,txn_384,241,1,1,standard,Suspicious Proxy Usage
+user_385,txn_385,1947,1,1,standard,Suspicious Proxy Usage
+user_386,txn_386,1593,0,1,extra_verification,None
+user_387,txn_387,1788,1,0,extra_verification,Compromised Device
+user_388,txn_388,534,1,1,standard,Unverified User
+user_389,txn_389,390,0,0,extra_verification,None
+user_390,txn_390,882,0,1,standard,None
+user_391,txn_391,1044,1,1,standard,Suspicious Proxy Usage
+user_392,txn_392,1035,1,1,standard,Compromised Device
+user_393,txn_393,487,0,1,standard,None
+user_394,txn_394,1820,1,1,standard,Unverified User
+user_395,txn_395,871,0,0,standard,None
+user_396,txn_396,1898,0,1,extra_verification,None
+user_397,txn_397,170,1,1,standard,High Value Transaction
+user_398,txn_398,387,0,0,extra_verification,None
+user_399,txn_399,826,0,0,standard,None
+user_400,txn_400,54,0,0,standard,None
+user_401,txn_401,849,1,0,extra_verification,Duplicate Card Usage
+user_402,txn_402,593,1,1,standard,High Value Transaction
+user_403,txn_403,1947,0,1,extra_verification,None
+user_404,txn_404,1655,1,1,standard,Suspicious Proxy Usage
+user_405,txn_405,1657,0,0,standard,None
+user_406,txn_406,981,0,0,standard,None
+user_407,txn_407,634,1,1,standard,Geolocation Mismatch
+user_408,txn_408,916,1,1,standard,Fraudulent BIN
+user_409,txn_409,1476,1,0,extra_verification,Multiple Account Usage
+user_410,txn_410,1546,0,1,standard,None
+user_411,txn_411,1654,0,0,extra_verification,None
+user_412,txn_412,1188,0,0,extra_verification,None
+user_413,txn_413,1405,1,1,standard,Geolocation Mismatch
+user_414,txn_414,1521,1,0,extra_verification,High Value Transaction
+user_415,txn_415,1046,0,1,extra_verification,None
+user_416,txn_416,367,1,0,extra_verification,Blacklisted Email Domain
+user_417,txn_417,438,1,1,standard,Repeated Login Attempts
+user_418,txn_418,657,1,1,standard,Expired Card
+user_419,txn_419,495,1,0,extra_verification,Repeated Login Attempts
+user_420,txn_420,169,0,0,extra_verification,None
+user_421,txn_421,1236,1,0,extra_verification,High Velocity Transactions
+user_422,txn_422,1556,0,0,standard,None
+user_423,txn_423,1160,0,0,extra_verification,None
+user_424,txn_424,174,0,1,standard,None
+user_425,txn_425,1581,1,1,standard,Fraudulent BIN
+user_426,txn_426,692,1,0,extra_verification,Compromised Device
+user_427,txn_427,167,0,0,extra_verification,None
+user_428,txn_428,152,1,0,extra_verification,High Value Transaction
+user_429,txn_429,1246,0,1,standard,None
+user_430,txn_430,1026,1,1,standard,Repeated Login Attempts
+user_431,txn_431,1079,0,1,standard,None
+user_432,txn_432,1932,1,0,extra_verification,Invalid IP Address
+user_433,txn_433,1796,1,1,standard,High Value Transaction
+user_434,txn_434,1137,1,1,standard,Expired Card
+user_435,txn_435,372,1,0,extra_verification,Expired Card
+user_436,txn_436,166,1,1,standard,Fraudulent BIN
+user_437,txn_437,1090,0,0,standard,None
+user_438,txn_438,214,0,1,extra_verification,None
+user_439,txn_439,1793,1,1,standard,Foreign Currency Transaction
+user_440,txn_440,430,0,0,extra_verification,None
+user_441,txn_441,190,1,1,standard,Geolocation Mismatch
+user_442,txn_442,1268,0,1,standard,None
+user_443,txn_443,189,0,0,extra_verification,None
+user_444,txn_444,1432,1,0,extra_verification,Geolocation Mismatch
+user_445,txn_445,1815,1,1,standard,Compromised Device
+user_446,txn_446,531,1,1,standard,Unusual Time of Transaction
+user_447,txn_447,876,0,0,extra_verification,None
+user_448,txn_448,295,0,0,extra_verification,None
+user_449,txn_449,1978,0,1,standard,None
+user_450,txn_450,1873,0,0,extra_verification,None
+user_451,txn_451,1216,1,1,standard,Expired Card
+user_452,txn_452,554,1,1,standard,Repeated Login Attempts
+user_453,txn_453,1235,0,1,standard,None
+user_454,txn_454,1267,0,1,extra_verification,None
+user_455,txn_455,131,0,0,extra_verification,None
+user_456,txn_456,1318,0,0,standard,None
+user_457,txn_457,217,1,1,standard,Repeated Login Attempts
+user_458,txn_458,908,1,1,standard,Duplicate Card Usage
+user_459,txn_459,1396,1,0,extra_verification,High Value Transaction
+user_460,txn_460,1245,1,0,extra_verification,Suspicious Proxy Usage
+user_461,txn_461,1207,0,1,extra_verification,None
+user_462,txn_462,1120,1,1,standard,Multiple Account Usage
+user_463,txn_463,697,0,0,extra_verification,None
+user_464,txn_464,1964,1,0,extra_verification,Compromised Device
+user_465,txn_465,584,1,0,extra_verification,Unusual Time of Transaction
+user_466,txn_466,468,1,0,extra_verification,Unverified User
+user_467,txn_467,1421,0,1,extra_verification,None
+user_468,txn_468,1516,1,1,standard,Geolocation Mismatch
+user_469,txn_469,693,0,1,extra_verification,None
+user_470,txn_470,538,1,1,standard,Duplicate Card Usage
+user_471,txn_471,593,1,1,standard,Compromised Device
+user_472,txn_472,860,0,1,extra_verification,None
+user_473,txn_473,318,1,1,standard,High Velocity Transactions
+user_474,txn_474,1425,0,0,standard,None
+user_475,txn_475,1371,1,0,extra_verification,Invalid IP Address
+user_476,txn_476,664,1,1,standard,High Velocity Transactions
+user_477,txn_477,986,0,1,extra_verification,None
+user_478,txn_478,697,1,0,extra_verification,Geolocation Mismatch
+user_479,txn_479,1952,1,1,standard,Blacklisted Email Domain
+user_480,txn_480,1589,0,0,standard,None
+user_481,txn_481,1966,0,1,extra_verification,None
+user_482,txn_482,198,1,1,standard,Duplicate Card Usage
+user_483,txn_483,69,0,0,extra_verification,None
+user_484,txn_484,988,0,1,standard,None
+user_485,txn_485,1322,0,0,standard,None
+user_486,txn_486,1203,0,0,standard,None
+user_487,txn_487,254,1,0,extra_verification,Compromised Device
+user_488,txn_488,200,0,0,extra_verification,None
+user_489,txn_489,1151,0,1,standard,None
+user_490,txn_490,486,0,0,extra_verification,None
+user_491,txn_491,1086,0,1,standard,None
+user_492,txn_492,593,0,1,extra_verification,None
+user_493,txn_493,321,0,0,standard,None
+user_494,txn_494,1961,0,1,standard,None
+user_495,txn_495,764,1,1,standard,Multiple Account Usage
+user_496,txn_496,1854,0,1,extra_verification,None
+user_497,txn_497,190,0,0,standard,None
+user_498,txn_498,1850,1,1,standard,Expired Card
+user_499,txn_499,550,0,0,extra_verification,None
+user_500,txn_500,806,0,1,extra_verification,None
+user_501,txn_501,633,1,0,extra_verification,Expired Card
+user_502,txn_502,373,0,0,extra_verification,None
+user_503,txn_503,947,0,0,standard,None
+user_504,txn_504,1757,0,0,standard,None
+user_505,txn_505,1162,0,1,standard,None
+user_506,txn_506,1490,0,1,extra_verification,None
+user_507,txn_507,669,1,0,extra_verification,Unverified User
+user_508,txn_508,1302,0,0,standard,None
+user_509,txn_509,1702,1,1,standard,Foreign Currency Transaction
+user_510,txn_510,1389,0,0,extra_verification,None
+user_511,txn_511,1133,0,1,standard,None
+user_512,txn_512,66,1,0,extra_verification,Foreign Currency Transaction
+user_513,txn_513,1417,0,1,standard,None
+user_514,txn_514,1723,0,1,extra_verification,None
+user_515,txn_515,1185,1,0,extra_verification,Expired Card
+user_516,txn_516,663,0,0,standard,None
+user_517,txn_517,1958,0,0,standard,None
+user_518,txn_518,1408,1,1,standard,Duplicate Card Usage
+user_519,txn_519,262,1,1,standard,Suspicious Proxy Usage
+user_520,txn_520,1972,1,1,standard,Expired Card
+user_521,txn_521,1848,0,0,extra_verification,None
+user_522,txn_522,325,1,1,standard,Suspicious Proxy Usage
+user_523,txn_523,591,0,0,extra_verification,None
+user_524,txn_524,286,0,1,standard,None
+user_525,txn_525,1872,1,0,extra_verification,Unusual Time of Transaction
+user_526,txn_526,269,1,0,extra_verification,Fraudulent BIN
+user_527,txn_527,1570,0,1,extra_verification,None
+user_528,txn_528,1183,0,1,extra_verification,None
+user_529,txn_529,368,1,0,extra_verification,Compromised Device
+user_530,txn_530,607,1,1,standard,Repeated Login Attempts
+user_531,txn_531,627,1,0,extra_verification,Expired Card
+user_532,txn_532,1288,0,1,standard,None
+user_533,txn_533,481,1,0,extra_verification,Blacklisted Email Domain
+user_534,txn_534,1519,1,0,extra_verification,Repeated Login Attempts
+user_535,txn_535,752,0,1,extra_verification,None
+user_536,txn_536,466,0,1,standard,None
+user_537,txn_537,1457,1,0,extra_verification,Unusual Time of Transaction
+user_538,txn_538,1348,0,1,standard,None
+user_539,txn_539,1796,0,1,extra_verification,None
+user_540,txn_540,590,0,1,extra_verification,None
+user_541,txn_541,1085,1,0,extra_verification,Blacklisted Email Domain
+user_542,txn_542,1050,1,0,extra_verification,Duplicate Card Usage
+user_543,txn_543,564,1,1,standard,Expired Card
+user_544,txn_544,1904,1,0,extra_verification,Duplicate Card Usage
+user_545,txn_545,1909,1,1,standard,Unverified User
+user_546,txn_546,1782,1,1,standard,Invalid IP Address
+user_547,txn_547,154,0,1,standard,None
+user_548,txn_548,239,0,0,standard,None
+user_549,txn_549,1349,0,0,extra_verification,None
+user_550,txn_550,917,1,0,extra_verification,High Velocity Transactions
+user_551,txn_551,1748,1,1,standard,High Value Transaction
+user_552,txn_552,616,0,1,standard,None
+user_553,txn_553,140,1,0,extra_verification,Multiple Account Usage
+user_554,txn_554,57,1,0,extra_verification,Compromised Device
+user_555,txn_555,733,1,0,extra_verification,High Velocity Transactions
+user_556,txn_556,1629,1,1,standard,Multiple Account Usage
+user_557,txn_557,317,1,0,extra_verification,Invalid IP Address
+user_558,txn_558,1354,0,1,extra_verification,None
+user_559,txn_559,586,1,1,standard,High Value Transaction
+user_560,txn_560,380,1,0,extra_verification,Invalid IP Address
+user_561,txn_561,1568,1,1,standard,Unverified User
+user_562,txn_562,954,1,1,standard,Compromised Device
+user_563,txn_563,1179,1,1,standard,Geolocation Mismatch
+user_564,txn_564,1495,0,1,extra_verification,None
+user_565,txn_565,925,1,1,standard,Compromised Device
+user_566,txn_566,1198,0,0,standard,None
+user_567,txn_567,69,0,0,standard,None
+user_568,txn_568,279,0,0,standard,None
+user_569,txn_569,204,0,0,standard,None
+user_570,txn_570,1985,1,1,standard,Foreign Currency Transaction
+user_571,txn_571,1858,0,1,extra_verification,None
+user_572,txn_572,1465,1,1,standard,Blacklisted Email Domain
+user_573,txn_573,1901,0,0,extra_verification,None
+user_574,txn_574,355,0,0,standard,None
+user_575,txn_575,1167,1,1,standard,Unusual Time of Transaction
+user_576,txn_576,123,0,0,extra_verification,None
+user_577,txn_577,1759,1,0,extra_verification,Fraudulent BIN
+user_578,txn_578,806,1,1,standard,Duplicate Card Usage
+user_579,txn_579,1242,1,1,standard,Foreign Currency Transaction
+user_580,txn_580,1181,0,0,extra_verification,None
+user_581,txn_581,353,1,0,extra_verification,Duplicate Card Usage
+user_582,txn_582,930,1,0,extra_verification,Repeated Login Attempts
+user_583,txn_583,311,1,0,extra_verification,High Velocity Transactions
+user_584,txn_584,135,0,0,extra_verification,None
+user_585,txn_585,681,0,1,standard,None
+user_586,txn_586,796,0,0,extra_verification,None
+user_587,txn_587,1891,1,1,standard,Unusual Time of Transaction
+user_588,txn_588,1960,0,1,extra_verification,None
+user_589,txn_589,1680,0,1,standard,None
+user_590,txn_590,1812,1,1,standard,Unverified User
+user_591,txn_591,131,1,1,standard,Duplicate Card Usage
+user_592,txn_592,1890,0,0,standard,None
+user_593,txn_593,782,1,1,standard,Blacklisted Email Domain
+user_594,txn_594,480,0,0,extra_verification,None
+user_595,txn_595,1446,1,0,extra_verification,Duplicate Card Usage
+user_596,txn_596,561,0,0,extra_verification,None
+user_597,txn_597,1415,1,0,extra_verification,Unverified User
+user_598,txn_598,260,0,1,extra_verification,None
+user_599,txn_599,774,0,1,extra_verification,None
+user_600,txn_600,1647,1,0,extra_verification,Blacklisted Email Domain
+user_601,txn_601,1196,1,1,standard,Blacklisted Email Domain
+user_602,txn_602,1860,1,1,standard,High Value Transaction
+user_603,txn_603,1841,1,0,extra_verification,Multiple Account Usage
+user_604,txn_604,882,0,1,extra_verification,None
+user_605,txn_605,1321,0,1,standard,None
+user_606,txn_606,1584,0,0,extra_verification,None
+user_607,txn_607,366,1,1,standard,Geolocation Mismatch
+user_608,txn_608,1945,0,1,extra_verification,None
+user_609,txn_609,1954,0,0,extra_verification,None
+user_610,txn_610,534,0,0,standard,None
+user_611,txn_611,1820,0,0,standard,None
+user_612,txn_612,382,0,1,extra_verification,None
+user_613,txn_613,1688,1,0,extra_verification,High Velocity Transactions
+user_614,txn_614,1710,1,0,extra_verification,Invalid IP Address
+user_615,txn_615,412,1,1,standard,High Velocity Transactions
+user_616,txn_616,1855,1,0,extra_verification,High Value Transaction
+user_617,txn_617,894,0,0,extra_verification,None
+user_618,txn_618,100,1,0,extra_verification,Geolocation Mismatch
+user_619,txn_619,417,1,0,extra_verification,High Value Transaction
+user_620,txn_620,1558,1,0,extra_verification,Compromised Device
+user_621,txn_621,1943,0,1,standard,None
+user_622,txn_622,730,0,1,standard,None
+user_623,txn_623,1652,0,0,standard,None
+user_624,txn_624,1956,0,0,extra_verification,None
+user_625,txn_625,893,0,0,extra_verification,None
+user_626,txn_626,1692,0,0,extra_verification,None
+user_627,txn_627,1421,1,0,extra_verification,Invalid IP Address
+user_628,txn_628,1819,1,0,extra_verification,Expired Card
+user_629,txn_629,1555,1,1,standard,Expired Card
+user_630,txn_630,1710,1,1,standard,Unverified User
+user_631,txn_631,558,1,0,extra_verification,Duplicate Card Usage
+user_632,txn_632,596,1,1,standard,Unusual Time of Transaction
+user_633,txn_633,376,1,0,extra_verification,Duplicate Card Usage
+user_634,txn_634,1662,0,1,extra_verification,None
+user_635,txn_635,1486,0,0,extra_verification,None
+user_636,txn_636,271,1,1,standard,Compromised Device
+user_637,txn_637,833,1,1,standard,Compromised Device
+user_638,txn_638,1836,0,1,standard,None
+user_639,txn_639,129,1,0,extra_verification,Duplicate Card Usage
+user_640,txn_640,1808,1,0,extra_verification,Multiple Account Usage
+user_641,txn_641,1013,1,1,standard,Multiple Account Usage
+user_642,txn_642,505,0,0,standard,None
+user_643,txn_643,458,0,1,standard,None
+user_644,txn_644,1722,1,1,standard,Foreign Currency Transaction
+user_645,txn_645,1930,0,1,standard,None
+user_646,txn_646,992,0,0,standard,None
+user_647,txn_647,766,0,0,standard,None
+user_648,txn_648,675,1,1,standard,Geolocation Mismatch
+user_649,txn_649,1730,0,0,extra_verification,None
+user_650,txn_650,1678,0,0,standard,None
+user_651,txn_651,1834,1,0,extra_verification,Multiple Account Usage
+user_652,txn_652,516,1,1,standard,Compromised Device
+user_653,txn_653,506,1,0,extra_verification,Multiple Account Usage
+user_654,txn_654,98,0,1,extra_verification,None
+user_655,txn_655,1401,0,1,extra_verification,None
+user_656,txn_656,445,1,0,extra_verification,Duplicate Card Usage
+user_657,txn_657,866,1,1,standard,Repeated Login Attempts
+user_658,txn_658,722,0,1,standard,None
+user_659,txn_659,620,0,1,standard,None
+user_660,txn_660,1820,1,0,extra_verification,High Velocity Transactions
+user_661,txn_661,192,0,0,extra_verification,None
+user_662,txn_662,1633,1,0,extra_verification,Geolocation Mismatch
+user_663,txn_663,621,0,1,standard,None
+user_664,txn_664,769,1,0,extra_verification,Invalid IP Address
+user_665,txn_665,1363,0,0,extra_verification,None
+user_666,txn_666,1093,1,0,extra_verification,Duplicate Card Usage
+user_667,txn_667,868,0,0,standard,None
+user_668,txn_668,1441,1,0,extra_verification,Geolocation Mismatch
+user_669,txn_669,1777,0,0,standard,None
+user_670,txn_670,1148,1,0,extra_verification,Multiple Account Usage
+user_671,txn_671,728,1,1,standard,Invalid IP Address
+user_672,txn_672,1973,1,0,extra_verification,Fraudulent BIN
+user_673,txn_673,106,1,1,standard,High Velocity Transactions
+user_674,txn_674,286,1,1,standard,Expired Card
+user_675,txn_675,1846,0,0,standard,None
+user_676,txn_676,584,1,1,standard,Multiple Account Usage
+user_677,txn_677,415,0,1,standard,None
+user_678,txn_678,1239,1,1,standard,Expired Card
+user_679,txn_679,593,0,0,extra_verification,None
+user_680,txn_680,128,1,0,extra_verification,High Velocity Transactions
+user_681,txn_681,272,1,1,standard,Multiple Account Usage
+user_682,txn_682,1271,0,1,standard,None
+user_683,txn_683,939,1,0,extra_verification,Foreign Currency Transaction
+user_684,txn_684,757,0,1,standard,None
+user_685,txn_685,1542,0,1,standard,None
+user_686,txn_686,1660,1,1,standard,Unverified User
+user_687,txn_687,692,1,1,standard,Invalid IP Address
+user_688,txn_688,943,0,0,extra_verification,None
+user_689,txn_689,1291,1,0,extra_verification,Fraudulent BIN
+user_690,txn_690,1097,1,0,extra_verification,Geolocation Mismatch
+user_691,txn_691,286,1,0,extra_verification,Foreign Currency Transaction
+user_692,txn_692,838,0,1,extra_verification,None
+user_693,txn_693,1892,1,0,extra_verification,Geolocation Mismatch
+user_694,txn_694,1230,0,0,extra_verification,None
+user_695,txn_695,439,0,0,extra_verification,None
+user_696,txn_696,571,0,1,standard,None
+user_697,txn_697,140,0,0,extra_verification,None
+user_698,txn_698,1501,1,0,extra_verification,Duplicate Card Usage
+user_699,txn_699,943,1,0,extra_verification,Repeated Login Attempts
+user_700,txn_700,53,0,0,standard,None
+user_701,txn_701,1114,0,1,standard,None
+user_702,txn_702,1945,0,1,extra_verification,None
+user_703,txn_703,1701,0,1,extra_verification,None
+user_704,txn_704,1152,1,0,extra_verification,Invalid IP Address
+user_705,txn_705,1456,0,0,standard,None
+user_706,txn_706,1523,0,0,extra_verification,None
+user_707,txn_707,1975,0,1,standard,None
+user_708,txn_708,1569,0,0,extra_verification,None
+user_709,txn_709,1559,0,0,extra_verification,None
+user_710,txn_710,1423,1,0,extra_verification,Fraudulent BIN
+user_711,txn_711,453,1,0,extra_verification,Suspicious Proxy Usage
+user_712,txn_712,795,1,0,extra_verification,Fraudulent BIN
+user_713,txn_713,933,1,0,extra_verification,High Value Transaction
+user_714,txn_714,193,1,1,standard,Suspicious Proxy Usage
+user_715,txn_715,1993,0,0,standard,None
+user_716,txn_716,1410,1,1,standard,Suspicious Proxy Usage
+user_717,txn_717,1935,0,1,standard,None
+user_718,txn_718,726,1,0,extra_verification,Repeated Login Attempts
+user_719,txn_719,1326,1,0,extra_verification,Compromised Device
+user_720,txn_720,692,1,1,standard,Expired Card
+user_721,txn_721,1408,1,1,standard,Duplicate Card Usage
+user_722,txn_722,1786,0,0,extra_verification,None
+user_723,txn_723,305,1,0,extra_verification,Multiple Account Usage
+user_724,txn_724,1524,0,1,extra_verification,None
+user_725,txn_725,1893,1,0,extra_verification,Compromised Device
+user_726,txn_726,665,1,0,extra_verification,High Velocity Transactions
+user_727,txn_727,1088,1,0,extra_verification,Blacklisted Email Domain
+user_728,txn_728,683,0,1,standard,None
+user_729,txn_729,1415,0,0,standard,None
+user_730,txn_730,886,1,0,extra_verification,Expired Card
+user_731,txn_731,718,1,1,standard,High Value Transaction
+user_732,txn_732,874,0,0,extra_verification,None
+user_733,txn_733,1477,0,1,extra_verification,None
+user_734,txn_734,655,1,0,extra_verification,Multiple Account Usage
+user_735,txn_735,1185,1,1,standard,Suspicious Proxy Usage
+user_736,txn_736,310,0,1,standard,None
+user_737,txn_737,442,1,0,extra_verification,Invalid IP Address
+user_738,txn_738,911,0,1,standard,None
+user_739,txn_739,1411,1,0,extra_verification,Fraudulent BIN
+user_740,txn_740,1975,1,1,standard,Foreign Currency Transaction
+user_741,txn_741,826,0,1,extra_verification,None
+user_742,txn_742,1437,0,1,standard,None
+user_743,txn_743,1582,1,0,extra_verification,Invalid IP Address
+user_744,txn_744,1898,0,1,standard,None
+user_745,txn_745,406,1,1,standard,Foreign Currency Transaction
+user_746,txn_746,1310,0,0,extra_verification,None
+user_747,txn_747,1215,0,1,standard,None
+user_748,txn_748,666,0,1,extra_verification,None
+user_749,txn_749,881,0,1,extra_verification,None
+user_750,txn_750,1172,1,0,extra_verification,Suspicious Proxy Usage
+user_751,txn_751,1757,1,0,extra_verification,Geolocation Mismatch
+user_752,txn_752,50,0,1,extra_verification,None
+user_753,txn_753,672,1,0,extra_verification,Compromised Device
+user_754,txn_754,637,1,0,extra_verification,Multiple Account Usage
+user_755,txn_755,480,1,1,standard,High Velocity Transactions
+user_756,txn_756,930,1,0,extra_verification,Multiple Account Usage
+user_757,txn_757,1659,1,1,standard,Invalid IP Address
+user_758,txn_758,1237,1,1,standard,Duplicate Card Usage
+user_759,txn_759,1292,0,0,extra_verification,None
+user_760,txn_760,1390,1,1,standard,Fraudulent BIN
+user_761,txn_761,709,0,1,standard,None
+user_762,txn_762,1002,1,0,extra_verification,Foreign Currency Transaction
+user_763,txn_763,954,0,1,extra_verification,None
+user_764,txn_764,955,1,0,extra_verification,Unverified User
+user_765,txn_765,1433,1,1,standard,Unverified User
+user_766,txn_766,487,1,1,standard,High Value Transaction
+user_767,txn_767,1096,0,1,standard,None
+user_768,txn_768,1019,1,1,standard,Repeated Login Attempts
+user_769,txn_769,1675,0,1,extra_verification,None
+user_770,txn_770,1895,0,0,extra_verification,None
+user_771,txn_771,1680,1,0,extra_verification,Compromised Device
+user_772,txn_772,1557,1,1,standard,Compromised Device
+user_773,txn_773,397,1,0,extra_verification,Compromised Device
+user_774,txn_774,1399,0,1,standard,None
+user_775,txn_775,223,0,0,standard,None
+user_776,txn_776,631,1,0,extra_verification,Blacklisted Email Domain
+user_777,txn_777,1105,1,0,extra_verification,Fraudulent BIN
+user_778,txn_778,1409,1,1,standard,Multiple Account Usage
+user_779,txn_779,1346,0,1,extra_verification,None
+user_780,txn_780,1318,0,0,standard,None
+user_781,txn_781,736,1,1,standard,Foreign Currency Transaction
+user_782,txn_782,241,1,0,extra_verification,Fraudulent BIN
+user_783,txn_783,1726,0,0,extra_verification,None
+user_784,txn_784,1999,1,1,standard,Fraudulent BIN
+user_785,txn_785,1588,1,1,standard,High Value Transaction
+user_786,txn_786,531,0,0,standard,None
+user_787,txn_787,1427,0,0,extra_verification,None
+user_788,txn_788,685,1,1,standard,Duplicate Card Usage
+user_789,txn_789,510,1,1,standard,Geolocation Mismatch
+user_790,txn_790,1701,0,1,extra_verification,None
+user_791,txn_791,457,0,0,extra_verification,None
+user_792,txn_792,351,0,0,extra_verification,None
+user_793,txn_793,100,0,0,extra_verification,None
+user_794,txn_794,144,0,1,extra_verification,None
+user_795,txn_795,551,1,0,extra_verification,Foreign Currency Transaction
+user_796,txn_796,1023,0,0,standard,None
+user_797,txn_797,1301,0,1,standard,None
+user_798,txn_798,1790,1,1,standard,Unusual Time of Transaction
+user_799,txn_799,1623,0,1,extra_verification,None
+user_800,txn_800,199,1,1,standard,Geolocation Mismatch
+user_801,txn_801,982,0,0,extra_verification,None
+user_802,txn_802,898,0,1,standard,None
+user_803,txn_803,1864,0,0,standard,None
+user_804,txn_804,1339,0,1,standard,None
+user_805,txn_805,1228,1,1,standard,Suspicious Proxy Usage
+user_806,txn_806,448,0,1,standard,None
+user_807,txn_807,1521,1,0,extra_verification,Multiple Account Usage
+user_808,txn_808,1476,1,0,extra_verification,Geolocation Mismatch
+user_809,txn_809,836,0,0,standard,None
+user_810,txn_810,1062,1,1,standard,High Value Transaction
+user_811,txn_811,868,1,0,extra_verification,Fraudulent BIN
+user_812,txn_812,549,1,0,extra_verification,Unverified User
+user_813,txn_813,352,0,1,standard,None
+user_814,txn_814,1393,0,1,standard,None
+user_815,txn_815,1458,1,1,standard,Foreign Currency Transaction
+user_816,txn_816,61,1,0,extra_verification,Unverified User
+user_817,txn_817,1878,0,1,extra_verification,None
+user_818,txn_818,1587,1,0,extra_verification,Blacklisted Email Domain
+user_819,txn_819,1812,1,0,extra_verification,High Velocity Transactions
+user_820,txn_820,1627,1,0,extra_verification,Unusual Time of Transaction
+user_821,txn_821,1863,1,1,standard,Geolocation Mismatch
+user_822,txn_822,268,1,0,extra_verification,Compromised Device
+user_823,txn_823,1644,1,0,extra_verification,Compromised Device
+user_824,txn_824,920,0,1,extra_verification,None
+user_825,txn_825,498,0,0,standard,None
+user_826,txn_826,410,0,0,standard,None
+user_827,txn_827,1696,1,0,extra_verification,Blacklisted Email Domain
+user_828,txn_828,1475,0,1,standard,None
+user_829,txn_829,1110,1,1,standard,Suspicious Proxy Usage
+user_830,txn_830,1001,1,1,standard,High Velocity Transactions
+user_831,txn_831,152,0,0,standard,None
+user_832,txn_832,1191,0,0,standard,None
+user_833,txn_833,560,1,1,standard,Expired Card
+user_834,txn_834,1928,0,1,standard,None
+user_835,txn_835,1787,0,1,standard,None
+user_836,txn_836,298,1,0,extra_verification,Unusual Time of Transaction
+user_837,txn_837,984,1,1,standard,Repeated Login Attempts
+user_838,txn_838,323,0,1,extra_verification,None
+user_839,txn_839,1691,1,0,extra_verification,Unusual Time of Transaction
+user_840,txn_840,1001,0,0,standard,None
+user_841,txn_841,1417,0,1,standard,None
+user_842,txn_842,1137,1,1,standard,High Velocity Transactions
+user_843,txn_843,1194,1,1,standard,Unusual Time of Transaction
+user_844,txn_844,1269,0,0,standard,None
+user_845,txn_845,699,1,1,standard,High Velocity Transactions
+user_846,txn_846,1995,0,1,extra_verification,None
+user_847,txn_847,1596,1,0,extra_verification,Foreign Currency Transaction
+user_848,txn_848,1875,1,0,extra_verification,Foreign Currency Transaction
+user_849,txn_849,956,0,0,standard,None
+user_850,txn_850,1304,1,0,extra_verification,High Velocity Transactions
+user_851,txn_851,1719,0,1,extra_verification,None
+user_852,txn_852,1523,1,1,standard,Geolocation Mismatch
+user_853,txn_853,1876,0,0,standard,None
+user_854,txn_854,1083,0,0,standard,None
+user_855,txn_855,923,1,0,extra_verification,High Value Transaction
+user_856,txn_856,1751,0,1,extra_verification,None
+user_857,txn_857,1907,1,1,standard,Unusual Time of Transaction
+user_858,txn_858,1172,0,1,extra_verification,None
+user_859,txn_859,963,0,0,standard,None
+user_860,txn_860,1887,0,1,extra_verification,None
+user_861,txn_861,375,1,1,standard,Compromised Device
+user_862,txn_862,1573,1,1,standard,High Velocity Transactions
+user_863,txn_863,1814,0,1,extra_verification,None
+user_864,txn_864,1022,1,1,standard,Fraudulent BIN
+user_865,txn_865,971,1,1,standard,Multiple Account Usage
+user_866,txn_866,580,0,1,extra_verification,None
+user_867,txn_867,1589,0,1,standard,None
+user_868,txn_868,556,0,1,standard,None
+user_869,txn_869,1770,1,0,extra_verification,Invalid IP Address
+user_870,txn_870,1355,0,1,standard,None
+user_871,txn_871,617,0,0,extra_verification,None
+user_872,txn_872,1618,1,0,extra_verification,Multiple Account Usage
+user_873,txn_873,1642,0,1,extra_verification,None
+user_874,txn_874,1117,1,1,standard,High Velocity Transactions
+user_875,txn_875,1042,0,0,standard,None
+user_876,txn_876,1333,1,0,extra_verification,Expired Card
+user_877,txn_877,539,0,0,standard,None
+user_878,txn_878,612,0,0,extra_verification,None
+user_879,txn_879,950,0,1,extra_verification,None
+user_880,txn_880,208,1,1,standard,High Velocity Transactions
+user_881,txn_881,1511,1,1,standard,Foreign Currency Transaction
+user_882,txn_882,635,0,1,standard,None
+user_883,txn_883,530,0,0,standard,None
+user_884,txn_884,606,1,1,standard,Blacklisted Email Domain
+user_885,txn_885,737,0,1,extra_verification,None
+user_886,txn_886,704,0,0,standard,None
+user_887,txn_887,1878,0,1,standard,None
+user_888,txn_888,1156,1,1,standard,Fraudulent BIN
+user_889,txn_889,215,1,1,standard,High Value Transaction
+user_890,txn_890,333,0,1,extra_verification,None
+user_891,txn_891,358,1,1,standard,Geolocation Mismatch
+user_892,txn_892,523,0,0,extra_verification,None
+user_893,txn_893,834,1,0,extra_verification,Repeated Login Attempts
+user_894,txn_894,1471,0,1,extra_verification,None
+user_895,txn_895,362,0,1,extra_verification,None
+user_896,txn_896,1496,1,1,standard,High Velocity Transactions
+user_897,txn_897,488,0,1,standard,None
+user_898,txn_898,181,0,0,standard,None
+user_899,txn_899,899,1,1,standard,Repeated Login Attempts
+user_900,txn_900,884,1,0,extra_verification,Blacklisted Email Domain
+user_901,txn_901,727,0,0,extra_verification,None
+user_902,txn_902,1161,1,0,extra_verification,Geolocation Mismatch
+user_903,txn_903,1004,1,0,extra_verification,Unusual Time of Transaction
+user_904,txn_904,901,1,1,standard,Expired Card
+user_905,txn_905,177,0,1,standard,None
+user_906,txn_906,473,1,1,standard,Fraudulent BIN
+user_907,txn_907,1755,0,1,standard,None
+user_908,txn_908,910,1,1,standard,Blacklisted Email Domain
+user_909,txn_909,847,0,0,standard,None
+user_910,txn_910,1903,0,0,extra_verification,None
+user_911,txn_911,1626,1,0,extra_verification,Repeated Login Attempts
+user_912,txn_912,1246,0,0,extra_verification,None
+user_913,txn_913,1987,0,1,extra_verification,None
+user_914,txn_914,1474,1,1,standard,Compromised Device
+user_915,txn_915,90,1,0,extra_verification,Duplicate Card Usage
+user_916,txn_916,1804,0,0,extra_verification,None
+user_917,txn_917,1853,1,1,standard,High Velocity Transactions
+user_918,txn_918,1617,1,1,standard,Compromised Device
+user_919,txn_919,1229,0,1,extra_verification,None
+user_920,txn_920,829,0,1,extra_verification,None
+user_921,txn_921,1026,0,0,extra_verification,None
+user_922,txn_922,62,1,0,extra_verification,Unverified User
+user_923,txn_923,1980,0,1,extra_verification,None
+user_924,txn_924,770,1,0,extra_verification,Unverified User
+user_925,txn_925,661,0,0,extra_verification,None
+user_926,txn_926,1593,0,1,standard,None
+user_927,txn_927,848,0,0,standard,None
+user_928,txn_928,1797,0,1,standard,None
+user_929,txn_929,1876,1,1,standard,Invalid IP Address
+user_930,txn_930,1761,1,1,standard,High Value Transaction
+user_931,txn_931,908,1,1,standard,Repeated Login Attempts
+user_932,txn_932,1152,1,0,extra_verification,Blacklisted Email Domain
+user_933,txn_933,1580,1,0,extra_verification,Blacklisted Email Domain
+user_934,txn_934,1554,0,1,extra_verification,None
+user_935,txn_935,1168,0,1,standard,None
+user_936,txn_936,1688,1,0,extra_verification,Invalid IP Address
+user_937,txn_937,1285,1,0,extra_verification,Repeated Login Attempts
+user_938,txn_938,1888,0,0,standard,None
+user_939,txn_939,501,1,1,standard,Foreign Currency Transaction
+user_940,txn_940,1049,1,0,extra_verification,Invalid IP Address
+user_941,txn_941,499,0,1,extra_verification,None
+user_942,txn_942,608,1,1,standard,Unverified User
+user_943,txn_943,942,1,0,extra_verification,Foreign Currency Transaction
+user_944,txn_944,1044,1,0,extra_verification,Fraudulent BIN
+user_945,txn_945,109,1,1,standard,Expired Card
+user_946,txn_946,846,1,1,standard,Invalid IP Address
+user_947,txn_947,738,1,0,extra_verification,High Velocity Transactions
+user_948,txn_948,1419,0,1,extra_verification,None
+user_949,txn_949,1440,1,1,standard,Geolocation Mismatch
+user_950,txn_950,1684,1,1,standard,Unverified User
+user_951,txn_951,878,1,0,extra_verification,Repeated Login Attempts
+user_952,txn_952,1533,1,1,standard,Multiple Account Usage
+user_953,txn_953,388,0,1,extra_verification,None
+user_954,txn_954,1771,1,1,standard,High Velocity Transactions
+user_955,txn_955,1007,0,0,extra_verification,None
+user_956,txn_956,1933,1,0,extra_verification,Fraudulent BIN
+user_957,txn_957,311,0,1,extra_verification,None
+user_958,txn_958,1324,1,1,standard,High Value Transaction
+user_959,txn_959,1143,1,1,standard,Invalid IP Address
+user_960,txn_960,105,0,0,standard,None
+user_961,txn_961,1907,0,0,standard,None
+user_962,txn_962,856,1,0,extra_verification,Unverified User
+user_963,txn_963,1262,1,0,extra_verification,Invalid IP Address
+user_964,txn_964,1205,1,1,standard,Unverified User
+user_965,txn_965,1407,1,1,standard,Repeated Login Attempts
+user_966,txn_966,105,1,0,extra_verification,Duplicate Card Usage
+user_967,txn_967,221,0,1,extra_verification,None
+user_968,txn_968,1366,1,1,standard,Compromised Device
+user_969,txn_969,927,1,0,extra_verification,Foreign Currency Transaction
+user_970,txn_970,327,1,0,extra_verification,Suspicious Proxy Usage
+user_971,txn_971,1825,0,1,standard,None
+user_972,txn_972,995,1,1,standard,Foreign Currency Transaction
+user_973,txn_973,422,1,0,extra_verification,Compromised Device
+user_974,txn_974,152,1,0,extra_verification,Repeated Login Attempts
+user_975,txn_975,582,0,1,standard,None
+user_976,txn_976,826,0,1,standard,None
+user_977,txn_977,720,1,0,extra_verification,Geolocation Mismatch
+user_978,txn_978,483,1,0,extra_verification,High Velocity Transactions
+user_979,txn_979,981,0,1,extra_verification,None
+user_980,txn_980,719,0,1,standard,None
+user_981,txn_981,741,0,0,extra_verification,None
+user_982,txn_982,1608,1,0,extra_verification,Unusual Time of Transaction
+user_983,txn_983,1851,0,1,extra_verification,None
+user_984,txn_984,826,0,1,standard,None
+user_985,txn_985,619,0,0,extra_verification,None
+user_986,txn_986,1590,0,1,standard,None
+user_987,txn_987,1998,1,1,standard,Unverified User
+user_988,txn_988,1753,1,0,extra_verification,High Value Transaction
+user_989,txn_989,913,1,0,extra_verification,Expired Card
+user_990,txn_990,566,0,1,standard,None
+user_991,txn_991,1759,0,1,standard,None
+user_992,txn_992,217,1,1,standard,Unusual Time of Transaction
+user_993,txn_993,1013,1,0,extra_verification,Foreign Currency Transaction
+user_994,txn_994,89,1,1,standard,High Velocity Transactions
+user_995,txn_995,1584,1,0,extra_verification,Multiple Account Usage
+user_996,txn_996,1154,0,1,extra_verification,None
+user_997,txn_997,156,0,1,extra_verification,None
+user_998,txn_998,1999,1,1,standard,Suspicious Proxy Usage
+user_999,txn_999,766,1,1,standard,Unusual Time of Transaction
+user_1000,txn_1000,509,1,0,extra_verification,High Velocity Transactions
