@@ -23,7 +23,7 @@ My GitHub page serves as a dynamic portfolio displaying my diverse range of proj
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
 Analytical Projects:
-- **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
+- **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python)
 - **[Car Price Prediction Model Analysis](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)
