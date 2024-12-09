@@ -47,10 +47,10 @@ Machine Learning Portfolio (Rstudio):
 Power BI Dashboards:
 - **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)**
 - **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**
-- **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**
+<!---- **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**-->
 - **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)**
 - **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)**
-- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**
+<!--- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**-->
 
 Tableau Dashboards:
 - **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)**
