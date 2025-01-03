@@ -24,10 +24,10 @@ Analytical Projects:
 - **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python)
 - **[Car Price Prediction Model Analysis](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
-<!---- **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)-->
 - **[Analyzing Students' Mental Health](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)** (SQL)
 - **[Exploring London's Travel Network](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit)** (SQL & Amazon Redshift)
 - **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)** (Python)
+<!---- **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)-->
 
 <!----Machine Learning Portfolio (Rstudio):
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
