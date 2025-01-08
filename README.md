@@ -21,9 +21,10 @@ My GitHub page serves as a dynamic portfolio displaying my diverse range of proj
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
 Analytical Projects:
-- **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python)
-- **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
+- **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
+- **[Customer Segmentation for Personalized Marketing Strategies](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)** (Python)
+- **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python) 
 - **[Analyzing Students' Mental Health](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)** (SQL)
 - **[Exploring London's Travel Network](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit)** (SQL & Amazon Redshift)
 - **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)** (Python)
