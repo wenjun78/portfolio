@@ -1,0 +1,2001 @@
+Customer_ID,Age,Gender,Annual_Income,Spending_Score,Subscription_Type,Purchase_Frequency,Customer_Tenure,Channel,Product_Category
+1,58,Male,49180,44,Basic,5,6,In-Store,Automotive
+2,38,Male,90341,52,Standard,16,3,In-Store,Clothing
+3,58,Female,90341,26,Standard,14,5,In-Store,Automotive
+4,38,Male,49180,76,Basic,7,4,In-Store,Electronics
+5,38,Female,49180,63,Basic,7,6,Mobile App,Electronics
+6,22,Male,116601,78,Standard,15,1,Online,Automotive
+7,58,Male,90341,19,Standard,8,8,In-Store,Automotive
+8,58,Female,90341,42,Standard,10,8,Online,Automotive
+9,58,Female,49180,10,Basic,6,6,In-Store,Books
+10,58,Male,90341,45,Standard,1,7,In-Store,Home & Kitchen
+11,58,Female,49180,10,Basic,2,7,Online,Automotive
+12,22,Female,49180,79,Basic,8,4,Online,Beauty
+13,22,Female,49180,94,Basic,14,2,Online,Clothing
+14,22,Male,90341,99,Basic,14,2,Online,Home & Kitchen
+15,22,Male,116601,85,Standard,15,3,Online,Sports
+16,38,Male,116601,73,Premium,3,5,Online,Electronics
+17,38,Male,90341,63,Standard,15,4,In-Store,Books
+18,22,Female,90341,78,Standard,10,3,Mobile App,Beauty
+19,38,Male,90341,64,Standard,16,3,Mobile App,Electronics
+20,38,Male,90341,42,Standard,10,6,In-Store,Home & Kitchen
+21,58,Female,49180,43,Basic,5,5,Online,Books
+22,38,Female,90341,61,Standard,17,6,Online,Beauty
+23,58,Male,49180,15,Basic,12,7,Mobile App,Automotive
+24,22,Male,49180,95,Basic,8,2,Online,Home & Kitchen
+25,38,Male,116601,78,Standard,14,6,In-Store,Home & Kitchen
+26,58,Female,116601,10,Standard,11,6,In-Store,Books
+27,58,Male,49180,31,Basic,5,9,In-Store,Books
+28,58,Male,49180,21,Basic,3,5,In-Store,Home & Kitchen
+29,38,Female,49180,44,Basic,1,6,Online,Books
+30,38,Female,49180,76,Basic,5,4,Online,Clothing
+31,38,Male,90341,57,Basic,11,3,Mobile App,Clothing
+32,58,Male,116601,19,Standard,8,7,In-Store,Home & Kitchen
+33,22,Male,49180,72,Basic,4,3,Online,Electronics
+34,38,Female,90341,66,Standard,10,4,Online,Beauty
+35,38,Female,116601,55,Premium,14,4,In-Store,Automotive
+36,58,Female,90341,34,Basic,9,6,Mobile App,Electronics
+37,38,Female,116601,67,Basic,3,5,In-Store,Electronics
+38,22,Male,116601,73,Standard,15,1,Mobile App,Electronics
+39,38,Female,49180,53,Basic,2,4,In-Store,Sports
+40,22,Female,116601,92,Basic,10,4,Online,Beauty
+41,22,Male,49180,92,Basic,4,3,In-Store,Clothing
+42,38,Female,90341,63,Standard,15,5,Mobile App,Home & Kitchen
+43,22,Male,90341,76,Standard,14,1,Online,Home & Kitchen
+44,22,Female,90341,73,Standard,15,2,Online,Toys
+45,38,Female,49180,72,Basic,5,4,Online,Automotive
+46,38,Male,116601,61,Standard,16,5,Online,Clothing
+47,38,Female,116601,76,Premium,14,4,In-Store,Home & Kitchen
+48,58,Male,116601,32,Standard,14,8,In-Store,Automotive
+49,38,Male,90341,66,Standard,19,6,Mobile App,Home & Kitchen
+50,38,Female,90341,70,Standard,17,6,In-Store,Books
+51,22,Male,116601,86,Basic,12,2,Online,Beauty
+52,38,Female,116601,63,Premium,13,6,Online,Home & Kitchen
+53,58,Female,90341,17,Standard,8,8,In-Store,Electronics
+54,22,Male,90341,83,Basic,9,1,Online,Automotive
+55,58,Female,90341,46,Standard,12,6,In-Store,Clothing
+56,22,Male,90341,99,Standard,13,1,In-Store,Toys
+57,38,Male,116601,67,Premium,2,5,Online,Beauty
+58,38,Male,90341,78,Standard,13,4,In-Store,Toys
+59,22,Female,49180,90,Basic,7,4,Online,Clothing
+60,38,Female,90341,64,Standard,16,6,In-Store,Electronics
+61,38,Male,116601,52,Premium,10,6,Online,Beauty
+62,38,Male,90341,59,Standard,10,6,In-Store,Clothing
+63,58,Male,90341,47,Standard,14,8,Online,Home & Kitchen
+64,22,Female,49180,72,Basic,12,2,Mobile App,Beauty
+65,22,Female,90341,73,Basic,7,4,In-Store,Beauty
+66,38,Male,49180,68,Basic,1,3,Online,Electronics
+67,38,Male,116601,48,Premium,2,5,Online,Electronics
+68,58,Male,49180,17,Basic,2,9,In-Store,Books
+69,58,Male,90341,11,Standard,4,8,In-Store,Sports
+70,58,Female,49180,16,Basic,9,9,In-Store,Automotive
+71,58,Female,49180,13,Basic,10,9,Online,Home & Kitchen
+72,22,Female,116601,79,Premium,17,1,Online,Beauty
+73,38,Female,49180,77,Standard,11,6,Online,Automotive
+74,22,Female,116601,96,Premium,18,1,Mobile App,Sports
+75,22,Female,116601,92,Premium,29,2,Online,Clothing
+76,22,Female,90341,73,Standard,17,4,Online,Books
+77,22,Female,49180,97,Basic,11,1,In-Store,Books
+78,58,Female,49180,16,Premium,2,9,In-Store,Electronics
+79,22,Male,49180,93,Basic,13,4,In-Store,Electronics
+80,58,Male,90341,16,Standard,7,8,In-Store,Home & Kitchen
+81,22,Male,90341,89,Basic,10,3,Online,Automotive
+82,22,Female,116601,75,Standard,17,1,Mobile App,Toys
+83,38,Female,90341,60,Standard,16,5,In-Store,Home & Kitchen
+84,58,Male,90341,15,Standard,13,6,In-Store,Automotive
+85,38,Female,49180,67,Premium,9,3,Online,Books
+86,58,Male,49180,33,Premium,5,8,In-Store,Automotive
+87,22,Female,116601,80,Standard,15,4,Online,Clothing
+88,58,Male,90341,13,Standard,8,5,In-Store,Home & Kitchen
+89,22,Male,116601,72,Premium,21,2,Online,Clothing
+90,22,Female,116601,93,Premium,29,2,Online,Sports
+91,38,Male,90341,47,Basic,11,3,Online,Clothing
+92,38,Female,116601,46,Premium,5,4,Online,Electronics
+93,38,Male,49180,72,Basic,9,4,Online,Home & Kitchen
+94,58,Female,90341,29,Standard,8,7,In-Store,Automotive
+95,38,Male,49180,58,Basic,1,6,In-Store,Beauty
+96,22,Male,90341,70,Basic,2,2,Online,Books
+97,38,Female,116601,69,Premium,4,4,Online,Sports
+98,38,Female,49180,58,Basic,7,4,Online,Electronics
+99,22,Male,49180,78,Standard,10,3,Online,Beauty
+100,58,Female,116601,40,Premium,3,7,Online,Home & Kitchen
+101,58,Female,116601,19,Premium,4,8,In-Store,Beauty
+102,38,Female,90341,52,Basic,13,6,Mobile App,Electronics
+103,38,Female,116601,70,Premium,8,6,Mobile App,Clothing
+104,22,Male,49180,83,Basic,3,2,Online,Sports
+105,58,Female,49180,12,Basic,12,6,In-Store,Home & Kitchen
+106,58,Male,90341,28,Standard,12,7,Online,Beauty
+107,38,Female,49180,64,Basic,13,5,In-Store,Electronics
+108,22,Female,49180,84,Basic,10,4,Online,Beauty
+109,22,Female,49180,76,Basic,1,1,Online,Beauty
+110,22,Male,49180,84,Premium,17,1,Online,Clothing
+111,38,Male,90341,77,Standard,16,4,In-Store,Automotive
+112,38,Male,49180,71,Basic,4,5,Mobile App,Clothing
+113,58,Female,116601,13,Standard,12,5,In-Store,Home & Kitchen
+114,38,Female,116601,48,Premium,8,4,In-Store,Home & Kitchen
+115,58,Male,90341,25,Standard,7,9,Mobile App,Beauty
+116,38,Male,90341,67,Premium,2,6,Mobile App,Clothing
+117,38,Female,49180,65,Basic,1,3,Online,Beauty
+118,38,Female,49180,63,Basic,11,5,In-Store,Automotive
+119,38,Female,49180,54,Basic,7,5,In-Store,Electronics
+120,58,Male,116601,44,Premium,13,8,In-Store,Home & Kitchen
+121,58,Female,49180,36,Basic,4,7,In-Store,Home & Kitchen
+122,22,Male,90341,77,Basic,13,2,Mobile App,Beauty
+123,58,Male,90341,36,Standard,9,6,Online,Beauty
+124,38,Female,49180,79,Basic,4,6,In-Store,Clothing
+125,38,Male,90341,64,Standard,12,3,In-Store,Clothing
+126,22,Female,49180,89,Basic,9,4,Online,Beauty
+127,38,Male,116601,72,Premium,11,4,In-Store,Clothing
+128,58,Male,49180,36,Premium,4,9,In-Store,Beauty
+129,58,Female,116601,37,Premium,2,6,Online,Clothing
+130,22,Male,90341,73,Basic,3,2,Online,Beauty
+131,38,Male,90341,55,Standard,13,5,In-Store,Toys
+132,22,Male,116601,89,Premium,26,1,Online,Electronics
+133,38,Male,116601,60,Premium,4,5,Mobile App,Sports
+134,38,Female,49180,70,Standard,17,3,In-Store,Electronics
+135,38,Female,90341,78,Basic,7,4,Online,Toys
+136,38,Female,49180,44,Standard,13,5,Online,Electronics
+137,22,Female,116601,83,Premium,22,3,Online,Electronics
+138,58,Female,90341,25,Basic,13,7,In-Store,Automotive
+139,58,Male,49180,23,Basic,4,7,In-Store,Home & Kitchen
+140,38,Female,116601,50,Premium,12,5,Online,Sports
+141,38,Female,90341,75,Standard,10,5,Mobile App,Home & Kitchen
+142,38,Male,116601,75,Premium,5,4,In-Store,Automotive
+143,22,Male,49180,99,Basic,3,4,Online,Clothing
+144,58,Female,116601,11,Standard,7,8,In-Store,Clothing
+145,38,Female,49180,65,Standard,15,6,Online,Automotive
+146,58,Male,49180,12,Basic,3,6,Online,Home & Kitchen
+147,22,Male,90341,98,Premium,26,2,Online,Toys
+148,22,Male,49180,85,Basic,12,3,Mobile App,Beauty
+149,58,Male,116601,31,Premium,13,7,In-Store,Clothing
+150,38,Female,116601,52,Premium,8,4,Online,Automotive
+151,38,Male,49180,52,Basic,11,5,In-Store,Electronics
+152,58,Male,90341,39,Standard,14,8,In-Store,Books
+153,58,Female,116601,31,Standard,14,7,In-Store,Home & Kitchen
+154,38,Male,49180,74,Basic,3,6,Mobile App,Beauty
+155,22,Male,90341,71,Standard,18,2,Mobile App,Toys
+156,22,Male,90341,91,Standard,11,1,Mobile App,Clothing
+157,22,Male,90341,80,Standard,10,3,Online,Clothing
+158,22,Male,90341,99,Standard,19,4,Online,Clothing
+159,22,Male,90341,82,Standard,10,1,Online,Home & Kitchen
+160,38,Male,116601,52,Standard,10,6,Online,Electronics
+161,38,Female,49180,66,Standard,18,4,Online,Beauty
+162,22,Male,116601,92,Premium,28,4,Online,Sports
+163,22,Male,49180,71,Basic,6,1,In-Store,Home & Kitchen
+164,58,Male,49180,18,Basic,4,6,In-Store,Home & Kitchen
+165,58,Female,90341,32,Basic,13,5,In-Store,Sports
+166,22,Male,90341,72,Standard,15,4,Online,Clothing
+167,22,Female,116601,90,Premium,21,3,Online,Toys
+168,58,Female,90341,36,Premium,1,7,In-Store,Home & Kitchen
+169,58,Male,49180,29,Basic,13,9,In-Store,Clothing
+170,38,Male,49180,56,Premium,13,4,In-Store,Electronics
+171,58,Male,49180,29,Standard,3,5,In-Store,Home & Kitchen
+172,22,Female,49180,94,Basic,14,4,In-Store,Clothing
+173,22,Female,49180,79,Standard,17,4,Online,Home & Kitchen
+174,22,Female,116601,98,Premium,24,3,Online,Toys
+175,58,Female,49180,24,Basic,9,8,Mobile App,Clothing
+176,22,Female,116601,72,Premium,22,4,Online,Clothing
+177,58,Female,90341,17,Standard,6,6,In-Store,Home & Kitchen
+178,38,Male,90341,57,Standard,15,3,Online,Sports
+179,58,Male,49180,26,Basic,12,8,Online,Toys
+180,58,Male,116601,47,Premium,8,8,Online,Electronics
+181,38,Female,49180,40,Standard,10,3,In-Store,Electronics
+182,58,Male,49180,13,Basic,10,7,In-Store,Books
+183,58,Male,49180,42,Basic,6,5,In-Store,Books
+184,38,Male,90341,60,Basic,2,6,In-Store,Home & Kitchen
+185,38,Male,90341,48,Standard,10,6,Online,Electronics
+186,58,Female,116601,41,Standard,11,6,In-Store,Beauty
+187,22,Male,116601,98,Basic,7,1,Mobile App,Sports
+188,22,Female,49180,85,Basic,8,4,Online,Clothing
+189,38,Male,116601,67,Premium,13,4,Online,Automotive
+190,22,Male,116601,96,Premium,16,4,Online,Sports
+191,58,Female,90341,26,Standard,2,6,In-Store,Sports
+192,58,Male,49180,21,Basic,13,8,In-Store,Books
+193,22,Female,49180,97,Basic,13,2,Online,Clothing
+194,58,Male,90341,45,Standard,14,6,In-Store,Books
+195,58,Male,116601,28,Premium,2,9,Online,Beauty
+196,58,Female,49180,41,Basic,14,9,In-Store,Books
+197,22,Male,49180,83,Basic,13,2,Online,Clothing
+198,58,Female,49180,44,Basic,3,9,In-Store,Home & Kitchen
+199,38,Female,116601,53,Standard,13,6,In-Store,Books
+200,22,Female,49180,76,Basic,13,1,Online,Beauty
+201,38,Male,116601,77,Standard,11,4,Online,Clothing
+202,58,Male,116601,47,Standard,7,8,Online,Beauty
+203,22,Male,90341,99,Standard,13,2,Online,Electronics
+204,58,Male,49180,24,Basic,2,9,In-Store,Home & Kitchen
+205,22,Female,90341,98,Premium,22,3,Online,Toys
+206,38,Male,49180,55,Basic,6,6,Online,Automotive
+207,58,Male,90341,14,Standard,12,7,Mobile App,Home & Kitchen
+208,58,Female,116601,20,Premium,2,9,In-Store,Home & Kitchen
+209,58,Male,90341,48,Standard,2,6,In-Store,Beauty
+210,58,Male,49180,39,Basic,11,7,In-Store,Electronics
+211,58,Male,49180,48,Basic,8,9,In-Store,Home & Kitchen
+212,58,Female,116601,43,Standard,9,9,In-Store,Home & Kitchen
+213,58,Male,49180,46,Basic,13,9,In-Store,Home & Kitchen
+214,22,Male,90341,74,Standard,19,3,Mobile App,Electronics
+215,58,Male,49180,31,Basic,4,9,In-Store,Home & Kitchen
+216,22,Female,49180,75,Premium,24,3,Online,Electronics
+217,38,Male,49180,57,Standard,14,6,In-Store,Electronics
+218,58,Female,116601,31,Basic,3,7,In-Store,Books
+219,22,Female,116601,82,Premium,15,2,Online,Clothing
+220,38,Male,116601,61,Premium,7,4,Mobile App,Clothing
+221,38,Male,90341,55,Standard,14,4,Mobile App,Beauty
+222,38,Male,49180,55,Basic,6,6,In-Store,Electronics
+223,22,Female,116601,88,Premium,21,2,Mobile App,Clothing
+224,58,Male,49180,40,Standard,6,5,In-Store,Automotive
+225,22,Female,49180,77,Basic,5,1,Online,Clothing
+226,22,Female,49180,73,Basic,4,2,Online,Clothing
+227,38,Female,90341,55,Basic,9,6,Mobile App,Clothing
+228,22,Female,116601,85,Premium,15,4,Mobile App,Electronics
+229,58,Male,116601,29,Premium,4,7,In-Store,Home & Kitchen
+230,58,Female,49180,26,Premium,8,6,Online,Home & Kitchen
+231,38,Male,90341,73,Standard,10,6,In-Store,Sports
+232,58,Female,49180,20,Standard,12,8,In-Store,Books
+233,38,Male,116601,44,Premium,4,4,Online,Sports
+234,22,Male,116601,74,Premium,27,1,In-Store,Sports
+235,38,Male,90341,71,Standard,17,5,In-Store,Books
+236,38,Female,116601,55,Premium,7,4,Online,Beauty
+237,58,Male,49180,23,Basic,9,8,Online,Books
+238,38,Male,90341,78,Standard,10,3,In-Store,Clothing
+239,38,Female,49180,70,Standard,13,5,Online,Electronics
+240,22,Female,116601,74,Premium,22,2,In-Store,Books
+241,58,Female,90341,48,Basic,12,8,In-Store,Automotive
+242,22,Female,49180,92,Basic,8,1,Online,Beauty
+243,22,Male,90341,90,Standard,14,4,Online,Beauty
+244,58,Male,49180,48,Standard,3,5,Online,Books
+245,22,Male,49180,86,Standard,18,3,Online,Toys
+246,38,Male,49180,69,Basic,11,5,In-Store,Sports
+247,22,Female,90341,96,Standard,10,1,Mobile App,Beauty
+248,58,Female,49180,37,Basic,9,7,In-Store,Beauty
+249,22,Male,90341,90,Standard,16,1,Online,Home & Kitchen
+250,38,Male,90341,63,Premium,9,4,In-Store,Electronics
+251,58,Female,49180,10,Basic,5,8,Online,Home & Kitchen
+252,22,Female,90341,90,Basic,1,3,Online,Sports
+253,38,Female,49180,71,Basic,6,4,Online,Electronics
+254,38,Male,49180,46,Basic,2,4,In-Store,Clothing
+255,22,Male,90341,88,Standard,16,3,Mobile App,Home & Kitchen
+256,22,Male,116601,72,Premium,18,4,Online,Electronics
+257,58,Female,116601,26,Standard,1,7,In-Store,Books
+258,38,Male,116601,54,Standard,10,4,Online,Clothing
+259,38,Female,116601,61,Premium,7,4,Mobile App,Toys
+260,38,Male,116601,41,Premium,14,5,In-Store,Clothing
+261,22,Female,116601,84,Standard,15,2,Online,Beauty
+262,38,Male,116601,79,Standard,16,6,Online,Home & Kitchen
+263,38,Female,116601,47,Premium,2,4,Online,Home & Kitchen
+264,58,Female,90341,40,Standard,7,5,In-Store,Sports
+265,22,Male,90341,97,Standard,12,1,Online,Electronics
+266,22,Male,116601,76,Premium,15,2,Online,Toys
+267,58,Female,90341,34,Premium,13,8,In-Store,Home & Kitchen
+268,38,Female,49180,60,Basic,10,5,Online,Clothing
+269,38,Male,90341,61,Standard,12,3,Online,Home & Kitchen
+270,58,Female,90341,33,Standard,5,5,Online,Home & Kitchen
+271,22,Female,90341,74,Standard,13,3,Online,Electronics
+272,58,Female,90341,42,Standard,9,5,In-Store,Toys
+273,38,Female,90341,66,Standard,15,6,Mobile App,Home & Kitchen
+274,58,Female,116601,48,Premium,5,7,In-Store,Clothing
+275,58,Male,49180,16,Basic,5,7,In-Store,Clothing
+276,58,Female,90341,48,Standard,4,6,In-Store,Toys
+277,58,Male,116601,34,Premium,5,9,In-Store,Home & Kitchen
+278,22,Female,116601,70,Standard,14,1,Online,Clothing
+279,22,Female,116601,85,Premium,22,4,Online,Electronics
+280,22,Female,90341,85,Standard,15,1,Online,Electronics
+281,38,Female,90341,52,Standard,19,6,Online,Electronics
+282,22,Male,49180,88,Basic,1,2,Online,Books
+283,58,Female,116601,49,Premium,6,8,Online,Home & Kitchen
+284,22,Male,90341,87,Standard,17,2,In-Store,Beauty
+285,38,Female,49180,53,Premium,4,5,In-Store,Automotive
+286,38,Male,90341,53,Standard,12,3,Online,Clothing
+287,58,Female,90341,12,Standard,6,9,In-Store,Beauty
+288,22,Male,90341,85,Standard,12,3,Online,Clothing
+289,38,Female,90341,64,Standard,18,6,In-Store,Home & Kitchen
+290,38,Male,49180,61,Basic,1,6,In-Store,Electronics
+291,22,Female,116601,76,Standard,12,3,Online,Sports
+292,22,Male,49180,85,Basic,9,1,Online,Home & Kitchen
+293,58,Male,116601,20,Premium,11,5,Online,Electronics
+294,22,Male,49180,85,Basic,6,4,Online,Electronics
+295,22,Male,116601,85,Premium,16,1,Mobile App,Beauty
+296,22,Female,116601,81,Standard,12,1,Online,Toys
+297,38,Female,90341,65,Premium,12,6,In-Store,Home & Kitchen
+298,22,Female,49180,93,Basic,2,2,Online,Automotive
+299,22,Male,116601,88,Premium,15,2,Online,Electronics
+300,38,Male,116601,45,Standard,18,4,In-Store,Clothing
+301,58,Male,116601,48,Premium,11,8,In-Store,Books
+302,38,Male,49180,41,Basic,9,6,In-Store,Electronics
+303,58,Female,116601,41,Standard,12,8,In-Store,Home & Kitchen
+304,22,Female,116601,93,Basic,7,2,In-Store,Electronics
+305,38,Female,90341,46,Standard,15,6,Online,Toys
+306,38,Male,90341,42,Premium,9,6,In-Store,Clothing
+307,58,Male,116601,32,Premium,13,6,In-Store,Clothing
+308,22,Male,90341,94,Standard,17,1,Online,Clothing
+309,22,Female,49180,88,Premium,23,3,Online,Electronics
+310,22,Female,49180,97,Basic,4,1,Online,Clothing
+311,58,Female,90341,28,Standard,1,8,In-Store,Books
+312,38,Female,116601,63,Standard,16,3,In-Store,Automotive
+313,38,Male,90341,49,Standard,18,3,In-Store,Home & Kitchen
+314,58,Male,90341,31,Standard,5,6,Mobile App,Home & Kitchen
+315,38,Female,90341,66,Standard,14,5,In-Store,Clothing
+316,58,Male,116601,14,Standard,2,9,In-Store,Books
+317,58,Female,49180,40,Basic,7,8,Online,Books
+318,38,Male,116601,55,Standard,14,6,Mobile App,Electronics
+319,22,Female,116601,84,Basic,4,4,In-Store,Electronics
+320,58,Female,90341,22,Standard,14,6,In-Store,Books
+321,58,Male,49180,17,Basic,10,6,In-Store,Home & Kitchen
+322,38,Female,90341,47,Standard,10,5,Online,Books
+323,58,Male,90341,30,Basic,5,7,In-Store,Beauty
+324,58,Female,90341,31,Standard,5,5,Mobile App,Electronics
+325,38,Male,90341,70,Basic,4,6,Mobile App,Clothing
+326,22,Male,90341,94,Standard,16,3,Online,Sports
+327,22,Male,49180,95,Standard,12,3,Online,Electronics
+328,38,Female,116601,47,Premium,2,5,Online,Automotive
+329,38,Female,116601,61,Premium,7,4,In-Store,Beauty
+330,22,Female,49180,99,Basic,6,1,Online,Electronics
+331,58,Female,116601,26,Premium,6,9,In-Store,Clothing
+332,58,Male,90341,13,Standard,6,5,In-Store,Home & Kitchen
+333,38,Male,116601,49,Premium,5,5,In-Store,Clothing
+334,22,Male,116601,97,Premium,18,4,Online,Beauty
+335,22,Female,49180,80,Basic,4,3,Online,Clothing
+336,38,Female,49180,60,Basic,13,6,Online,Toys
+337,58,Male,49180,38,Basic,1,7,In-Store,Home & Kitchen
+338,22,Female,116601,95,Standard,12,1,Mobile App,Clothing
+339,38,Female,49180,76,Basic,8,3,Mobile App,Sports
+340,58,Male,116601,40,Premium,13,8,Online,Beauty
+341,58,Female,90341,13,Standard,8,7,Mobile App,Automotive
+342,58,Male,90341,38,Standard,4,8,In-Store,Clothing
+343,22,Male,49180,80,Basic,13,2,Online,Sports
+344,38,Male,116601,51,Standard,16,4,Online,Home & Kitchen
+345,22,Male,90341,95,Standard,17,2,Online,Sports
+346,58,Female,90341,21,Basic,3,6,In-Store,Automotive
+347,22,Male,90341,86,Standard,14,2,Online,Clothing
+348,22,Female,90341,90,Standard,14,2,Online,Beauty
+349,58,Male,116601,25,Premium,6,7,In-Store,Books
+350,58,Female,90341,12,Standard,1,5,In-Store,Books
+351,58,Male,49180,49,Basic,5,8,In-Store,Electronics
+352,22,Female,49180,76,Basic,10,4,In-Store,Home & Kitchen
+353,58,Female,49180,48,Basic,11,8,In-Store,Home & Kitchen
+354,58,Male,90341,25,Basic,2,7,In-Store,Books
+355,22,Male,49180,77,Standard,10,4,In-Store,Clothing
+356,22,Female,90341,82,Basic,12,3,Online,Clothing
+357,58,Male,49180,23,Basic,7,8,In-Store,Toys
+358,38,Male,90341,46,Premium,4,6,Online,Electronics
+359,22,Male,49180,97,Premium,24,4,Online,Beauty
+360,22,Female,49180,71,Basic,13,3,In-Store,Beauty
+361,22,Female,49180,94,Basic,5,4,In-Store,Toys
+362,38,Male,90341,75,Standard,11,4,Online,Electronics
+363,22,Female,90341,99,Standard,16,4,In-Store,Electronics
+364,22,Female,90341,80,Standard,11,1,Online,Clothing
+365,38,Male,90341,56,Basic,12,3,In-Store,Toys
+366,22,Male,90341,81,Standard,12,3,In-Store,Clothing
+367,38,Male,90341,67,Standard,15,3,Online,Home & Kitchen
+368,58,Male,49180,34,Basic,7,9,In-Store,Home & Kitchen
+369,58,Female,49180,18,Basic,11,9,In-Store,Home & Kitchen
+370,38,Male,90341,50,Standard,18,4,In-Store,Beauty
+371,22,Male,90341,73,Basic,10,1,Online,Beauty
+372,38,Female,49180,50,Basic,3,4,In-Store,Clothing
+373,58,Female,49180,34,Basic,2,8,In-Store,Home & Kitchen
+374,22,Female,116601,83,Standard,17,1,Online,Clothing
+375,58,Male,116601,49,Premium,4,8,Online,Home & Kitchen
+376,58,Female,116601,28,Standard,4,6,In-Store,Beauty
+377,22,Male,116601,84,Premium,16,2,Mobile App,Electronics
+378,38,Male,49180,71,Basic,3,6,In-Store,Sports
+379,22,Female,49180,79,Basic,11,1,Online,Home & Kitchen
+380,58,Male,116601,22,Premium,3,6,Online,Home & Kitchen
+381,58,Male,49180,34,Standard,7,7,In-Store,Beauty
+382,38,Male,90341,42,Premium,5,5,Mobile App,Home & Kitchen
+383,22,Female,90341,70,Basic,9,4,In-Store,Electronics
+384,58,Male,49180,31,Basic,10,9,In-Store,Clothing
+385,38,Male,116601,74,Premium,8,4,Online,Beauty
+386,38,Male,49180,71,Basic,2,6,Online,Books
+387,22,Male,116601,89,Standard,18,4,Online,Beauty
+388,58,Male,90341,33,Standard,13,9,In-Store,Automotive
+389,58,Male,116601,13,Standard,3,8,In-Store,Home & Kitchen
+390,58,Male,116601,30,Standard,3,7,In-Store,Electronics
+391,22,Male,116601,81,Basic,4,1,Online,Clothing
+392,22,Male,116601,72,Premium,29,1,Online,Electronics
+393,38,Male,49180,52,Standard,14,5,Online,Clothing
+394,22,Female,90341,99,Premium,26,3,In-Store,Beauty
+395,22,Female,49180,98,Basic,5,1,Online,Clothing
+396,38,Male,116601,48,Premium,3,4,Mobile App,Toys
+397,58,Female,90341,34,Basic,8,7,In-Store,Home & Kitchen
+398,22,Female,49180,91,Standard,11,3,Online,Clothing
+399,22,Male,116601,97,Premium,15,4,Online,Sports
+400,22,Male,116601,82,Premium,21,3,Mobile App,Clothing
+401,58,Female,49180,15,Premium,7,8,In-Store,Automotive
+402,38,Female,49180,63,Standard,18,3,Mobile App,Home & Kitchen
+403,58,Female,90341,28,Basic,2,6,In-Store,Home & Kitchen
+404,22,Female,90341,94,Standard,12,1,Online,Electronics
+405,22,Female,49180,85,Standard,17,4,Online,Automotive
+406,22,Male,116601,73,Standard,15,2,Online,Toys
+407,22,Male,49180,99,Basic,6,1,Online,Clothing
+408,22,Female,49180,93,Basic,14,3,Online,Beauty
+409,38,Female,116601,42,Premium,9,5,Mobile App,Home & Kitchen
+410,38,Female,49180,61,Basic,10,6,Mobile App,Sports
+411,22,Male,90341,83,Basic,3,4,Online,Clothing
+412,22,Female,116601,91,Premium,16,1,Mobile App,Automotive
+413,38,Female,49180,63,Basic,8,5,In-Store,Automotive
+414,58,Male,116601,14,Basic,7,5,In-Store,Beauty
+415,58,Male,49180,24,Basic,13,5,Mobile App,Toys
+416,38,Female,90341,42,Basic,8,3,In-Store,Electronics
+417,38,Female,90341,60,Standard,18,5,Online,Sports
+418,38,Female,49180,49,Standard,12,4,In-Store,Sports
+419,38,Female,116601,51,Premium,5,6,In-Store,Home & Kitchen
+420,22,Male,90341,94,Standard,15,2,Online,Clothing
+421,58,Male,116601,17,Standard,10,9,In-Store,Automotive
+422,38,Male,49180,49,Basic,10,6,Mobile App,Sports
+423,22,Male,116601,85,Premium,15,3,Online,Beauty
+424,22,Male,90341,71,Standard,18,2,Online,Electronics
+425,38,Female,116601,53,Premium,14,3,In-Store,Sports
+426,58,Female,116601,47,Premium,9,9,Online,Clothing
+427,38,Male,49180,72,Basic,12,4,In-Store,Clothing
+428,58,Female,49180,22,Basic,13,6,In-Store,Beauty
+429,22,Female,116601,71,Premium,25,2,In-Store,Clothing
+430,58,Female,116601,15,Standard,12,8,In-Store,Home & Kitchen
+431,38,Male,90341,59,Basic,13,4,Online,Electronics
+432,38,Male,90341,63,Standard,10,3,Mobile App,Sports
+433,22,Male,90341,79,Standard,12,1,In-Store,Beauty
+434,58,Male,116601,38,Premium,4,6,In-Store,Electronics
+435,22,Female,49180,77,Basic,8,1,Online,Automotive
+436,22,Male,49180,87,Basic,2,2,Mobile App,Clothing
+437,22,Female,116601,87,Premium,27,2,Online,Electronics
+438,38,Female,49180,40,Standard,11,3,In-Store,Beauty
+439,22,Male,116601,77,Standard,13,1,Online,Clothing
+440,38,Female,90341,67,Standard,17,4,In-Store,Sports
+441,58,Female,116601,27,Premium,5,5,Mobile App,Home & Kitchen
+442,38,Female,49180,53,Basic,6,5,In-Store,Electronics
+443,58,Male,116601,29,Standard,12,9,In-Store,Home & Kitchen
+444,38,Male,49180,56,Basic,9,3,Online,Beauty
+445,22,Male,90341,73,Basic,2,3,In-Store,Electronics
+446,38,Female,116601,62,Standard,17,6,In-Store,Home & Kitchen
+447,38,Female,116601,64,Premium,10,3,In-Store,Clothing
+448,58,Female,49180,25,Premium,7,9,Online,Electronics
+449,22,Male,116601,70,Standard,15,2,Online,Electronics
+450,22,Female,116601,73,Basic,8,1,Mobile App,Clothing
+451,58,Male,49180,24,Basic,10,6,Online,Home & Kitchen
+452,38,Male,90341,43,Standard,16,3,Online,Electronics
+453,22,Male,116601,98,Standard,19,1,Online,Toys
+454,58,Male,116601,21,Basic,6,8,Online,Beauty
+455,58,Female,49180,40,Basic,12,5,In-Store,Home & Kitchen
+456,58,Female,49180,12,Basic,9,6,Online,Toys
+457,58,Male,49180,34,Premium,13,6,In-Store,Home & Kitchen
+458,38,Female,90341,41,Basic,4,4,Mobile App,Electronics
+459,38,Female,116601,43,Premium,3,6,Online,Electronics
+460,22,Female,49180,73,Standard,15,2,Online,Electronics
+461,22,Female,116601,97,Premium,17,2,In-Store,Clothing
+462,38,Female,49180,49,Basic,11,3,Online,Home & Kitchen
+463,22,Male,49180,94,Basic,2,3,Online,Sports
+464,38,Male,116601,76,Premium,11,4,Online,Home & Kitchen
+465,22,Female,116601,90,Premium,20,3,In-Store,Electronics
+466,58,Male,116601,39,Premium,9,6,Mobile App,Books
+467,22,Male,116601,94,Standard,11,1,Online,Beauty
+468,58,Female,116601,42,Premium,13,9,In-Store,Automotive
+469,22,Male,49180,95,Basic,14,1,Online,Toys
+470,58,Male,116601,30,Premium,9,8,In-Store,Electronics
+471,58,Male,116601,21,Standard,7,5,In-Store,Books
+472,38,Male,116601,46,Premium,10,3,Online,Books
+473,22,Male,49180,72,Premium,16,2,Mobile App,Beauty
+474,58,Female,116601,39,Basic,1,6,Online,Home & Kitchen
+475,22,Female,90341,90,Standard,12,3,Online,Clothing
+476,38,Male,116601,40,Premium,13,5,Online,Toys
+477,38,Male,90341,60,Standard,12,3,Online,Clothing
+478,58,Male,116601,25,Premium,4,7,In-Store,Electronics
+479,22,Female,116601,92,Premium,24,3,Online,Home & Kitchen
+480,38,Male,49180,71,Basic,2,5,Online,Clothing
+481,38,Male,49180,70,Basic,3,4,Online,Electronics
+482,22,Female,90341,83,Basic,5,4,Online,Electronics
+483,22,Female,116601,89,Standard,12,1,Mobile App,Clothing
+484,58,Female,90341,24,Basic,11,7,In-Store,Electronics
+485,22,Female,90341,93,Standard,19,4,Mobile App,Sports
+486,22,Male,90341,71,Standard,10,3,Online,Clothing
+487,58,Male,90341,26,Standard,7,9,Online,Automotive
+488,22,Male,49180,98,Basic,12,2,Online,Clothing
+489,58,Female,116601,15,Premium,6,7,In-Store,Books
+490,58,Male,90341,26,Basic,9,9,Online,Home & Kitchen
+491,38,Male,49180,57,Basic,6,5,In-Store,Automotive
+492,38,Female,116601,58,Premium,11,5,In-Store,Books
+493,58,Male,116601,35,Standard,5,8,Online,Clothing
+494,38,Male,116601,59,Premium,12,6,In-Store,Beauty
+495,22,Female,116601,75,Standard,14,1,Mobile App,Toys
+496,58,Male,116601,13,Premium,5,6,In-Store,Home & Kitchen
+497,38,Female,116601,49,Standard,19,4,In-Store,Clothing
+498,58,Female,90341,25,Standard,8,7,Mobile App,Electronics
+499,38,Male,49180,65,Basic,14,3,Mobile App,Beauty
+500,58,Male,90341,26,Standard,13,6,In-Store,Books
+501,22,Male,49180,95,Basic,7,2,Mobile App,Electronics
+502,58,Female,49180,16,Basic,1,5,In-Store,Books
+503,22,Female,49180,72,Basic,12,4,Mobile App,Books
+504,38,Female,116601,59,Premium,2,3,Mobile App,Sports
+505,38,Female,116601,59,Basic,13,3,Mobile App,Electronics
+506,58,Male,116601,31,Premium,5,9,Mobile App,Sports
+507,58,Male,90341,33,Standard,8,9,Mobile App,Clothing
+508,38,Male,49180,47,Basic,11,4,Online,Electronics
+509,58,Female,116601,38,Standard,9,6,In-Store,Clothing
+510,22,Female,116601,88,Standard,16,2,Mobile App,Beauty
+511,22,Male,49180,85,Basic,5,1,Online,Automotive
+512,58,Female,49180,21,Standard,13,8,In-Store,Beauty
+513,22,Male,49180,95,Basic,3,2,Mobile App,Electronics
+514,22,Male,116601,70,Premium,17,1,Online,Toys
+515,58,Female,116601,25,Premium,12,9,In-Store,Books
+516,58,Female,116601,24,Standard,9,9,In-Store,Home & Kitchen
+517,38,Female,49180,76,Basic,8,5,In-Store,Home & Kitchen
+518,58,Male,49180,12,Standard,1,5,In-Store,Automotive
+519,58,Female,90341,32,Basic,9,9,Online,Home & Kitchen
+520,38,Female,90341,74,Premium,10,4,In-Store,Electronics
+521,58,Female,90341,22,Standard,2,9,In-Store,Beauty
+522,22,Female,90341,98,Standard,10,1,Online,Home & Kitchen
+523,58,Female,49180,38,Standard,14,5,Online,Home & Kitchen
+524,22,Male,116601,92,Premium,15,2,Mobile App,Home & Kitchen
+525,38,Male,90341,73,Standard,19,6,In-Store,Beauty
+526,58,Male,116601,26,Basic,9,8,In-Store,Home & Kitchen
+527,22,Female,116601,81,Basic,8,2,Mobile App,Clothing
+528,22,Female,49180,82,Basic,7,3,Online,Electronics
+529,58,Female,49180,34,Basic,14,9,In-Store,Electronics
+530,38,Female,90341,56,Premium,9,4,Online,Automotive
+531,22,Male,116601,82,Premium,23,3,Online,Books
+532,22,Female,49180,91,Basic,10,3,Online,Toys
+533,58,Female,116601,43,Premium,14,6,In-Store,Home & Kitchen
+534,22,Female,90341,84,Standard,11,4,Online,Beauty
+535,22,Male,116601,83,Premium,21,1,Online,Sports
+536,38,Female,49180,55,Basic,9,5,Online,Clothing
+537,22,Male,90341,80,Standard,18,1,Online,Beauty
+538,22,Male,116601,85,Standard,17,2,Online,Beauty
+539,58,Male,90341,10,Standard,12,9,In-Store,Sports
+540,38,Male,90341,71,Basic,3,6,Online,Electronics
+541,22,Male,49180,80,Basic,9,3,Online,Sports
+542,22,Female,90341,79,Standard,14,4,Online,Beauty
+543,22,Female,116601,79,Premium,28,1,Online,Clothing
+544,58,Male,49180,24,Basic,11,7,In-Store,Toys
+545,22,Female,116601,97,Premium,29,1,Mobile App,Beauty
+546,22,Female,116601,97,Standard,12,3,Mobile App,Electronics
+547,22,Male,90341,72,Standard,16,1,Online,Electronics
+548,58,Male,116601,23,Premium,4,8,In-Store,Home & Kitchen
+549,38,Female,116601,76,Premium,2,5,Mobile App,Books
+550,58,Female,116601,28,Premium,4,6,Online,Home & Kitchen
+551,38,Male,116601,72,Premium,8,5,In-Store,Toys
+552,38,Male,90341,50,Standard,14,5,Online,Clothing
+553,38,Male,90341,79,Standard,17,3,Mobile App,Electronics
+554,58,Male,49180,16,Basic,12,8,In-Store,Automotive
+555,22,Male,116601,94,Standard,15,4,Online,Sports
+556,58,Female,116601,27,Standard,14,6,Mobile App,Home & Kitchen
+557,58,Female,90341,31,Standard,6,9,In-Store,Clothing
+558,38,Male,116601,42,Standard,15,6,In-Store,Electronics
+559,58,Male,116601,41,Standard,6,5,Online,Home & Kitchen
+560,22,Female,49180,79,Basic,14,3,Mobile App,Toys
+561,58,Male,116601,49,Standard,7,5,In-Store,Home & Kitchen
+562,38,Female,49180,58,Basic,11,5,Online,Electronics
+563,22,Female,49180,88,Basic,3,2,Online,Beauty
+564,22,Male,116601,76,Premium,17,1,Online,Clothing
+565,38,Female,90341,41,Standard,17,3,In-Store,Electronics
+566,22,Female,49180,81,Standard,17,4,Online,Toys
+567,22,Female,49180,77,Standard,15,2,Online,Home & Kitchen
+568,38,Female,90341,48,Basic,8,5,Online,Beauty
+569,58,Female,49180,44,Basic,9,8,In-Store,Electronics
+570,38,Male,90341,69,Standard,11,4,Online,Home & Kitchen
+571,22,Female,49180,79,Standard,13,3,Online,Beauty
+572,22,Female,49180,86,Premium,17,1,Mobile App,Toys
+573,58,Male,49180,29,Basic,3,8,Online,Home & Kitchen
+574,58,Male,116601,25,Standard,11,7,Online,Toys
+575,58,Male,90341,24,Standard,1,5,In-Store,Electronics
+576,38,Male,49180,74,Basic,5,3,Online,Clothing
+577,58,Male,90341,39,Standard,13,7,In-Store,Books
+578,38,Female,90341,40,Basic,3,4,Online,Home & Kitchen
+579,38,Male,90341,44,Standard,17,4,In-Store,Home & Kitchen
+580,22,Male,116601,86,Premium,19,1,In-Store,Books
+581,22,Male,116601,75,Premium,16,1,Online,Clothing
+582,58,Female,90341,47,Standard,8,6,In-Store,Home & Kitchen
+583,38,Male,49180,69,Standard,10,4,Mobile App,Electronics
+584,38,Male,49180,74,Basic,4,5,Mobile App,Home & Kitchen
+585,58,Female,90341,18,Basic,6,8,Online,Automotive
+586,58,Female,49180,45,Basic,11,8,In-Store,Sports
+587,38,Male,116601,44,Standard,12,6,In-Store,Automotive
+588,22,Female,116601,76,Basic,7,3,Online,Toys
+589,58,Male,90341,36,Standard,6,6,In-Store,Beauty
+590,38,Male,49180,68,Basic,3,4,Online,Electronics
+591,38,Female,49180,74,Basic,10,5,Mobile App,Sports
+592,58,Female,116601,24,Premium,9,8,In-Store,Toys
+593,58,Female,49180,36,Standard,8,5,Online,Electronics
+594,58,Male,49180,41,Standard,13,9,Online,Toys
+595,58,Male,90341,48,Premium,10,9,In-Store,Home & Kitchen
+596,38,Male,49180,59,Basic,5,3,Online,Electronics
+597,38,Male,90341,62,Standard,15,5,Mobile App,Clothing
+598,38,Female,49180,48,Basic,7,4,Mobile App,Beauty
+599,22,Male,116601,73,Premium,28,2,Mobile App,Toys
+600,58,Female,49180,31,Basic,7,7,In-Store,Automotive
+601,38,Male,90341,77,Standard,17,4,In-Store,Electronics
+602,38,Female,49180,61,Basic,8,4,Online,Books
+603,58,Male,116601,18,Standard,12,8,In-Store,Books
+604,38,Female,116601,68,Premium,14,3,Online,Sports
+605,58,Male,116601,32,Standard,5,9,In-Store,Clothing
+606,58,Female,116601,25,Premium,13,5,Online,Sports
+607,38,Male,116601,71,Premium,1,4,Online,Books
+608,22,Male,116601,84,Premium,16,3,Online,Beauty
+609,38,Female,49180,52,Basic,3,6,Online,Sports
+610,58,Male,49180,44,Basic,14,7,Online,Clothing
+611,38,Male,49180,59,Standard,18,3,Online,Home & Kitchen
+612,22,Female,116601,88,Basic,9,3,Mobile App,Electronics
+613,38,Male,49180,47,Basic,12,3,In-Store,Sports
+614,22,Female,49180,84,Standard,15,4,Online,Beauty
+615,38,Female,116601,78,Standard,14,3,Online,Clothing
+616,38,Male,90341,76,Basic,8,3,Mobile App,Home & Kitchen
+617,58,Male,116601,37,Premium,3,8,In-Store,Home & Kitchen
+618,38,Female,90341,42,Premium,2,4,Online,Electronics
+619,22,Male,116601,98,Premium,26,1,Online,Toys
+620,22,Female,116601,87,Premium,16,4,Online,Clothing
+621,38,Male,116601,53,Premium,9,4,In-Store,Clothing
+622,38,Female,90341,70,Standard,12,4,Online,Beauty
+623,58,Male,90341,20,Standard,6,5,In-Store,Automotive
+624,22,Female,49180,78,Basic,1,4,Online,Beauty
+625,38,Male,116601,72,Premium,14,4,Online,Beauty
+626,58,Female,49180,39,Basic,6,8,In-Store,Beauty
+627,58,Female,116601,38,Premium,11,6,In-Store,Beauty
+628,38,Female,116601,78,Standard,17,5,In-Store,Electronics
+629,38,Female,116601,69,Premium,2,5,Mobile App,Automotive
+630,38,Male,116601,44,Standard,18,3,In-Store,Home & Kitchen
+631,22,Female,49180,73,Basic,1,4,Online,Beauty
+632,58,Female,49180,20,Basic,1,8,In-Store,Clothing
+633,58,Female,116601,20,Premium,14,7,In-Store,Home & Kitchen
+634,22,Male,49180,84,Standard,13,2,Online,Sports
+635,58,Male,49180,11,Basic,1,9,In-Store,Home & Kitchen
+636,38,Male,49180,40,Basic,4,3,In-Store,Electronics
+637,22,Male,116601,92,Premium,28,2,Online,Clothing
+638,58,Female,90341,35,Standard,8,7,In-Store,Books
+639,38,Male,49180,64,Basic,5,3,Mobile App,Clothing
+640,58,Female,116601,47,Basic,1,9,In-Store,Clothing
+641,22,Female,49180,90,Standard,14,2,Online,Clothing
+642,58,Female,116601,37,Standard,5,7,In-Store,Books
+643,38,Female,49180,45,Basic,9,5,Online,Home & Kitchen
+644,22,Female,90341,79,Premium,15,2,In-Store,Toys
+645,38,Male,49180,68,Basic,10,3,Mobile App,Home & Kitchen
+646,22,Male,116601,73,Premium,16,1,Online,Electronics
+647,58,Female,116601,25,Premium,8,8,In-Store,Clothing
+648,38,Male,49180,65,Standard,19,5,Mobile App,Home & Kitchen
+649,38,Female,90341,60,Standard,14,6,In-Store,Home & Kitchen
+650,38,Male,49180,76,Standard,12,3,Mobile App,Beauty
+651,38,Male,49180,73,Basic,1,5,Online,Clothing
+652,58,Male,116601,48,Premium,8,6,In-Store,Clothing
+653,22,Male,90341,83,Standard,14,3,Online,Electronics
+654,22,Male,116601,83,Standard,12,3,Online,Electronics
+655,38,Female,49180,56,Basic,9,6,Mobile App,Clothing
+656,22,Male,49180,94,Premium,24,1,Online,Automotive
+657,22,Male,90341,75,Standard,13,4,Mobile App,Sports
+658,38,Male,90341,51,Standard,13,3,In-Store,Clothing
+659,38,Female,49180,72,Basic,3,5,In-Store,Electronics
+660,58,Male,49180,19,Basic,5,5,In-Store,Home & Kitchen
+661,38,Male,90341,67,Standard,13,6,In-Store,Clothing
+662,38,Male,90341,52,Basic,2,5,Mobile App,Beauty
+663,38,Male,90341,49,Standard,14,3,In-Store,Electronics
+664,58,Male,49180,29,Basic,13,8,In-Store,Books
+665,58,Male,116601,18,Premium,4,7,Mobile App,Home & Kitchen
+666,22,Male,49180,73,Basic,9,1,Online,Home & Kitchen
+667,22,Female,90341,78,Basic,1,4,Online,Sports
+668,38,Female,49180,44,Basic,14,3,In-Store,Beauty
+669,38,Female,90341,75,Standard,17,4,Mobile App,Electronics
+670,22,Female,116601,83,Premium,16,2,Mobile App,Clothing
+671,38,Male,49180,79,Basic,12,4,Online,Clothing
+672,38,Female,49180,72,Basic,5,4,Mobile App,Electronics
+673,58,Female,90341,26,Standard,14,6,In-Store,Home & Kitchen
+674,58,Female,49180,32,Standard,1,7,In-Store,Home & Kitchen
+675,38,Female,49180,60,Basic,10,6,Mobile App,Electronics
+676,38,Female,49180,49,Basic,14,6,In-Store,Beauty
+677,38,Male,90341,67,Standard,16,5,Mobile App,Home & Kitchen
+678,38,Female,116601,69,Premium,10,3,Online,Electronics
+679,58,Female,90341,19,Standard,8,8,In-Store,Home & Kitchen
+680,58,Male,116601,15,Premium,8,9,In-Store,Toys
+681,22,Female,90341,96,Standard,19,3,Online,Clothing
+682,58,Female,90341,25,Standard,1,5,In-Store,Sports
+683,58,Male,49180,42,Standard,1,8,In-Store,Home & Kitchen
+684,38,Male,49180,40,Basic,9,3,Online,Electronics
+685,22,Male,49180,93,Basic,10,3,Online,Books
+686,38,Female,116601,62,Standard,10,3,In-Store,Home & Kitchen
+687,58,Male,90341,31,Standard,12,9,In-Store,Beauty
+688,22,Female,90341,76,Standard,19,2,Mobile App,Beauty
+689,22,Male,90341,89,Premium,28,3,Online,Clothing
+690,58,Male,116601,47,Premium,7,9,Online,Home & Kitchen
+691,22,Male,90341,70,Standard,15,1,In-Store,Clothing
+692,22,Male,49180,98,Standard,17,1,Online,Clothing
+693,58,Male,116601,11,Premium,6,7,Online,Electronics
+694,58,Female,49180,10,Standard,3,9,Online,Home & Kitchen
+695,22,Male,49180,92,Basic,6,3,Online,Electronics
+696,22,Female,116601,91,Standard,10,1,Mobile App,Home & Kitchen
+697,38,Female,49180,58,Basic,8,4,Online,Electronics
+698,22,Female,116601,74,Premium,22,4,Online,Clothing
+699,38,Female,90341,53,Standard,16,4,In-Store,Electronics
+700,58,Female,90341,38,Standard,6,7,Online,Books
+701,38,Female,49180,47,Basic,8,3,Mobile App,Electronics
+702,58,Male,90341,46,Basic,4,9,In-Store,Clothing
+703,58,Male,116601,45,Standard,7,6,Online,Books
+704,22,Female,116601,81,Premium,18,1,In-Store,Home & Kitchen
+705,38,Female,116601,46,Premium,13,5,Online,Clothing
+706,58,Female,90341,33,Standard,11,9,In-Store,Home & Kitchen
+707,22,Male,49180,94,Standard,17,4,Online,Clothing
+708,38,Female,90341,65,Standard,16,6,Online,Toys
+709,22,Female,90341,95,Standard,11,2,Mobile App,Automotive
+710,38,Female,90341,72,Standard,17,4,Mobile App,Beauty
+711,58,Male,116601,42,Premium,4,6,In-Store,Automotive
+712,22,Male,49180,94,Basic,9,3,Mobile App,Automotive
+713,58,Female,90341,28,Standard,14,7,In-Store,Clothing
+714,58,Male,116601,27,Premium,10,8,In-Store,Sports
+715,58,Male,49180,39,Basic,11,6,In-Store,Electronics
+716,22,Female,90341,87,Standard,19,4,Online,Sports
+717,58,Female,116601,22,Premium,6,6,In-Store,Home & Kitchen
+718,22,Male,90341,82,Standard,18,3,Online,Books
+719,22,Female,116601,82,Premium,15,2,Online,Clothing
+720,58,Male,49180,40,Basic,8,6,In-Store,Toys
+721,38,Female,90341,56,Standard,12,3,Online,Sports
+722,58,Male,116601,15,Premium,1,6,In-Store,Clothing
+723,22,Male,116601,72,Basic,2,1,Online,Sports
+724,38,Male,49180,66,Standard,17,4,Online,Home & Kitchen
+725,38,Male,90341,40,Standard,14,4,In-Store,Beauty
+726,22,Female,90341,75,Standard,12,2,Online,Clothing
+727,22,Male,90341,84,Standard,12,2,Mobile App,Beauty
+728,58,Female,90341,32,Standard,6,9,In-Store,Books
+729,58,Male,116601,37,Premium,7,6,Online,Home & Kitchen
+730,38,Female,90341,78,Standard,12,6,Mobile App,Electronics
+731,22,Male,116601,81,Basic,6,2,Online,Clothing
+732,38,Female,49180,60,Basic,13,4,In-Store,Electronics
+733,58,Female,90341,15,Standard,5,8,Online,Beauty
+734,22,Female,49180,89,Basic,7,4,Online,Sports
+735,58,Male,90341,15,Basic,7,5,In-Store,Home & Kitchen
+736,58,Female,90341,11,Standard,7,9,In-Store,Sports
+737,38,Male,116601,66,Standard,12,3,Online,Clothing
+738,38,Male,49180,41,Basic,1,5,In-Store,Electronics
+739,38,Female,90341,77,Premium,10,3,In-Store,Beauty
+740,22,Female,90341,98,Standard,15,4,Online,Clothing
+741,38,Female,90341,70,Basic,10,4,In-Store,Books
+742,38,Female,116601,44,Premium,5,3,Online,Electronics
+743,58,Male,90341,12,Standard,12,8,In-Store,Toys
+744,58,Male,116601,37,Premium,3,9,In-Store,Electronics
+745,38,Male,116601,58,Premium,8,6,Online,Electronics
+746,38,Female,90341,41,Standard,13,5,Mobile App,Electronics
+747,38,Female,90341,65,Standard,14,5,Online,Electronics
+748,22,Female,90341,97,Standard,18,3,Online,Toys
+749,58,Female,49180,12,Basic,10,8,In-Store,Books
+750,22,Male,90341,74,Standard,13,2,Online,Books
+751,58,Female,90341,45,Standard,6,6,In-Store,Electronics
+752,38,Male,49180,60,Basic,5,3,Online,Books
+753,38,Male,116601,77,Premium,5,3,In-Store,Sports
+754,38,Female,90341,61,Standard,18,6,In-Store,Beauty
+755,58,Male,116601,27,Premium,2,8,In-Store,Books
+756,22,Female,116601,85,Standard,18,2,In-Store,Beauty
+757,38,Female,49180,74,Basic,14,5,Online,Home & Kitchen
+758,22,Male,49180,72,Basic,10,3,Online,Books
+759,58,Male,90341,43,Premium,6,6,In-Store,Automotive
+760,22,Male,90341,72,Standard,10,3,Online,Clothing
+761,22,Male,49180,71,Basic,1,2,Online,Clothing
+762,58,Female,49180,47,Premium,4,5,In-Store,Home & Kitchen
+763,38,Female,116601,47,Standard,11,6,Mobile App,Automotive
+764,38,Male,90341,68,Standard,11,4,In-Store,Beauty
+765,38,Male,116601,72,Standard,15,5,Online,Home & Kitchen
+766,58,Female,116601,16,Premium,12,8,In-Store,Beauty
+767,22,Male,49180,71,Basic,7,4,Online,Automotive
+768,58,Female,90341,26,Standard,10,7,In-Store,Clothing
+769,22,Female,116601,75,Premium,27,1,Online,Home & Kitchen
+770,58,Male,49180,21,Basic,1,5,In-Store,Automotive
+771,22,Male,49180,71,Basic,2,3,Online,Beauty
+772,58,Male,90341,33,Standard,8,9,In-Store,Home & Kitchen
+773,58,Female,90341,18,Standard,4,8,In-Store,Automotive
+774,58,Male,116601,15,Standard,8,9,In-Store,Home & Kitchen
+775,58,Male,49180,27,Standard,4,7,In-Store,Home & Kitchen
+776,38,Female,90341,60,Standard,10,5,In-Store,Sports
+777,38,Male,90341,42,Standard,13,4,In-Store,Beauty
+778,22,Male,49180,91,Standard,16,1,Online,Clothing
+779,22,Male,49180,96,Standard,16,4,Online,Electronics
+780,22,Male,90341,71,Standard,16,3,In-Store,Beauty
+781,38,Female,49180,68,Basic,8,3,In-Store,Sports
+782,38,Male,116601,70,Premium,7,5,Online,Electronics
+783,22,Male,116601,82,Standard,16,4,Online,Beauty
+784,38,Male,116601,51,Premium,8,6,In-Store,Electronics
+785,22,Female,116601,84,Standard,17,4,Online,Toys
+786,22,Male,116601,80,Standard,15,3,Online,Sports
+787,22,Female,90341,77,Standard,14,4,Online,Beauty
+788,22,Female,90341,87,Standard,17,4,Mobile App,Books
+789,38,Female,116601,70,Standard,16,4,Online,Toys
+790,38,Male,90341,77,Basic,5,5,Online,Home & Kitchen
+791,22,Female,116601,70,Premium,15,2,Online,Electronics
+792,22,Female,116601,85,Premium,15,4,Online,Books
+793,58,Male,116601,24,Basic,13,8,In-Store,Home & Kitchen
+794,58,Female,49180,28,Premium,6,6,Online,Home & Kitchen
+795,58,Female,90341,32,Standard,8,6,In-Store,Beauty
+796,58,Female,90341,20,Standard,12,7,Online,Beauty
+797,38,Male,116601,71,Premium,13,6,Online,Beauty
+798,38,Female,90341,72,Basic,7,3,Online,Automotive
+799,58,Female,90341,39,Standard,7,7,In-Store,Home & Kitchen
+800,38,Female,49180,54,Basic,8,6,Online,Clothing
+801,58,Male,116601,24,Premium,1,7,In-Store,Electronics
+802,38,Female,90341,43,Basic,14,4,Online,Toys
+803,38,Male,116601,64,Premium,5,5,Online,Beauty
+804,58,Female,90341,13,Standard,3,8,Online,Toys
+805,38,Male,116601,71,Premium,8,4,Online,Sports
+806,38,Female,90341,73,Premium,14,6,In-Store,Beauty
+807,58,Male,90341,28,Standard,1,5,In-Store,Home & Kitchen
+808,38,Female,116601,54,Standard,18,3,Mobile App,Clothing
+809,58,Female,49180,36,Basic,3,8,In-Store,Home & Kitchen
+810,22,Female,116601,93,Standard,17,4,Online,Toys
+811,22,Male,116601,90,Basic,1,2,Online,Electronics
+812,22,Female,49180,95,Basic,14,4,Online,Electronics
+813,38,Female,116601,73,Premium,13,3,In-Store,Electronics
+814,22,Male,116601,73,Premium,21,2,Mobile App,Automotive
+815,58,Male,90341,34,Standard,2,7,Online,Home & Kitchen
+816,38,Male,90341,71,Standard,15,5,In-Store,Clothing
+817,58,Female,90341,42,Standard,13,5,In-Store,Beauty
+818,22,Male,49180,88,Basic,7,1,Online,Toys
+819,22,Male,116601,89,Basic,2,1,In-Store,Clothing
+820,58,Male,116601,30,Premium,9,7,In-Store,Toys
+821,22,Male,49180,72,Basic,1,4,Online,Electronics
+822,38,Female,49180,63,Basic,7,4,In-Store,Home & Kitchen
+823,22,Male,90341,70,Standard,14,4,Online,Electronics
+824,58,Male,49180,26,Basic,2,5,In-Store,Books
+825,22,Female,90341,85,Standard,15,1,In-Store,Beauty
+826,38,Female,116601,77,Standard,13,4,In-Store,Home & Kitchen
+827,38,Female,49180,57,Basic,13,3,Mobile App,Electronics
+828,38,Male,49180,54,Basic,7,3,Online,Automotive
+829,38,Male,49180,75,Basic,10,5,In-Store,Clothing
+830,22,Female,49180,93,Standard,10,1,In-Store,Clothing
+831,38,Male,116601,60,Basic,13,3,Online,Clothing
+832,58,Female,90341,10,Basic,12,6,In-Store,Automotive
+833,22,Male,116601,81,Standard,16,1,Mobile App,Clothing
+834,58,Female,49180,21,Basic,11,5,Online,Beauty
+835,22,Female,116601,70,Premium,25,1,Online,Home & Kitchen
+836,58,Male,49180,46,Standard,12,6,In-Store,Home & Kitchen
+837,58,Male,49180,12,Basic,14,9,In-Store,Home & Kitchen
+838,58,Male,116601,49,Standard,14,9,In-Store,Books
+839,38,Female,49180,78,Standard,10,6,Mobile App,Home & Kitchen
+840,22,Female,116601,96,Standard,11,2,Online,Books
+841,38,Female,49180,61,Basic,3,5,Online,Automotive
+842,22,Female,49180,71,Premium,17,1,Online,Clothing
+843,58,Female,90341,10,Basic,5,7,In-Store,Home & Kitchen
+844,38,Female,90341,46,Standard,16,5,In-Store,Books
+845,58,Male,90341,22,Standard,12,6,In-Store,Clothing
+846,38,Male,116601,65,Standard,16,5,Online,Books
+847,22,Female,116601,71,Basic,7,2,Online,Clothing
+848,38,Male,90341,67,Standard,17,6,In-Store,Home & Kitchen
+849,38,Male,90341,48,Standard,14,3,Online,Electronics
+850,22,Male,116601,89,Basic,13,1,Online,Books
+851,22,Male,49180,92,Basic,2,3,Online,Beauty
+852,38,Female,116601,52,Premium,2,6,In-Store,Books
+853,58,Male,49180,23,Standard,11,7,In-Store,Home & Kitchen
+854,38,Male,90341,73,Standard,18,5,Online,Home & Kitchen
+855,38,Male,49180,42,Basic,13,5,In-Store,Home & Kitchen
+856,58,Female,116601,49,Premium,2,6,Mobile App,Sports
+857,58,Male,90341,46,Standard,9,9,Online,Clothing
+858,58,Male,90341,11,Basic,8,7,In-Store,Books
+859,22,Male,49180,70,Standard,15,3,Online,Sports
+860,58,Male,90341,31,Standard,14,6,Mobile App,Beauty
+861,22,Female,49180,79,Premium,20,1,Online,Electronics
+862,38,Male,90341,65,Basic,13,5,In-Store,Home & Kitchen
+863,22,Female,116601,95,Premium,19,4,Online,Clothing
+864,38,Male,90341,76,Standard,15,3,In-Store,Clothing
+865,22,Female,49180,76,Basic,8,1,Online,Clothing
+866,22,Male,90341,93,Standard,17,3,Online,Sports
+867,58,Male,116601,18,Premium,13,7,In-Store,Home & Kitchen
+868,38,Male,49180,76,Basic,6,6,In-Store,Sports
+869,38,Female,90341,51,Standard,10,4,Mobile App,Automotive
+870,22,Female,90341,92,Standard,11,4,Online,Clothing
+871,38,Female,49180,53,Standard,11,4,Mobile App,Electronics
+872,22,Male,90341,91,Standard,10,4,Online,Clothing
+873,38,Male,116601,44,Premium,1,5,In-Store,Sports
+874,38,Female,49180,64,Basic,8,4,Online,Beauty
+875,38,Male,49180,76,Premium,5,4,In-Store,Electronics
+876,22,Male,49180,81,Standard,12,2,In-Store,Clothing
+877,22,Male,49180,73,Premium,19,3,Mobile App,Electronics
+878,58,Female,116601,12,Premium,13,6,In-Store,Toys
+879,58,Male,49180,14,Basic,8,9,In-Store,Books
+880,58,Female,116601,32,Premium,9,5,In-Store,Electronics
+881,22,Female,49180,90,Basic,12,1,Online,Beauty
+882,38,Male,116601,41,Premium,12,4,In-Store,Automotive
+883,22,Male,116601,75,Premium,19,2,Online,Clothing
+884,38,Female,49180,70,Basic,4,3,In-Store,Beauty
+885,58,Male,116601,25,Premium,8,6,In-Store,Home & Kitchen
+886,58,Female,90341,25,Standard,11,7,In-Store,Books
+887,22,Male,90341,94,Standard,14,3,Mobile App,Books
+888,58,Female,49180,44,Basic,1,6,In-Store,Home & Kitchen
+889,38,Female,90341,53,Standard,18,6,Online,Home & Kitchen
+890,58,Male,116601,13,Standard,13,6,Online,Electronics
+891,38,Male,116601,52,Basic,11,6,Online,Clothing
+892,22,Male,49180,80,Basic,14,2,Mobile App,Toys
+893,58,Female,116601,42,Premium,1,9,Mobile App,Home & Kitchen
+894,38,Female,49180,66,Basic,12,3,Online,Clothing
+895,38,Male,116601,72,Premium,5,5,Mobile App,Clothing
+896,38,Female,116601,59,Premium,1,4,In-Store,Toys
+897,58,Male,116601,45,Premium,6,6,Mobile App,Electronics
+898,22,Female,116601,78,Standard,15,3,Online,Clothing
+899,22,Female,116601,89,Premium,18,3,Online,Electronics
+900,58,Male,90341,24,Basic,10,5,Online,Home & Kitchen
+901,38,Male,49180,77,Basic,5,4,Mobile App,Sports
+902,38,Female,116601,66,Basic,3,6,Online,Clothing
+903,58,Male,90341,23,Standard,2,6,Online,Books
+904,38,Male,90341,54,Standard,17,5,Online,Beauty
+905,58,Female,116601,20,Standard,9,7,In-Store,Electronics
+906,22,Female,116601,87,Standard,17,3,Mobile App,Beauty
+907,22,Female,49180,99,Basic,7,2,In-Store,Beauty
+908,38,Female,49180,50,Basic,6,3,Online,Home & Kitchen
+909,58,Male,116601,46,Premium,14,5,Online,Clothing
+910,58,Female,49180,34,Basic,2,6,Online,Electronics
+911,38,Male,49180,79,Basic,14,5,In-Store,Beauty
+912,38,Male,49180,67,Basic,6,5,Online,Home & Kitchen
+913,22,Male,90341,95,Standard,16,4,In-Store,Clothing
+914,38,Male,90341,43,Standard,16,5,Online,Home & Kitchen
+915,22,Male,116601,71,Standard,10,2,Mobile App,Clothing
+916,38,Male,116601,46,Standard,14,5,Online,Electronics
+917,22,Male,49180,70,Premium,17,1,Online,Clothing
+918,58,Female,116601,21,Premium,13,7,In-Store,Beauty
+919,38,Female,49180,48,Basic,8,4,In-Store,Sports
+920,38,Male,90341,63,Standard,11,5,Online,Beauty
+921,38,Male,90341,74,Standard,17,5,Online,Automotive
+922,58,Female,116601,38,Premium,5,9,In-Store,Books
+923,58,Female,90341,41,Premium,9,7,In-Store,Home & Kitchen
+924,22,Male,90341,80,Basic,6,1,Online,Home & Kitchen
+925,38,Female,116601,64,Premium,3,6,Online,Automotive
+926,58,Female,116601,26,Premium,14,5,In-Store,Electronics
+927,38,Male,90341,76,Standard,16,4,Online,Clothing
+928,58,Male,90341,17,Basic,3,8,In-Store,Electronics
+929,22,Female,49180,75,Basic,6,1,In-Store,Toys
+930,58,Female,49180,14,Basic,8,5,In-Store,Books
+931,38,Male,49180,70,Basic,10,5,Online,Beauty
+932,22,Female,90341,97,Standard,17,3,Online,Beauty
+933,22,Female,116601,74,Standard,16,2,In-Store,Toys
+934,58,Female,116601,34,Standard,5,8,In-Store,Sports
+935,22,Male,90341,70,Standard,13,3,Online,Clothing
+936,22,Male,116601,74,Premium,27,4,Online,Electronics
+937,38,Male,49180,52,Basic,12,4,Online,Electronics
+938,58,Male,116601,11,Premium,6,5,In-Store,Automotive
+939,58,Female,116601,49,Premium,11,6,In-Store,Books
+940,58,Female,90341,35,Standard,3,5,In-Store,Books
+941,38,Male,49180,63,Standard,14,4,Online,Clothing
+942,38,Female,116601,70,Premium,2,3,Mobile App,Electronics
+943,38,Male,49180,69,Standard,15,5,Online,Home & Kitchen
+944,58,Male,49180,39,Standard,13,6,Mobile App,Books
+945,22,Male,90341,89,Basic,1,3,Online,Home & Kitchen
+946,22,Female,116601,98,Premium,20,4,Online,Home & Kitchen
+947,22,Male,116601,78,Basic,3,1,Online,Toys
+948,38,Male,90341,78,Standard,12,4,Online,Beauty
+949,38,Female,49180,49,Basic,11,4,In-Store,Clothing
+950,58,Male,116601,27,Standard,10,8,In-Store,Electronics
+951,58,Male,116601,49,Premium,8,6,In-Store,Electronics
+952,22,Male,90341,77,Standard,18,3,Online,Home & Kitchen
+953,38,Female,49180,58,Basic,1,4,In-Store,Sports
+954,38,Male,116601,54,Premium,6,5,In-Store,Beauty
+955,22,Female,116601,93,Basic,4,1,Online,Electronics
+956,22,Male,49180,71,Premium,16,1,Online,Clothing
+957,22,Female,90341,93,Standard,10,2,Online,Toys
+958,38,Male,116601,42,Premium,3,5,In-Store,Automotive
+959,58,Male,116601,40,Premium,5,9,In-Store,Beauty
+960,58,Male,49180,10,Basic,5,5,In-Store,Home & Kitchen
+961,38,Female,49180,44,Basic,10,3,Online,Beauty
+962,22,Male,90341,83,Basic,14,3,Online,Toys
+963,58,Male,116601,27,Premium,6,6,In-Store,Home & Kitchen
+964,38,Female,49180,54,Basic,1,5,In-Store,Clothing
+965,38,Female,90341,78,Standard,19,4,In-Store,Beauty
+966,38,Female,90341,46,Standard,16,6,Online,Electronics
+967,22,Female,49180,74,Basic,1,1,Online,Electronics
+968,22,Female,90341,88,Standard,19,4,Online,Home & Kitchen
+969,58,Female,49180,14,Standard,1,7,In-Store,Home & Kitchen
+970,38,Male,116601,77,Premium,10,4,In-Store,Clothing
+971,22,Female,90341,82,Basic,11,1,Mobile App,Beauty
+972,58,Female,116601,41,Premium,11,5,In-Store,Clothing
+973,58,Male,116601,47,Premium,3,5,In-Store,Beauty
+974,22,Female,116601,97,Premium,27,3,Mobile App,Toys
+975,58,Male,116601,49,Premium,5,6,Online,Home & Kitchen
+976,58,Male,49180,12,Basic,7,8,Online,Sports
+977,22,Male,90341,80,Standard,13,2,Online,Beauty
+978,38,Male,90341,40,Standard,18,6,Mobile App,Electronics
+979,22,Male,116601,98,Premium,27,1,Online,Books
+980,22,Male,49180,91,Basic,14,3,Online,Home & Kitchen
+981,22,Male,116601,95,Premium,29,2,In-Store,Home & Kitchen
+982,38,Male,49180,52,Standard,17,6,Mobile App,Electronics
+983,38,Male,90341,66,Standard,13,4,In-Store,Clothing
+984,58,Male,90341,48,Standard,9,9,Mobile App,Beauty
+985,58,Female,49180,40,Basic,1,8,Online,Automotive
+986,22,Male,116601,72,Premium,17,3,Mobile App,Clothing
+987,22,Female,90341,91,Standard,12,4,Online,Clothing
+988,58,Male,90341,32,Basic,12,8,Mobile App,Electronics
+989,38,Female,90341,77,Standard,10,3,In-Store,Clothing
+990,38,Male,116601,79,Premium,10,3,Online,Home & Kitchen
+991,22,Female,49180,90,Basic,3,3,Mobile App,Home & Kitchen
+992,38,Female,49180,77,Basic,10,3,In-Store,Clothing
+993,22,Male,116601,83,Standard,19,2,Mobile App,Home & Kitchen
+994,22,Male,49180,83,Basic,7,4,In-Store,Home & Kitchen
+995,38,Female,116601,68,Premium,10,5,Mobile App,Clothing
+996,58,Male,116601,17,Standard,3,5,In-Store,Books
+997,58,Female,90341,14,Basic,6,5,Online,Home & Kitchen
+998,58,Male,90341,21,Standard,11,9,In-Store,Electronics
+999,58,Male,116601,14,Premium,1,7,In-Store,Toys
+1000,58,Female,116601,11,Premium,8,8,Online,Home & Kitchen
+1001,58,Female,49180,34,Basic,4,6,In-Store,Automotive
+1002,22,Male,49180,92,Basic,6,3,Online,Clothing
+1003,22,Male,116601,74,Standard,18,3,In-Store,Electronics
+1004,22,Female,90341,81,Standard,10,3,Online,Clothing
+1005,58,Male,116601,17,Basic,10,6,Online,Home & Kitchen
+1006,22,Male,49180,81,Basic,14,4,Online,Clothing
+1007,58,Female,116601,22,Premium,1,9,In-Store,Books
+1008,38,Female,90341,53,Standard,10,4,Mobile App,Clothing
+1009,22,Female,116601,95,Standard,17,3,Online,Clothing
+1010,22,Female,49180,98,Standard,17,4,Online,Beauty
+1011,38,Male,49180,59,Premium,9,3,Online,Home & Kitchen
+1012,38,Male,90341,47,Standard,15,4,In-Store,Toys
+1013,22,Male,116601,86,Premium,24,4,Online,Clothing
+1014,58,Male,49180,47,Basic,12,8,In-Store,Beauty
+1015,58,Female,116601,42,Basic,11,9,In-Store,Home & Kitchen
+1016,22,Female,90341,84,Standard,15,1,Online,Beauty
+1017,58,Female,116601,10,Standard,9,9,In-Store,Home & Kitchen
+1018,38,Female,49180,77,Basic,6,5,Online,Clothing
+1019,38,Female,90341,77,Premium,8,6,Mobile App,Electronics
+1020,58,Female,116601,42,Premium,8,6,In-Store,Home & Kitchen
+1021,22,Male,116601,88,Premium,23,1,Online,Electronics
+1022,38,Male,116601,60,Premium,5,3,Mobile App,Electronics
+1023,22,Male,49180,72,Basic,1,4,Online,Clothing
+1024,58,Male,90341,32,Basic,5,9,In-Store,Clothing
+1025,58,Female,116601,20,Basic,6,6,In-Store,Home & Kitchen
+1026,38,Female,116601,75,Premium,1,3,Mobile App,Clothing
+1027,38,Male,90341,57,Standard,13,5,Online,Home & Kitchen
+1028,38,Female,49180,69,Basic,13,4,Online,Automotive
+1029,22,Female,90341,72,Premium,22,3,Mobile App,Sports
+1030,38,Female,90341,41,Standard,12,6,Online,Clothing
+1031,58,Male,49180,27,Basic,4,6,In-Store,Electronics
+1032,22,Female,90341,95,Standard,17,1,Mobile App,Sports
+1033,58,Female,116601,37,Premium,12,7,In-Store,Books
+1034,58,Male,49180,37,Basic,6,9,Online,Home & Kitchen
+1035,38,Male,49180,60,Basic,7,3,In-Store,Home & Kitchen
+1036,38,Female,49180,48,Basic,6,5,In-Store,Home & Kitchen
+1037,58,Male,116601,27,Basic,10,5,In-Store,Beauty
+1038,58,Female,49180,14,Basic,8,9,In-Store,Automotive
+1039,22,Male,49180,84,Basic,3,2,Mobile App,Clothing
+1040,22,Male,90341,79,Standard,12,3,Online,Electronics
+1041,58,Male,90341,28,Standard,6,9,In-Store,Beauty
+1042,38,Female,49180,69,Basic,5,4,In-Store,Home & Kitchen
+1043,22,Male,49180,72,Standard,10,1,Online,Electronics
+1044,38,Female,90341,56,Basic,5,4,In-Store,Clothing
+1045,58,Female,49180,31,Basic,3,8,In-Store,Books
+1046,38,Male,49180,52,Basic,14,3,In-Store,Home & Kitchen
+1047,22,Male,49180,82,Basic,6,4,Online,Electronics
+1048,58,Female,116601,33,Premium,12,9,In-Store,Books
+1049,38,Female,116601,59,Premium,3,4,Online,Clothing
+1050,38,Male,90341,40,Standard,12,5,Mobile App,Electronics
+1051,58,Female,49180,24,Basic,2,5,In-Store,Home & Kitchen
+1052,38,Female,49180,70,Standard,19,3,In-Store,Beauty
+1053,38,Male,90341,45,Standard,11,5,Mobile App,Electronics
+1054,38,Female,49180,69,Basic,11,3,In-Store,Home & Kitchen
+1055,22,Male,90341,83,Standard,13,4,Online,Clothing
+1056,58,Male,49180,23,Basic,14,6,In-Store,Sports
+1057,22,Male,90341,75,Standard,17,1,Online,Beauty
+1058,22,Female,49180,79,Basic,3,3,Online,Electronics
+1059,58,Male,49180,35,Standard,8,7,In-Store,Beauty
+1060,22,Male,116601,93,Basic,6,1,Online,Beauty
+1061,22,Male,49180,85,Basic,12,1,Mobile App,Sports
+1062,22,Male,90341,83,Standard,12,2,Online,Automotive
+1063,58,Male,49180,40,Basic,12,7,In-Store,Home & Kitchen
+1064,38,Male,116601,71,Premium,6,4,In-Store,Home & Kitchen
+1065,38,Male,90341,61,Standard,18,6,In-Store,Sports
+1066,38,Female,116601,76,Basic,5,4,Online,Home & Kitchen
+1067,38,Male,116601,62,Premium,14,5,Online,Home & Kitchen
+1068,22,Female,90341,70,Basic,8,3,Online,Sports
+1069,38,Male,116601,44,Premium,8,3,Mobile App,Clothing
+1070,38,Male,116601,58,Premium,6,4,Online,Clothing
+1071,58,Male,90341,15,Premium,1,5,Mobile App,Clothing
+1072,58,Female,49180,11,Basic,4,5,In-Store,Beauty
+1073,22,Female,49180,95,Basic,14,1,Online,Electronics
+1074,38,Female,116601,78,Basic,9,5,In-Store,Electronics
+1075,38,Male,90341,52,Premium,2,4,In-Store,Beauty
+1076,38,Male,116601,59,Premium,8,3,Online,Electronics
+1077,38,Male,49180,59,Basic,10,3,Mobile App,Beauty
+1078,58,Male,49180,49,Basic,6,9,In-Store,Sports
+1079,38,Male,49180,69,Basic,2,4,In-Store,Sports
+1080,38,Male,49180,48,Standard,16,4,In-Store,Books
+1081,22,Female,49180,90,Basic,4,3,Online,Home & Kitchen
+1082,22,Female,49180,99,Basic,10,1,Online,Automotive
+1083,22,Male,90341,89,Standard,12,3,Online,Toys
+1084,58,Female,90341,30,Standard,11,9,In-Store,Books
+1085,38,Male,90341,56,Standard,12,3,In-Store,Sports
+1086,38,Male,116601,66,Premium,9,4,Online,Home & Kitchen
+1087,22,Female,90341,98,Basic,4,1,Online,Beauty
+1088,22,Female,90341,84,Basic,11,2,In-Store,Clothing
+1089,58,Male,116601,16,Standard,7,5,In-Store,Electronics
+1090,58,Male,49180,37,Basic,10,5,In-Store,Sports
+1091,22,Female,49180,93,Basic,1,4,Online,Beauty
+1092,58,Female,49180,49,Standard,7,5,In-Store,Clothing
+1093,38,Male,116601,55,Standard,12,4,In-Store,Home & Kitchen
+1094,58,Female,116601,29,Premium,4,6,In-Store,Home & Kitchen
+1095,38,Female,90341,76,Standard,16,4,Online,Clothing
+1096,58,Male,116601,26,Premium,1,8,In-Store,Home & Kitchen
+1097,38,Male,116601,76,Standard,16,5,In-Store,Electronics
+1098,38,Female,116601,72,Premium,5,6,Online,Books
+1099,38,Male,49180,41,Basic,2,6,In-Store,Automotive
+1100,38,Female,90341,70,Basic,13,4,Online,Books
+1101,58,Female,90341,13,Standard,3,9,In-Store,Sports
+1102,58,Male,90341,37,Standard,4,6,In-Store,Automotive
+1103,38,Male,49180,43,Basic,4,6,Online,Electronics
+1104,38,Female,90341,70,Basic,14,6,Online,Home & Kitchen
+1105,22,Male,116601,76,Standard,17,3,Online,Beauty
+1106,38,Male,49180,50,Basic,12,4,In-Store,Sports
+1107,58,Male,116601,32,Basic,1,6,In-Store,Home & Kitchen
+1108,38,Male,90341,43,Basic,5,6,Mobile App,Clothing
+1109,58,Female,116601,38,Premium,14,9,Mobile App,Clothing
+1110,58,Female,49180,30,Premium,13,6,In-Store,Automotive
+1111,58,Female,49180,44,Standard,1,8,In-Store,Sports
+1112,58,Female,90341,37,Premium,12,8,Online,Automotive
+1113,58,Female,116601,33,Premium,7,9,In-Store,Home & Kitchen
+1114,38,Female,49180,59,Standard,15,5,Online,Electronics
+1115,58,Male,116601,42,Premium,14,6,In-Store,Electronics
+1116,22,Female,49180,90,Basic,3,1,Online,Automotive
+1117,38,Male,49180,71,Basic,5,5,Mobile App,Home & Kitchen
+1118,38,Female,49180,65,Basic,1,5,Mobile App,Electronics
+1119,58,Male,90341,31,Basic,3,5,In-Store,Clothing
+1120,22,Male,90341,73,Basic,7,4,Online,Sports
+1121,38,Male,116601,65,Premium,6,6,In-Store,Sports
+1122,22,Female,90341,80,Standard,13,1,Mobile App,Clothing
+1123,38,Female,90341,42,Standard,10,5,Online,Beauty
+1124,38,Male,49180,59,Standard,12,6,Mobile App,Beauty
+1125,58,Male,90341,12,Basic,7,5,In-Store,Home & Kitchen
+1126,38,Male,90341,48,Standard,18,4,In-Store,Toys
+1127,38,Male,90341,53,Standard,19,5,In-Store,Books
+1128,38,Male,90341,77,Basic,1,3,Mobile App,Clothing
+1129,22,Male,90341,95,Basic,11,1,Online,Electronics
+1130,22,Male,116601,82,Premium,22,2,Online,Clothing
+1131,22,Female,90341,78,Standard,11,1,Online,Clothing
+1132,38,Male,49180,52,Basic,9,5,Mobile App,Clothing
+1133,58,Male,90341,43,Standard,11,8,Mobile App,Home & Kitchen
+1134,22,Male,90341,75,Standard,14,1,Online,Electronics
+1135,22,Male,49180,98,Premium,27,3,Online,Electronics
+1136,38,Female,116601,42,Premium,5,6,Mobile App,Sports
+1137,38,Female,90341,62,Basic,10,4,In-Store,Home & Kitchen
+1138,38,Male,49180,74,Standard,18,4,In-Store,Beauty
+1139,22,Female,116601,96,Premium,27,3,Mobile App,Home & Kitchen
+1140,38,Male,49180,49,Basic,11,3,Online,Beauty
+1141,58,Male,116601,47,Premium,10,9,In-Store,Books
+1142,22,Male,116601,95,Premium,25,3,Online,Sports
+1143,38,Male,90341,45,Standard,17,3,Online,Electronics
+1144,38,Female,90341,41,Standard,14,4,Online,Home & Kitchen
+1145,22,Male,90341,73,Standard,14,1,Online,Beauty
+1146,22,Male,49180,82,Premium,23,2,Mobile App,Clothing
+1147,38,Male,49180,57,Basic,9,4,In-Store,Beauty
+1148,22,Female,49180,87,Basic,10,2,Online,Electronics
+1149,22,Female,116601,79,Premium,18,3,In-Store,Beauty
+1150,22,Female,49180,85,Basic,9,4,Online,Sports
+1151,58,Male,90341,40,Standard,4,6,In-Store,Automotive
+1152,58,Female,116601,41,Standard,1,6,In-Store,Home & Kitchen
+1153,22,Male,49180,98,Basic,11,1,Online,Books
+1154,22,Female,116601,75,Premium,15,4,Online,Clothing
+1155,38,Female,116601,67,Standard,14,6,Online,Automotive
+1156,22,Male,49180,72,Standard,17,1,Online,Beauty
+1157,38,Female,116601,50,Premium,9,5,In-Store,Beauty
+1158,38,Female,116601,41,Premium,7,3,Mobile App,Electronics
+1159,38,Female,49180,62,Basic,8,3,Mobile App,Automotive
+1160,58,Female,49180,23,Premium,4,5,Mobile App,Home & Kitchen
+1161,58,Male,90341,21,Basic,6,9,In-Store,Books
+1162,22,Female,90341,91,Premium,15,1,Mobile App,Sports
+1163,22,Female,90341,95,Standard,10,3,Mobile App,Clothing
+1164,22,Female,116601,96,Premium,21,2,Mobile App,Home & Kitchen
+1165,38,Male,49180,62,Basic,1,4,In-Store,Toys
+1166,22,Female,116601,83,Premium,28,4,In-Store,Electronics
+1167,22,Female,116601,95,Premium,25,4,Mobile App,Clothing
+1168,38,Male,49180,48,Basic,9,6,In-Store,Sports
+1169,58,Male,116601,29,Premium,6,9,In-Store,Automotive
+1170,22,Female,90341,92,Premium,23,1,Online,Clothing
+1171,58,Male,116601,36,Premium,8,7,In-Store,Books
+1172,58,Male,49180,37,Basic,1,5,In-Store,Clothing
+1173,22,Male,90341,78,Standard,13,4,In-Store,Electronics
+1174,38,Female,116601,47,Standard,16,5,Online,Electronics
+1175,22,Male,90341,89,Standard,19,3,Online,Electronics
+1176,22,Male,116601,98,Standard,10,1,Online,Beauty
+1177,58,Female,116601,20,Premium,11,5,In-Store,Automotive
+1178,58,Female,49180,33,Basic,7,8,In-Store,Books
+1179,58,Female,49180,35,Basic,7,8,In-Store,Automotive
+1180,22,Female,116601,74,Basic,6,4,Mobile App,Electronics
+1181,38,Female,49180,41,Basic,7,5,In-Store,Electronics
+1182,22,Female,49180,96,Premium,20,3,Mobile App,Sports
+1183,38,Female,90341,62,Standard,11,5,Mobile App,Electronics
+1184,58,Male,49180,42,Basic,14,7,Mobile App,Home & Kitchen
+1185,38,Female,116601,60,Standard,15,3,In-Store,Sports
+1186,38,Male,116601,68,Premium,10,6,Online,Home & Kitchen
+1187,22,Female,90341,76,Premium,28,1,Online,Electronics
+1188,22,Female,49180,89,Basic,5,3,Online,Home & Kitchen
+1189,38,Female,116601,65,Standard,17,6,Online,Electronics
+1190,22,Male,90341,93,Standard,10,2,Online,Beauty
+1191,38,Female,49180,69,Basic,8,4,Online,Beauty
+1192,22,Female,116601,87,Premium,21,3,Online,Electronics
+1193,58,Male,49180,35,Basic,3,8,In-Store,Beauty
+1194,22,Female,90341,87,Premium,15,1,Online,Electronics
+1195,22,Female,49180,96,Premium,29,4,Online,Clothing
+1196,22,Female,90341,97,Standard,12,4,Mobile App,Toys
+1197,38,Female,49180,52,Basic,7,6,In-Store,Home & Kitchen
+1198,38,Female,49180,45,Standard,12,5,Online,Toys
+1199,58,Female,116601,26,Standard,11,8,In-Store,Automotive
+1200,38,Female,90341,45,Premium,7,6,Mobile App,Clothing
+1201,58,Male,116601,41,Standard,4,8,Online,Books
+1202,22,Female,116601,85,Premium,21,4,Mobile App,Toys
+1203,22,Male,49180,88,Basic,13,2,Mobile App,Beauty
+1204,38,Male,90341,73,Basic,11,6,In-Store,Clothing
+1205,38,Female,116601,71,Standard,16,3,Mobile App,Beauty
+1206,22,Female,116601,94,Standard,12,3,Online,Electronics
+1207,38,Female,49180,75,Basic,13,5,Mobile App,Electronics
+1208,22,Female,49180,85,Basic,5,4,In-Store,Home & Kitchen
+1209,38,Male,49180,59,Basic,9,4,Online,Clothing
+1210,22,Male,116601,93,Premium,28,3,Online,Automotive
+1211,38,Male,90341,59,Standard,13,4,Online,Clothing
+1212,22,Female,116601,81,Standard,14,3,Online,Sports
+1213,38,Female,116601,45,Premium,8,6,Online,Electronics
+1214,22,Male,116601,77,Premium,21,2,Online,Clothing
+1215,22,Male,49180,71,Premium,17,3,In-Store,Beauty
+1216,22,Female,49180,92,Basic,1,4,Online,Electronics
+1217,38,Female,90341,65,Premium,14,3,In-Store,Clothing
+1218,38,Female,116601,55,Standard,16,6,Online,Beauty
+1219,38,Female,49180,56,Standard,10,3,Online,Clothing
+1220,58,Male,49180,27,Basic,2,8,In-Store,Books
+1221,22,Male,116601,90,Premium,26,1,Mobile App,Toys
+1222,22,Female,116601,79,Premium,18,3,Online,Home & Kitchen
+1223,22,Male,49180,99,Basic,12,3,Online,Electronics
+1224,58,Male,49180,32,Basic,14,7,In-Store,Automotive
+1225,38,Male,49180,71,Basic,7,5,In-Store,Toys
+1226,22,Female,90341,97,Basic,10,4,In-Store,Clothing
+1227,22,Female,90341,96,Standard,17,1,Online,Clothing
+1228,22,Female,49180,84,Basic,7,1,Online,Electronics
+1229,22,Female,49180,96,Basic,3,3,Online,Automotive
+1230,22,Female,90341,72,Standard,16,4,Online,Clothing
+1231,22,Female,116601,84,Premium,26,4,Online,Clothing
+1232,22,Female,116601,88,Standard,13,4,Online,Toys
+1233,58,Male,90341,27,Basic,8,6,In-Store,Toys
+1234,22,Female,90341,78,Standard,14,3,Online,Electronics
+1235,58,Female,90341,30,Standard,13,5,In-Store,Home & Kitchen
+1236,22,Male,49180,96,Basic,14,4,Mobile App,Home & Kitchen
+1237,58,Female,116601,11,Premium,14,6,In-Store,Home & Kitchen
+1238,58,Male,90341,31,Standard,3,7,In-Store,Electronics
+1239,22,Female,116601,74,Standard,12,1,Online,Beauty
+1240,22,Female,49180,93,Basic,14,1,Online,Clothing
+1241,58,Female,116601,27,Premium,5,6,In-Store,Automotive
+1242,58,Female,116601,34,Premium,3,7,In-Store,Electronics
+1243,38,Female,116601,71,Premium,12,6,Mobile App,Clothing
+1244,22,Female,49180,74,Basic,13,3,Online,Home & Kitchen
+1245,22,Male,116601,98,Premium,19,1,Online,Electronics
+1246,38,Male,49180,69,Premium,8,5,Online,Electronics
+1247,58,Male,49180,37,Basic,6,8,In-Store,Home & Kitchen
+1248,58,Female,116601,33,Premium,12,8,Online,Home & Kitchen
+1249,58,Female,116601,13,Premium,3,7,In-Store,Electronics
+1250,38,Male,49180,79,Standard,13,4,In-Store,Electronics
+1251,58,Female,116601,20,Premium,3,7,In-Store,Home & Kitchen
+1252,38,Male,116601,57,Standard,18,4,Mobile App,Electronics
+1253,58,Male,49180,47,Basic,10,7,In-Store,Sports
+1254,58,Female,90341,46,Standard,14,6,In-Store,Electronics
+1255,22,Male,49180,76,Basic,6,4,Online,Clothing
+1256,58,Male,49180,16,Standard,13,8,In-Store,Home & Kitchen
+1257,38,Male,116601,41,Premium,11,5,In-Store,Home & Kitchen
+1258,22,Male,90341,73,Basic,10,3,Online,Clothing
+1259,38,Female,49180,40,Basic,14,5,Online,Books
+1260,58,Male,49180,11,Basic,12,5,In-Store,Home & Kitchen
+1261,58,Female,90341,20,Standard,4,7,Online,Home & Kitchen
+1262,58,Male,49180,49,Standard,13,6,In-Store,Sports
+1263,22,Male,90341,81,Standard,10,4,Online,Sports
+1264,38,Female,49180,44,Standard,14,6,In-Store,Home & Kitchen
+1265,38,Male,116601,40,Premium,7,6,In-Store,Beauty
+1266,58,Male,116601,25,Premium,13,8,Mobile App,Clothing
+1267,38,Female,49180,41,Standard,11,4,Online,Home & Kitchen
+1268,58,Female,116601,15,Premium,5,7,Online,Clothing
+1269,58,Female,116601,22,Premium,9,6,Online,Automotive
+1270,38,Female,90341,58,Standard,15,4,In-Store,Clothing
+1271,22,Female,116601,80,Standard,11,2,Mobile App,Electronics
+1272,22,Female,90341,79,Standard,15,3,Online,Beauty
+1273,38,Female,90341,79,Standard,10,4,In-Store,Beauty
+1274,22,Female,116601,97,Premium,18,3,Online,Home & Kitchen
+1275,22,Male,116601,88,Premium,27,3,Online,Sports
+1276,58,Male,90341,12,Standard,4,5,Mobile App,Automotive
+1277,58,Male,90341,24,Standard,12,6,In-Store,Books
+1278,58,Female,90341,14,Basic,1,9,In-Store,Home & Kitchen
+1279,22,Female,90341,92,Premium,19,3,Online,Electronics
+1280,38,Female,49180,57,Basic,2,5,Online,Electronics
+1281,58,Female,116601,27,Basic,10,5,In-Store,Books
+1282,38,Male,90341,79,Basic,1,3,Mobile App,Clothing
+1283,38,Male,116601,60,Premium,11,5,Online,Electronics
+1284,22,Male,116601,78,Standard,17,3,Online,Home & Kitchen
+1285,22,Female,49180,82,Basic,5,2,In-Store,Toys
+1286,22,Female,116601,87,Premium,28,1,Mobile App,Clothing
+1287,22,Female,90341,93,Standard,16,4,Mobile App,Sports
+1288,38,Male,49180,50,Basic,11,4,In-Store,Electronics
+1289,22,Male,116601,96,Premium,15,1,Online,Sports
+1290,38,Female,49180,47,Standard,18,5,Online,Toys
+1291,22,Female,116601,99,Premium,20,4,In-Store,Beauty
+1292,22,Female,90341,81,Standard,11,1,Online,Electronics
+1293,22,Male,49180,74,Basic,3,2,Mobile App,Toys
+1294,38,Male,49180,65,Premium,10,3,In-Store,Electronics
+1295,38,Male,49180,71,Standard,15,3,Online,Beauty
+1296,58,Female,90341,26,Standard,11,8,Online,Home & Kitchen
+1297,38,Male,116601,42,Premium,1,3,In-Store,Beauty
+1298,38,Female,90341,54,Premium,9,5,In-Store,Automotive
+1299,38,Female,116601,72,Standard,13,6,In-Store,Clothing
+1300,22,Male,90341,82,Basic,13,2,Online,Toys
+1301,58,Male,90341,35,Standard,2,7,In-Store,Home & Kitchen
+1302,22,Female,116601,92,Premium,23,1,Mobile App,Home & Kitchen
+1303,38,Female,90341,47,Standard,11,3,Online,Beauty
+1304,58,Female,116601,40,Standard,4,8,In-Store,Clothing
+1305,38,Male,49180,60,Standard,12,4,In-Store,Clothing
+1306,22,Male,116601,84,Premium,17,4,In-Store,Clothing
+1307,22,Female,49180,84,Basic,6,1,In-Store,Home & Kitchen
+1308,38,Female,116601,49,Premium,6,3,In-Store,Beauty
+1309,22,Male,49180,99,Basic,2,4,Mobile App,Beauty
+1310,38,Female,116601,63,Basic,3,3,Online,Beauty
+1311,58,Male,90341,21,Standard,4,9,In-Store,Clothing
+1312,58,Female,90341,10,Standard,7,9,In-Store,Electronics
+1313,38,Female,49180,70,Premium,4,4,Online,Electronics
+1314,58,Female,116601,19,Premium,3,5,Online,Books
+1315,38,Female,90341,42,Standard,11,4,In-Store,Electronics
+1316,22,Male,49180,75,Standard,17,4,Mobile App,Beauty
+1317,38,Female,49180,69,Basic,1,3,Online,Beauty
+1318,38,Male,49180,47,Basic,8,5,Mobile App,Home & Kitchen
+1319,58,Female,90341,37,Basic,3,6,Online,Home & Kitchen
+1320,38,Male,116601,42,Standard,17,5,Mobile App,Beauty
+1321,38,Male,90341,40,Basic,4,4,In-Store,Electronics
+1322,58,Female,116601,10,Standard,11,8,In-Store,Home & Kitchen
+1323,58,Male,116601,24,Premium,13,6,In-Store,Home & Kitchen
+1324,22,Male,49180,88,Basic,7,4,Online,Electronics
+1325,22,Female,116601,77,Premium,16,2,Online,Beauty
+1326,22,Female,90341,73,Standard,18,1,Mobile App,Toys
+1327,38,Male,49180,46,Standard,14,5,Online,Beauty
+1328,22,Female,49180,91,Basic,9,4,Online,Home & Kitchen
+1329,38,Male,49180,44,Standard,15,6,Online,Sports
+1330,22,Female,49180,99,Standard,19,1,Online,Clothing
+1331,38,Male,116601,51,Basic,8,6,Mobile App,Sports
+1332,38,Male,116601,42,Premium,11,4,Online,Electronics
+1333,38,Male,116601,75,Premium,3,5,Online,Home & Kitchen
+1334,58,Male,90341,42,Standard,3,7,In-Store,Books
+1335,22,Male,90341,85,Basic,7,4,Online,Electronics
+1336,38,Male,49180,46,Basic,6,3,In-Store,Electronics
+1337,22,Male,49180,84,Standard,17,3,Online,Electronics
+1338,58,Female,90341,18,Standard,5,5,In-Store,Books
+1339,58,Male,90341,23,Basic,11,6,In-Store,Automotive
+1340,22,Female,49180,81,Basic,13,1,Online,Toys
+1341,58,Female,116601,25,Premium,7,6,In-Store,Books
+1342,22,Male,116601,73,Premium,19,2,Online,Clothing
+1343,58,Male,116601,17,Standard,7,5,In-Store,Home & Kitchen
+1344,38,Female,116601,44,Basic,3,3,In-Store,Home & Kitchen
+1345,38,Female,49180,61,Premium,12,5,Online,Clothing
+1346,38,Male,116601,40,Premium,10,4,Mobile App,Beauty
+1347,22,Female,90341,87,Standard,17,3,Online,Clothing
+1348,58,Female,116601,20,Standard,14,9,Online,Home & Kitchen
+1349,58,Female,49180,11,Basic,5,9,In-Store,Home & Kitchen
+1350,58,Female,116601,20,Standard,8,6,Online,Electronics
+1351,22,Female,90341,93,Standard,11,1,In-Store,Beauty
+1352,38,Male,90341,68,Standard,12,5,Mobile App,Sports
+1353,38,Male,116601,53,Basic,3,5,In-Store,Electronics
+1354,38,Female,90341,76,Standard,13,4,Online,Clothing
+1355,58,Female,116601,12,Premium,2,6,Mobile App,Toys
+1356,58,Female,116601,15,Premium,8,8,In-Store,Automotive
+1357,38,Female,90341,72,Standard,10,3,In-Store,Electronics
+1358,22,Female,49180,71,Basic,10,1,Online,Automotive
+1359,58,Male,49180,40,Basic,1,8,In-Store,Automotive
+1360,58,Female,49180,22,Basic,9,7,In-Store,Books
+1361,38,Male,116601,75,Standard,18,5,Mobile App,Home & Kitchen
+1362,58,Male,49180,23,Basic,9,7,In-Store,Home & Kitchen
+1363,58,Female,49180,47,Premium,10,9,In-Store,Electronics
+1364,58,Male,90341,22,Standard,6,5,Online,Books
+1365,38,Male,90341,46,Basic,10,6,Mobile App,Sports
+1366,58,Male,116601,44,Premium,13,8,In-Store,Books
+1367,58,Female,116601,28,Standard,1,9,In-Store,Home & Kitchen
+1368,38,Female,49180,54,Basic,13,5,Mobile App,Beauty
+1369,38,Female,90341,57,Standard,14,4,In-Store,Clothing
+1370,58,Male,90341,23,Standard,5,9,Online,Toys
+1371,38,Female,90341,64,Standard,19,6,In-Store,Home & Kitchen
+1372,58,Female,49180,44,Basic,8,8,In-Store,Home & Kitchen
+1373,22,Male,116601,94,Standard,13,3,Online,Clothing
+1374,22,Female,116601,79,Premium,22,3,Online,Electronics
+1375,58,Female,90341,34,Standard,10,8,Mobile App,Clothing
+1376,58,Male,49180,12,Premium,4,7,In-Store,Beauty
+1377,58,Female,116601,20,Premium,1,8,Online,Automotive
+1378,22,Female,116601,80,Premium,20,1,Online,Clothing
+1379,58,Female,116601,36,Premium,5,5,In-Store,Clothing
+1380,58,Female,116601,32,Premium,3,7,In-Store,Clothing
+1381,38,Female,116601,58,Premium,2,3,In-Store,Home & Kitchen
+1382,38,Male,116601,41,Basic,5,4,Online,Beauty
+1383,22,Female,116601,93,Standard,17,3,In-Store,Sports
+1384,38,Female,116601,56,Standard,16,3,Online,Home & Kitchen
+1385,38,Male,49180,46,Basic,8,6,Online,Beauty
+1386,38,Male,116601,65,Premium,9,4,Online,Electronics
+1387,38,Female,116601,49,Standard,14,6,Mobile App,Books
+1388,58,Female,116601,20,Premium,3,5,Online,Electronics
+1389,58,Male,116601,13,Premium,13,5,In-Store,Home & Kitchen
+1390,38,Female,49180,69,Basic,13,6,Mobile App,Sports
+1391,58,Male,116601,18,Premium,6,7,In-Store,Home & Kitchen
+1392,38,Male,90341,61,Standard,12,6,Online,Toys
+1393,38,Male,90341,70,Standard,14,5,Online,Clothing
+1394,58,Male,116601,17,Premium,8,9,In-Store,Sports
+1395,22,Male,49180,86,Standard,17,2,Online,Electronics
+1396,38,Female,116601,69,Premium,12,4,In-Store,Clothing
+1397,58,Female,49180,29,Standard,5,8,In-Store,Sports
+1398,58,Female,49180,22,Basic,12,5,Online,Home & Kitchen
+1399,58,Male,49180,46,Standard,11,9,In-Store,Books
+1400,22,Male,90341,80,Standard,18,4,Online,Home & Kitchen
+1401,58,Female,116601,35,Premium,12,8,Mobile App,Home & Kitchen
+1402,38,Female,49180,48,Basic,5,5,Online,Books
+1403,58,Male,90341,37,Premium,4,9,In-Store,Clothing
+1404,58,Male,49180,38,Premium,10,9,Mobile App,Automotive
+1405,22,Female,116601,83,Premium,20,2,Online,Clothing
+1406,38,Female,116601,62,Premium,5,6,Mobile App,Books
+1407,22,Male,49180,71,Standard,19,4,Online,Automotive
+1408,38,Female,49180,52,Basic,6,6,Online,Home & Kitchen
+1409,22,Male,49180,97,Basic,13,1,Mobile App,Beauty
+1410,22,Female,90341,87,Standard,11,3,Online,Sports
+1411,22,Male,116601,73,Standard,12,1,Online,Toys
+1412,58,Female,90341,33,Basic,8,5,Online,Home & Kitchen
+1413,58,Male,116601,11,Premium,11,8,In-Store,Clothing
+1414,38,Female,49180,62,Basic,5,4,In-Store,Sports
+1415,58,Female,90341,36,Standard,12,9,In-Store,Electronics
+1416,58,Female,49180,25,Basic,3,8,In-Store,Home & Kitchen
+1417,22,Male,49180,90,Basic,8,3,Mobile App,Books
+1418,58,Female,116601,26,Premium,7,9,Online,Toys
+1419,38,Female,90341,59,Standard,11,6,In-Store,Clothing
+1420,58,Male,116601,25,Premium,3,5,In-Store,Automotive
+1421,22,Male,116601,75,Premium,28,3,Online,Clothing
+1422,58,Male,90341,39,Standard,10,9,In-Store,Sports
+1423,58,Male,90341,15,Premium,13,7,Online,Books
+1424,22,Female,90341,79,Standard,19,1,Mobile App,Electronics
+1425,38,Female,116601,71,Premium,14,6,Mobile App,Electronics
+1426,22,Male,116601,76,Premium,28,1,Online,Books
+1427,58,Male,49180,21,Standard,10,5,Mobile App,Electronics
+1428,38,Male,90341,73,Standard,12,3,Online,Clothing
+1429,38,Male,116601,43,Premium,11,5,Online,Clothing
+1430,38,Female,90341,40,Standard,11,4,In-Store,Electronics
+1431,58,Male,116601,10,Basic,13,5,In-Store,Home & Kitchen
+1432,58,Female,90341,49,Basic,12,7,In-Store,Beauty
+1433,22,Female,49180,93,Basic,3,4,Online,Beauty
+1434,38,Female,49180,77,Basic,14,5,Mobile App,Sports
+1435,22,Male,116601,77,Standard,10,3,Online,Clothing
+1436,38,Male,49180,40,Basic,2,5,Mobile App,Clothing
+1437,38,Male,116601,63,Standard,18,6,In-Store,Toys
+1438,38,Male,90341,64,Standard,17,6,In-Store,Clothing
+1439,22,Female,116601,94,Basic,1,4,Online,Beauty
+1440,38,Male,116601,50,Premium,9,4,Online,Automotive
+1441,38,Female,49180,57,Basic,13,5,Online,Home & Kitchen
+1442,22,Male,90341,94,Basic,11,3,Online,Books
+1443,22,Male,116601,94,Standard,13,1,Online,Electronics
+1444,58,Female,49180,42,Premium,8,7,In-Store,Home & Kitchen
+1445,38,Female,90341,74,Standard,13,6,In-Store,Home & Kitchen
+1446,58,Female,90341,49,Standard,9,5,In-Store,Toys
+1447,38,Female,49180,77,Standard,14,5,Mobile App,Sports
+1448,38,Female,116601,72,Premium,3,3,Mobile App,Electronics
+1449,38,Female,49180,45,Premium,2,3,Online,Sports
+1450,58,Male,116601,47,Standard,5,5,In-Store,Clothing
+1451,22,Female,116601,82,Premium,24,4,Mobile App,Beauty
+1452,38,Male,90341,54,Standard,17,5,Online,Home & Kitchen
+1453,58,Male,90341,37,Premium,5,6,In-Store,Clothing
+1454,58,Male,90341,22,Basic,13,7,In-Store,Automotive
+1455,58,Female,90341,37,Standard,8,8,In-Store,Books
+1456,38,Female,90341,60,Standard,13,3,Online,Clothing
+1457,22,Female,116601,94,Premium,21,3,Mobile App,Sports
+1458,38,Female,90341,68,Standard,12,3,Online,Beauty
+1459,38,Male,90341,51,Basic,10,6,Online,Clothing
+1460,38,Female,116601,62,Premium,10,4,In-Store,Sports
+1461,38,Female,90341,60,Standard,14,3,Mobile App,Home & Kitchen
+1462,38,Female,90341,79,Basic,12,5,Mobile App,Toys
+1463,58,Female,49180,35,Standard,3,6,In-Store,Clothing
+1464,22,Female,90341,99,Basic,14,4,Online,Home & Kitchen
+1465,58,Female,116601,36,Standard,10,8,Mobile App,Home & Kitchen
+1466,22,Female,49180,85,Basic,1,1,Online,Electronics
+1467,58,Female,116601,36,Standard,2,5,In-Store,Books
+1468,58,Female,49180,32,Basic,2,9,Online,Clothing
+1469,22,Female,90341,93,Standard,11,4,Online,Beauty
+1470,22,Male,49180,87,Premium,21,1,Online,Clothing
+1471,58,Female,90341,47,Premium,10,5,Online,Books
+1472,58,Male,116601,30,Standard,1,6,Mobile App,Home & Kitchen
+1473,58,Female,49180,45,Premium,2,9,Mobile App,Automotive
+1474,58,Male,90341,40,Standard,9,8,Online,Home & Kitchen
+1475,58,Female,49180,42,Standard,10,7,In-Store,Beauty
+1476,58,Male,90341,31,Standard,4,6,In-Store,Books
+1477,58,Male,116601,39,Standard,11,9,In-Store,Sports
+1478,22,Female,90341,75,Premium,24,4,Mobile App,Electronics
+1479,58,Male,116601,12,Standard,3,7,In-Store,Books
+1480,22,Female,49180,91,Basic,14,3,Online,Electronics
+1481,58,Female,49180,16,Basic,5,7,In-Store,Books
+1482,22,Female,49180,88,Basic,1,3,Online,Home & Kitchen
+1483,38,Female,49180,68,Standard,16,6,Mobile App,Clothing
+1484,38,Male,49180,58,Basic,4,4,Mobile App,Sports
+1485,58,Male,116601,23,Premium,11,5,In-Store,Books
+1486,22,Female,49180,93,Standard,15,4,Online,Beauty
+1487,38,Male,90341,54,Basic,7,4,In-Store,Clothing
+1488,22,Female,90341,86,Standard,13,4,Online,Home & Kitchen
+1489,58,Male,90341,17,Standard,14,6,In-Store,Home & Kitchen
+1490,58,Male,116601,12,Standard,3,6,Mobile App,Clothing
+1491,22,Female,49180,71,Basic,3,1,Online,Sports
+1492,58,Female,90341,39,Standard,13,8,Mobile App,Sports
+1493,22,Female,90341,82,Standard,11,1,Online,Clothing
+1494,22,Male,116601,94,Premium,19,4,Online,Home & Kitchen
+1495,58,Female,49180,34,Basic,2,9,In-Store,Electronics
+1496,22,Male,49180,83,Basic,5,2,Online,Clothing
+1497,22,Male,90341,74,Standard,13,4,Online,Electronics
+1498,58,Male,116601,25,Premium,8,7,Online,Books
+1499,58,Female,116601,28,Premium,8,6,In-Store,Automotive
+1500,38,Male,116601,54,Standard,19,3,Mobile App,Clothing
+1501,22,Male,90341,83,Basic,6,4,Online,Electronics
+1502,22,Male,116601,98,Premium,25,1,Online,Home & Kitchen
+1503,58,Female,116601,31,Standard,12,7,In-Store,Home & Kitchen
+1504,38,Female,90341,66,Standard,19,3,Online,Clothing
+1505,22,Male,49180,75,Basic,1,4,Mobile App,Sports
+1506,22,Male,49180,81,Basic,3,1,Mobile App,Clothing
+1507,38,Male,49180,65,Standard,17,6,In-Store,Electronics
+1508,58,Female,90341,11,Standard,11,9,In-Store,Books
+1509,22,Female,116601,80,Standard,11,3,Mobile App,Electronics
+1510,58,Female,116601,40,Premium,2,9,In-Store,Books
+1511,58,Female,116601,14,Basic,3,6,In-Store,Electronics
+1512,22,Female,90341,91,Standard,14,1,Online,Electronics
+1513,38,Male,90341,46,Standard,12,5,Mobile App,Books
+1514,58,Female,90341,31,Standard,6,5,In-Store,Sports
+1515,58,Female,49180,19,Basic,5,8,In-Store,Sports
+1516,38,Male,116601,78,Standard,19,4,Online,Books
+1517,58,Female,116601,40,Premium,9,7,Online,Home & Kitchen
+1518,58,Female,49180,13,Standard,8,7,Online,Books
+1519,22,Male,116601,86,Standard,13,4,Online,Clothing
+1520,38,Male,90341,53,Standard,11,3,Mobile App,Home & Kitchen
+1521,22,Female,90341,73,Standard,12,1,Online,Toys
+1522,38,Female,90341,49,Standard,16,5,In-Store,Electronics
+1523,58,Female,116601,44,Premium,3,5,In-Store,Clothing
+1524,38,Male,49180,68,Basic,4,5,Online,Electronics
+1525,58,Female,49180,11,Basic,2,6,In-Store,Home & Kitchen
+1526,58,Female,116601,20,Standard,3,7,In-Store,Automotive
+1527,22,Female,90341,74,Standard,17,1,Mobile App,Sports
+1528,38,Male,116601,75,Standard,13,4,Online,Clothing
+1529,22,Male,116601,72,Premium,24,4,Online,Beauty
+1530,38,Male,116601,75,Standard,17,3,In-Store,Clothing
+1531,38,Female,116601,40,Premium,8,5,Mobile App,Electronics
+1532,38,Female,90341,55,Premium,13,6,Mobile App,Toys
+1533,22,Female,49180,72,Basic,3,4,Online,Sports
+1534,58,Female,116601,22,Premium,5,8,Online,Automotive
+1535,38,Female,116601,56,Premium,6,4,Mobile App,Home & Kitchen
+1536,58,Male,116601,44,Standard,8,6,In-Store,Books
+1537,58,Female,90341,42,Standard,9,5,Mobile App,Books
+1538,38,Male,116601,57,Premium,3,4,In-Store,Beauty
+1539,22,Female,90341,95,Standard,15,4,Online,Clothing
+1540,22,Male,116601,97,Premium,24,2,Online,Automotive
+1541,38,Male,49180,71,Basic,4,6,Online,Clothing
+1542,22,Female,49180,80,Standard,14,1,Online,Electronics
+1543,22,Male,49180,78,Basic,2,2,Online,Sports
+1544,38,Female,90341,43,Standard,19,3,Online,Clothing
+1545,38,Male,49180,66,Basic,8,6,In-Store,Books
+1546,38,Female,49180,60,Basic,10,6,Online,Electronics
+1547,22,Male,116601,89,Basic,8,2,Online,Beauty
+1548,58,Male,116601,19,Premium,3,8,Online,Clothing
+1549,22,Female,116601,90,Premium,21,1,Online,Home & Kitchen
+1550,38,Male,116601,51,Standard,15,6,Online,Electronics
+1551,22,Female,116601,79,Premium,21,1,Online,Clothing
+1552,22,Female,116601,97,Premium,29,4,Online,Sports
+1553,38,Female,49180,46,Basic,7,3,In-Store,Sports
+1554,38,Male,116601,76,Premium,7,5,In-Store,Beauty
+1555,58,Female,116601,42,Basic,4,6,In-Store,Books
+1556,22,Female,116601,73,Premium,23,3,Online,Home & Kitchen
+1557,22,Female,116601,84,Standard,11,3,Mobile App,Beauty
+1558,22,Male,49180,84,Basic,7,1,Online,Electronics
+1559,38,Male,90341,56,Premium,7,5,Online,Home & Kitchen
+1560,58,Male,90341,27,Standard,12,7,In-Store,Books
+1561,58,Male,49180,15,Premium,3,6,In-Store,Clothing
+1562,38,Female,90341,77,Standard,18,6,In-Store,Beauty
+1563,22,Male,49180,92,Basic,11,2,Online,Sports
+1564,38,Female,90341,67,Standard,14,4,Online,Sports
+1565,58,Male,116601,20,Basic,14,6,In-Store,Books
+1566,22,Female,90341,80,Standard,14,3,Online,Clothing
+1567,58,Female,90341,29,Standard,3,8,In-Store,Electronics
+1568,22,Male,116601,89,Basic,7,2,Mobile App,Electronics
+1569,58,Female,116601,44,Premium,10,5,In-Store,Sports
+1570,58,Male,49180,25,Standard,9,8,Mobile App,Books
+1571,38,Male,116601,47,Basic,4,4,Online,Sports
+1572,58,Female,116601,30,Premium,9,9,Online,Books
+1573,22,Male,116601,93,Basic,6,1,Online,Toys
+1574,38,Male,90341,51,Standard,12,3,Online,Home & Kitchen
+1575,38,Male,49180,47,Basic,3,4,Online,Beauty
+1576,22,Male,90341,84,Standard,17,4,Mobile App,Clothing
+1577,22,Male,116601,98,Premium,20,2,Online,Automotive
+1578,38,Male,49180,69,Basic,12,5,Online,Home & Kitchen
+1579,22,Female,90341,92,Standard,15,4,Online,Beauty
+1580,58,Male,49180,18,Basic,9,8,In-Store,Books
+1581,22,Female,116601,96,Premium,19,4,Online,Clothing
+1582,58,Male,90341,41,Standard,10,5,Online,Clothing
+1583,22,Male,49180,82,Basic,5,2,Mobile App,Toys
+1584,38,Male,116601,69,Premium,5,6,Mobile App,Home & Kitchen
+1585,38,Female,90341,69,Standard,18,3,In-Store,Beauty
+1586,38,Female,49180,43,Basic,10,6,Mobile App,Electronics
+1587,22,Male,90341,95,Basic,4,2,Mobile App,Clothing
+1588,38,Male,116601,74,Premium,7,3,Online,Sports
+1589,22,Male,116601,97,Premium,23,1,Online,Electronics
+1590,58,Male,49180,32,Basic,6,6,In-Store,Beauty
+1591,22,Male,49180,92,Standard,16,1,Online,Sports
+1592,22,Female,116601,97,Premium,18,3,Online,Beauty
+1593,22,Male,49180,88,Basic,14,4,Online,Electronics
+1594,38,Female,49180,68,Basic,13,6,Online,Electronics
+1595,58,Female,90341,41,Standard,12,6,In-Store,Books
+1596,22,Female,116601,81,Premium,20,4,Online,Beauty
+1597,58,Female,116601,14,Standard,5,6,Mobile App,Sports
+1598,58,Female,90341,12,Premium,6,9,In-Store,Home & Kitchen
+1599,58,Female,116601,46,Standard,2,5,In-Store,Home & Kitchen
+1600,38,Male,116601,41,Premium,11,6,Online,Beauty
+1601,38,Female,90341,77,Standard,11,6,In-Store,Electronics
+1602,22,Female,90341,89,Standard,17,4,Online,Electronics
+1603,22,Male,90341,83,Standard,10,3,Online,Automotive
+1604,38,Female,49180,57,Basic,3,6,Online,Clothing
+1605,58,Female,116601,39,Basic,8,9,Online,Beauty
+1606,58,Female,116601,44,Standard,6,6,Online,Electronics
+1607,38,Female,90341,69,Basic,7,4,In-Store,Clothing
+1608,58,Male,49180,27,Basic,8,7,In-Store,Beauty
+1609,58,Male,90341,24,Premium,7,5,In-Store,Sports
+1610,38,Female,116601,40,Premium,8,5,Online,Electronics
+1611,38,Male,90341,66,Basic,13,3,Online,Sports
+1612,38,Male,90341,62,Standard,18,4,Online,Clothing
+1613,58,Male,49180,35,Basic,12,8,In-Store,Electronics
+1614,58,Female,49180,45,Standard,11,5,Online,Books
+1615,22,Male,49180,97,Basic,14,2,Online,Clothing
+1616,58,Male,116601,44,Basic,7,6,Online,Toys
+1617,58,Male,90341,10,Standard,2,6,Mobile App,Home & Kitchen
+1618,38,Male,90341,67,Basic,9,3,Online,Clothing
+1619,58,Female,49180,40,Basic,10,7,Online,Automotive
+1620,58,Female,116601,13,Basic,13,7,In-Store,Beauty
+1621,38,Female,49180,56,Basic,8,5,In-Store,Clothing
+1622,22,Female,116601,93,Premium,26,4,Mobile App,Clothing
+1623,38,Female,49180,75,Basic,4,3,Online,Home & Kitchen
+1624,22,Male,49180,93,Basic,1,1,Online,Beauty
+1625,22,Female,116601,87,Standard,15,1,Online,Home & Kitchen
+1626,58,Female,90341,44,Standard,6,9,In-Store,Electronics
+1627,38,Male,116601,67,Standard,19,5,Online,Electronics
+1628,58,Female,116601,44,Premium,5,6,In-Store,Automotive
+1629,58,Male,90341,49,Standard,12,9,In-Store,Toys
+1630,38,Female,90341,59,Basic,7,3,Online,Clothing
+1631,58,Male,90341,49,Standard,9,5,In-Store,Home & Kitchen
+1632,38,Male,49180,40,Basic,13,6,Online,Automotive
+1633,22,Female,49180,71,Premium,26,2,Mobile App,Clothing
+1634,22,Female,116601,80,Premium,28,3,Mobile App,Electronics
+1635,58,Male,90341,24,Standard,9,6,Online,Beauty
+1636,22,Male,49180,89,Basic,12,2,Online,Beauty
+1637,38,Male,49180,42,Basic,2,6,In-Store,Clothing
+1638,38,Female,116601,65,Standard,19,4,Mobile App,Home & Kitchen
+1639,22,Male,116601,91,Premium,18,2,Online,Clothing
+1640,58,Male,116601,21,Premium,6,5,In-Store,Beauty
+1641,58,Female,49180,21,Basic,3,9,In-Store,Automotive
+1642,58,Female,116601,22,Standard,1,9,Mobile App,Automotive
+1643,22,Female,90341,76,Standard,15,1,Online,Automotive
+1644,38,Male,49180,44,Basic,3,4,Mobile App,Sports
+1645,38,Male,90341,44,Standard,13,3,Online,Sports
+1646,58,Male,90341,46,Premium,12,8,In-Store,Electronics
+1647,38,Female,49180,60,Basic,4,5,Mobile App,Automotive
+1648,38,Female,116601,51,Premium,7,3,Online,Home & Kitchen
+1649,22,Female,116601,87,Premium,25,2,In-Store,Clothing
+1650,58,Female,116601,28,Standard,10,7,Online,Books
+1651,22,Male,90341,80,Premium,25,3,Online,Electronics
+1652,38,Female,49180,77,Basic,12,3,Mobile App,Beauty
+1653,58,Male,49180,43,Basic,9,9,In-Store,Electronics
+1654,38,Female,90341,74,Basic,8,3,Mobile App,Automotive
+1655,58,Female,49180,10,Basic,13,6,Online,Beauty
+1656,58,Female,90341,33,Standard,11,8,In-Store,Beauty
+1657,58,Male,49180,15,Basic,8,7,In-Store,Electronics
+1658,58,Male,116601,33,Premium,10,7,In-Store,Beauty
+1659,38,Female,116601,49,Premium,1,5,In-Store,Beauty
+1660,22,Female,116601,78,Premium,15,4,Mobile App,Sports
+1661,22,Female,90341,83,Standard,15,4,In-Store,Clothing
+1662,58,Female,49180,39,Standard,6,5,In-Store,Automotive
+1663,58,Female,116601,41,Standard,5,7,In-Store,Home & Kitchen
+1664,38,Female,49180,46,Basic,14,5,Online,Home & Kitchen
+1665,38,Male,116601,50,Premium,14,5,In-Store,Home & Kitchen
+1666,38,Female,49180,65,Premium,6,6,In-Store,Electronics
+1667,22,Male,90341,74,Standard,14,2,Online,Electronics
+1668,38,Female,49180,70,Basic,6,4,Mobile App,Clothing
+1669,38,Female,49180,75,Basic,6,3,In-Store,Sports
+1670,58,Female,90341,44,Premium,3,5,In-Store,Books
+1671,38,Female,90341,69,Standard,18,3,In-Store,Toys
+1672,58,Female,116601,28,Premium,2,7,In-Store,Beauty
+1673,22,Male,49180,87,Basic,5,3,Online,Home & Kitchen
+1674,38,Female,90341,67,Standard,18,4,In-Store,Clothing
+1675,22,Male,49180,88,Premium,17,4,Mobile App,Clothing
+1676,22,Female,90341,73,Standard,11,3,Online,Electronics
+1677,58,Male,49180,21,Basic,10,5,Online,Home & Kitchen
+1678,38,Female,49180,61,Standard,17,3,Online,Clothing
+1679,22,Female,116601,81,Premium,24,3,Mobile App,Electronics
+1680,58,Male,116601,21,Standard,8,8,In-Store,Clothing
+1681,22,Male,49180,78,Basic,2,3,Online,Sports
+1682,58,Male,49180,28,Basic,4,7,Online,Home & Kitchen
+1683,22,Male,116601,72,Standard,17,2,Online,Electronics
+1684,58,Female,49180,13,Basic,11,7,In-Store,Toys
+1685,38,Female,116601,50,Premium,8,6,Mobile App,Home & Kitchen
+1686,38,Male,49180,58,Basic,14,6,In-Store,Electronics
+1687,22,Male,49180,72,Basic,2,4,Online,Clothing
+1688,38,Male,90341,78,Standard,14,4,In-Store,Home & Kitchen
+1689,38,Male,116601,75,Premium,4,5,In-Store,Clothing
+1690,38,Male,116601,49,Premium,6,3,Mobile App,Electronics
+1691,38,Female,90341,49,Standard,14,5,In-Store,Toys
+1692,38,Male,116601,48,Premium,4,3,In-Store,Electronics
+1693,38,Male,49180,58,Basic,2,4,In-Store,Books
+1694,22,Female,116601,86,Standard,14,4,Mobile App,Clothing
+1695,38,Female,90341,59,Standard,12,3,Mobile App,Sports
+1696,58,Female,49180,33,Basic,14,6,In-Store,Books
+1697,58,Female,116601,38,Standard,8,7,In-Store,Automotive
+1698,38,Male,90341,63,Basic,5,4,Online,Beauty
+1699,38,Female,116601,48,Premium,7,6,Mobile App,Beauty
+1700,58,Male,90341,44,Standard,7,5,Online,Home & Kitchen
+1701,22,Female,90341,81,Standard,15,2,Online,Beauty
+1702,38,Female,116601,53,Standard,17,6,In-Store,Sports
+1703,58,Male,49180,15,Basic,7,5,Online,Electronics
+1704,22,Male,90341,94,Basic,13,3,Online,Clothing
+1705,58,Male,49180,45,Standard,8,5,In-Store,Electronics
+1706,22,Male,90341,72,Standard,11,4,Online,Beauty
+1707,38,Male,116601,68,Premium,13,5,In-Store,Electronics
+1708,22,Male,49180,98,Basic,11,4,Online,Electronics
+1709,22,Female,90341,77,Standard,13,4,Online,Beauty
+1710,22,Female,49180,76,Basic,4,3,Online,Clothing
+1711,22,Male,49180,70,Basic,14,3,Online,Beauty
+1712,38,Female,116601,51,Standard,16,3,Mobile App,Clothing
+1713,38,Male,49180,60,Basic,10,3,In-Store,Beauty
+1714,22,Male,116601,78,Premium,25,1,Online,Clothing
+1715,38,Female,116601,67,Standard,19,6,In-Store,Clothing
+1716,58,Male,116601,48,Standard,8,5,Mobile App,Books
+1717,22,Male,90341,76,Standard,17,3,Online,Automotive
+1718,58,Female,49180,49,Premium,6,9,In-Store,Beauty
+1719,58,Male,90341,38,Premium,1,5,In-Store,Clothing
+1720,38,Male,116601,42,Premium,1,4,In-Store,Sports
+1721,58,Female,90341,48,Basic,2,7,In-Store,Home & Kitchen
+1722,58,Female,116601,12,Standard,8,5,Online,Clothing
+1723,38,Male,49180,75,Standard,11,4,In-Store,Sports
+1724,58,Male,116601,35,Premium,5,7,In-Store,Home & Kitchen
+1725,58,Male,116601,14,Basic,1,7,In-Store,Automotive
+1726,58,Female,49180,17,Premium,4,6,In-Store,Sports
+1727,58,Male,49180,10,Basic,9,6,Online,Automotive
+1728,38,Male,90341,64,Basic,14,3,Online,Electronics
+1729,22,Female,49180,71,Basic,5,1,Online,Clothing
+1730,22,Male,49180,86,Basic,5,4,Mobile App,Beauty
+1731,38,Male,49180,42,Premium,4,5,In-Store,Electronics
+1732,58,Male,116601,41,Standard,9,9,In-Store,Sports
+1733,58,Female,116601,35,Standard,7,7,In-Store,Clothing
+1734,58,Female,116601,45,Premium,10,6,In-Store,Home & Kitchen
+1735,22,Male,90341,81,Standard,11,4,Online,Clothing
+1736,38,Male,90341,53,Standard,15,3,In-Store,Automotive
+1737,38,Female,116601,42,Standard,10,4,In-Store,Sports
+1738,38,Female,116601,56,Standard,15,5,Mobile App,Electronics
+1739,38,Male,90341,45,Basic,9,3,In-Store,Electronics
+1740,22,Female,90341,86,Standard,16,1,Online,Toys
+1741,22,Female,90341,96,Standard,14,3,Online,Clothing
+1742,38,Male,90341,67,Standard,17,4,Online,Home & Kitchen
+1743,38,Male,116601,68,Standard,10,3,Mobile App,Home & Kitchen
+1744,58,Male,116601,30,Basic,4,8,In-Store,Sports
+1745,38,Male,49180,56,Basic,6,4,In-Store,Beauty
+1746,22,Female,49180,71,Basic,12,3,Mobile App,Toys
+1747,38,Female,90341,53,Premium,2,4,In-Store,Clothing
+1748,58,Female,49180,45,Basic,13,9,In-Store,Home & Kitchen
+1749,58,Male,90341,44,Standard,5,8,In-Store,Home & Kitchen
+1750,22,Male,116601,99,Basic,1,2,Online,Home & Kitchen
+1751,22,Male,116601,99,Premium,26,1,Online,Electronics
+1752,38,Female,49180,53,Basic,6,6,Online,Electronics
+1753,38,Female,49180,48,Standard,14,6,Online,Toys
+1754,58,Female,116601,21,Premium,3,8,In-Store,Automotive
+1755,38,Male,90341,42,Basic,3,3,In-Store,Home & Kitchen
+1756,58,Female,90341,30,Standard,4,5,Mobile App,Clothing
+1757,58,Female,116601,40,Premium,13,7,Mobile App,Home & Kitchen
+1758,38,Male,90341,45,Basic,13,3,In-Store,Clothing
+1759,38,Female,90341,52,Standard,13,3,In-Store,Beauty
+1760,38,Male,49180,72,Premium,8,5,Mobile App,Beauty
+1761,22,Male,116601,89,Standard,12,1,Online,Clothing
+1762,38,Male,90341,42,Standard,11,3,Mobile App,Books
+1763,38,Male,49180,75,Basic,8,6,In-Store,Home & Kitchen
+1764,22,Female,49180,88,Basic,10,3,Online,Sports
+1765,38,Male,116601,51,Basic,8,3,Mobile App,Beauty
+1766,22,Male,90341,87,Premium,20,1,Mobile App,Clothing
+1767,58,Female,49180,41,Premium,9,8,Online,Books
+1768,38,Male,49180,79,Basic,9,4,In-Store,Home & Kitchen
+1769,58,Male,49180,25,Basic,11,9,In-Store,Home & Kitchen
+1770,22,Female,49180,96,Basic,1,4,Online,Sports
+1771,38,Female,49180,66,Basic,9,5,Online,Electronics
+1772,38,Male,116601,40,Premium,2,3,Online,Sports
+1773,58,Male,116601,46,Premium,6,5,In-Store,Home & Kitchen
+1774,22,Female,90341,74,Standard,16,2,Online,Toys
+1775,22,Female,116601,88,Premium,22,2,Mobile App,Electronics
+1776,22,Male,49180,90,Basic,8,2,Online,Automotive
+1777,22,Male,116601,80,Premium,21,1,Online,Clothing
+1778,22,Female,49180,79,Standard,12,4,Mobile App,Beauty
+1779,22,Male,90341,73,Standard,18,2,In-Store,Beauty
+1780,58,Male,49180,17,Basic,2,7,In-Store,Home & Kitchen
+1781,22,Male,116601,82,Basic,7,1,Online,Automotive
+1782,38,Female,116601,51,Premium,7,6,Online,Home & Kitchen
+1783,58,Male,90341,11,Standard,4,8,In-Store,Automotive
+1784,58,Male,49180,25,Basic,14,8,Online,Home & Kitchen
+1785,58,Female,49180,43,Premium,8,8,In-Store,Clothing
+1786,22,Male,116601,70,Premium,27,4,Online,Clothing
+1787,38,Female,49180,71,Basic,2,5,Online,Toys
+1788,22,Male,116601,82,Standard,15,2,Online,Beauty
+1789,58,Female,90341,25,Premium,3,7,Online,Books
+1790,22,Female,49180,81,Basic,9,1,Online,Beauty
+1791,38,Male,90341,49,Basic,14,3,Online,Books
+1792,38,Male,116601,79,Basic,1,3,Online,Automotive
+1793,58,Female,90341,28,Standard,12,6,In-Store,Home & Kitchen
+1794,58,Male,49180,44,Basic,8,6,In-Store,Home & Kitchen
+1795,58,Female,49180,46,Basic,5,7,In-Store,Home & Kitchen
+1796,58,Female,90341,33,Standard,3,8,Online,Home & Kitchen
+1797,58,Female,49180,49,Standard,6,9,Online,Home & Kitchen
+1798,38,Male,116601,69,Premium,14,4,Online,Electronics
+1799,22,Male,49180,80,Basic,14,3,Online,Home & Kitchen
+1800,38,Male,116601,78,Premium,2,4,Mobile App,Electronics
+1801,58,Female,90341,38,Standard,14,5,In-Store,Electronics
+1802,58,Male,90341,12,Premium,5,6,Mobile App,Electronics
+1803,38,Female,90341,53,Standard,14,5,Mobile App,Sports
+1804,58,Female,90341,23,Basic,6,7,Online,Clothing
+1805,58,Female,49180,36,Basic,5,6,In-Store,Clothing
+1806,58,Male,116601,46,Standard,9,6,In-Store,Electronics
+1807,22,Female,49180,86,Basic,2,3,Online,Home & Kitchen
+1808,22,Female,90341,71,Basic,5,1,Mobile App,Electronics
+1809,22,Female,116601,95,Premium,17,4,Online,Beauty
+1810,22,Female,49180,85,Basic,4,4,Online,Sports
+1811,22,Male,116601,80,Standard,15,4,Online,Books
+1812,58,Male,49180,43,Basic,8,5,Online,Home & Kitchen
+1813,58,Male,90341,38,Basic,2,9,Online,Books
+1814,22,Female,116601,89,Standard,15,2,Online,Sports
+1815,22,Male,116601,75,Premium,25,2,Online,Electronics
+1816,38,Male,90341,43,Standard,18,3,Online,Electronics
+1817,58,Female,49180,13,Basic,11,7,Online,Books
+1818,22,Female,116601,81,Premium,20,2,Mobile App,Clothing
+1819,22,Male,90341,96,Basic,2,4,Online,Home & Kitchen
+1820,38,Female,116601,48,Premium,1,4,Online,Sports
+1821,38,Male,90341,56,Basic,8,5,Online,Home & Kitchen
+1822,38,Male,90341,73,Standard,13,5,In-Store,Electronics
+1823,22,Female,116601,98,Basic,8,4,Online,Clothing
+1824,58,Male,90341,45,Standard,11,9,In-Store,Beauty
+1825,58,Female,49180,37,Standard,7,6,In-Store,Home & Kitchen
+1826,58,Female,116601,22,Premium,9,5,In-Store,Books
+1827,22,Male,116601,81,Standard,16,1,Online,Toys
+1828,58,Female,49180,20,Basic,11,6,Online,Home & Kitchen
+1829,58,Male,49180,45,Basic,3,9,In-Store,Home & Kitchen
+1830,38,Female,90341,73,Standard,10,5,In-Store,Electronics
+1831,58,Female,90341,45,Standard,9,5,In-Store,Clothing
+1832,58,Female,49180,15,Basic,7,8,In-Store,Home & Kitchen
+1833,38,Female,116601,52,Premium,3,5,Mobile App,Beauty
+1834,38,Male,116601,79,Basic,3,5,Mobile App,Beauty
+1835,58,Male,49180,36,Basic,11,6,In-Store,Home & Kitchen
+1836,22,Male,49180,74,Basic,3,2,Online,Home & Kitchen
+1837,58,Female,49180,37,Basic,5,5,Online,Home & Kitchen
+1838,58,Female,90341,18,Basic,8,7,Online,Home & Kitchen
+1839,38,Female,116601,46,Premium,4,3,Online,Home & Kitchen
+1840,22,Male,90341,97,Standard,16,3,Online,Home & Kitchen
+1841,38,Female,116601,77,Premium,5,6,In-Store,Sports
+1842,58,Male,116601,22,Premium,2,9,In-Store,Automotive
+1843,38,Male,90341,65,Standard,11,3,Online,Clothing
+1844,22,Male,49180,92,Standard,16,2,Online,Automotive
+1845,22,Female,116601,81,Premium,17,2,Online,Toys
+1846,38,Female,49180,76,Basic,5,3,In-Store,Books
+1847,22,Male,116601,97,Premium,15,1,Online,Beauty
+1848,38,Female,116601,71,Premium,1,6,Online,Home & Kitchen
+1849,58,Male,116601,30,Basic,4,8,In-Store,Home & Kitchen
+1850,22,Male,90341,95,Basic,9,1,Mobile App,Electronics
+1851,58,Male,90341,36,Standard,11,6,In-Store,Books
+1852,22,Male,116601,74,Premium,22,1,Online,Toys
+1853,22,Female,90341,86,Premium,27,2,In-Store,Sports
+1854,58,Female,90341,33,Standard,10,6,In-Store,Toys
+1855,22,Female,116601,99,Premium,24,4,Online,Beauty
+1856,58,Male,116601,19,Standard,5,7,Mobile App,Home & Kitchen
+1857,22,Male,116601,70,Premium,17,3,Online,Toys
+1858,38,Female,116601,69,Standard,14,5,Online,Toys
+1859,38,Male,90341,45,Basic,2,6,Online,Books
+1860,58,Male,49180,45,Standard,6,8,Online,Home & Kitchen
+1861,58,Female,90341,21,Standard,11,6,Mobile App,Automotive
+1862,38,Female,90341,58,Standard,19,6,Online,Electronics
+1863,38,Male,49180,69,Basic,1,4,Online,Clothing
+1864,58,Female,49180,48,Basic,14,9,In-Store,Home & Kitchen
+1865,22,Male,49180,71,Premium,25,2,Online,Automotive
+1866,58,Female,49180,20,Basic,6,5,In-Store,Home & Kitchen
+1867,38,Male,116601,56,Basic,12,6,In-Store,Home & Kitchen
+1868,58,Male,116601,21,Standard,8,8,In-Store,Home & Kitchen
+1869,58,Female,116601,19,Premium,2,6,In-Store,Automotive
+1870,22,Male,116601,75,Standard,10,2,Mobile App,Electronics
+1871,58,Female,49180,40,Basic,1,7,In-Store,Automotive
+1872,38,Male,49180,68,Standard,11,5,Online,Clothing
+1873,38,Male,49180,70,Standard,14,5,Mobile App,Clothing
+1874,22,Male,90341,82,Standard,17,2,Online,Clothing
+1875,22,Male,116601,72,Premium,22,3,In-Store,Beauty
+1876,38,Female,116601,63,Premium,9,4,In-Store,Clothing
+1877,22,Female,116601,91,Premium,25,2,Mobile App,Books
+1878,58,Female,49180,15,Basic,13,6,In-Store,Home & Kitchen
+1879,22,Male,90341,78,Standard,13,2,Online,Electronics
+1880,22,Male,90341,71,Standard,10,1,Online,Clothing
+1881,58,Female,49180,20,Basic,5,8,In-Store,Clothing
+1882,58,Male,90341,24,Standard,2,6,Online,Electronics
+1883,22,Female,49180,95,Basic,1,3,Online,Electronics
+1884,22,Male,49180,74,Basic,14,2,Mobile App,Electronics
+1885,38,Male,90341,43,Standard,13,4,Online,Home & Kitchen
+1886,58,Female,90341,28,Standard,13,8,Online,Home & Kitchen
+1887,22,Male,49180,85,Premium,18,3,In-Store,Books
+1888,22,Male,49180,82,Basic,3,3,Online,Beauty
+1889,58,Male,90341,36,Basic,7,7,In-Store,Sports
+1890,38,Female,49180,71,Basic,1,5,In-Store,Beauty
+1891,58,Male,49180,14,Basic,11,5,In-Store,Home & Kitchen
+1892,58,Male,49180,25,Basic,9,8,Mobile App,Electronics
+1893,58,Female,49180,19,Standard,9,5,In-Store,Electronics
+1894,38,Female,90341,73,Basic,6,3,Online,Sports
+1895,58,Female,116601,30,Premium,11,8,In-Store,Books
+1896,38,Female,116601,56,Premium,6,3,Mobile App,Sports
+1897,58,Male,90341,11,Standard,2,9,Online,Electronics
+1898,58,Male,116601,49,Standard,8,5,In-Store,Beauty
+1899,58,Male,49180,38,Premium,1,6,In-Store,Books
+1900,22,Female,90341,98,Standard,15,1,Online,Automotive
+1901,22,Female,90341,91,Standard,10,1,Mobile App,Beauty
+1902,58,Male,49180,22,Basic,1,7,In-Store,Home & Kitchen
+1903,58,Male,116601,38,Standard,9,6,In-Store,Books
+1904,38,Male,49180,58,Basic,6,3,Online,Automotive
+1905,22,Female,49180,74,Standard,16,2,Mobile App,Clothing
+1906,22,Female,90341,83,Standard,19,2,Online,Automotive
+1907,22,Female,90341,89,Standard,18,3,Online,Electronics
+1908,58,Male,49180,14,Basic,3,8,In-Store,Books
+1909,38,Female,49180,61,Basic,9,5,In-Store,Beauty
+1910,58,Female,116601,31,Premium,13,9,In-Store,Beauty
+1911,22,Female,49180,71,Basic,7,1,Online,Electronics
+1912,22,Female,90341,80,Basic,10,2,Online,Sports
+1913,38,Female,116601,64,Premium,13,6,Online,Home & Kitchen
+1914,22,Female,116601,73,Premium,19,1,Online,Clothing
+1915,58,Female,116601,23,Premium,13,7,In-Store,Beauty
+1916,22,Male,90341,77,Standard,11,4,Online,Clothing
+1917,38,Male,49180,78,Standard,19,4,In-Store,Clothing
+1918,38,Female,90341,70,Standard,10,3,Mobile App,Home & Kitchen
+1919,58,Male,90341,31,Standard,3,9,In-Store,Toys
+1920,58,Female,116601,16,Standard,12,9,In-Store,Clothing
+1921,58,Female,90341,47,Standard,3,9,In-Store,Clothing
+1922,22,Female,49180,71,Basic,11,3,Online,Clothing
+1923,22,Male,49180,77,Basic,6,3,Online,Books
+1924,38,Male,90341,60,Basic,11,6,Mobile App,Clothing
+1925,38,Male,116601,58,Basic,14,3,Online,Clothing
+1926,38,Male,49180,67,Basic,2,3,In-Store,Home & Kitchen
+1927,22,Male,49180,78,Standard,11,2,Online,Electronics
+1928,38,Female,49180,41,Standard,11,5,In-Store,Electronics
+1929,38,Female,116601,45,Premium,8,4,Online,Electronics
+1930,58,Male,49180,16,Standard,1,6,In-Store,Electronics
+1931,38,Male,49180,69,Basic,7,4,In-Store,Home & Kitchen
+1932,38,Male,90341,40,Standard,12,6,In-Store,Automotive
+1933,58,Male,49180,26,Basic,6,5,In-Store,Automotive
+1934,58,Female,116601,30,Premium,14,8,In-Store,Automotive
+1935,38,Male,90341,53,Standard,14,6,Mobile App,Beauty
+1936,38,Female,90341,47,Standard,10,4,In-Store,Clothing
+1937,22,Male,90341,72,Premium,25,3,Online,Home & Kitchen
+1938,58,Male,116601,10,Premium,3,8,In-Store,Home & Kitchen
+1939,22,Male,116601,96,Standard,17,2,Online,Electronics
+1940,22,Female,90341,75,Standard,11,3,Online,Home & Kitchen
+1941,38,Male,49180,62,Standard,11,4,Online,Sports
+1942,22,Female,49180,94,Premium,24,3,Online,Home & Kitchen
+1943,22,Male,116601,95,Standard,16,1,In-Store,Automotive
+1944,58,Female,49180,40,Basic,14,8,In-Store,Books
+1945,22,Male,116601,76,Premium,15,1,Mobile App,Automotive
+1946,22,Male,90341,83,Standard,17,4,Online,Automotive
+1947,58,Male,116601,38,Standard,12,7,Online,Sports
+1948,22,Female,49180,71,Basic,9,4,Online,Sports
+1949,58,Male,116601,45,Premium,9,7,In-Store,Clothing
+1950,22,Female,116601,98,Premium,23,4,Online,Sports
+1951,58,Female,116601,16,Premium,14,6,In-Store,Electronics
+1952,22,Male,49180,74,Basic,11,2,Online,Automotive
+1953,58,Male,49180,12,Basic,11,9,Mobile App,Automotive
+1954,22,Female,90341,72,Standard,11,3,Online,Books
+1955,58,Female,49180,49,Standard,4,9,Mobile App,Toys
+1956,22,Female,116601,80,Premium,20,1,Online,Clothing
+1957,22,Female,49180,80,Standard,16,4,Online,Clothing
+1958,38,Male,90341,58,Basic,6,4,In-Store,Home & Kitchen
+1959,38,Female,49180,49,Basic,4,5,Online,Home & Kitchen
+1960,38,Male,49180,69,Standard,19,4,In-Store,Home & Kitchen
+1961,38,Female,90341,57,Premium,2,6,Mobile App,Clothing
+1962,22,Female,90341,91,Standard,10,4,Online,Electronics
+1963,38,Female,90341,65,Standard,15,6,Mobile App,Beauty
+1964,22,Male,116601,84,Premium,26,4,Online,Beauty
+1965,38,Female,49180,40,Basic,14,4,In-Store,Beauty
+1966,58,Female,49180,27,Premium,13,9,Mobile App,Books
+1967,58,Male,116601,46,Premium,12,5,In-Store,Clothing
+1968,22,Female,49180,93,Basic,10,2,Online,Electronics
+1969,58,Male,90341,43,Standard,13,6,In-Store,Books
+1970,38,Male,49180,68,Basic,7,3,In-Store,Toys
+1971,58,Female,90341,24,Standard,9,8,In-Store,Home & Kitchen
+1972,58,Male,49180,22,Basic,2,6,Online,Books
+1973,38,Female,90341,69,Standard,15,3,Online,Home & Kitchen
+1974,38,Female,116601,66,Standard,16,4,Online,Home & Kitchen
+1975,38,Male,90341,65,Standard,18,5,Mobile App,Sports
+1976,22,Female,49180,88,Basic,1,2,Mobile App,Home & Kitchen
+1977,22,Male,116601,73,Premium,21,3,Mobile App,Toys
+1978,22,Male,49180,85,Basic,13,4,Online,Clothing
+1979,58,Female,90341,45,Standard,5,7,Mobile App,Toys
+1980,58,Male,49180,46,Premium,6,9,Online,Sports
+1981,38,Female,49180,79,Basic,6,4,Online,Sports
+1982,58,Female,90341,47,Standard,5,5,In-Store,Electronics
+1983,22,Female,49180,98,Basic,8,3,Online,Electronics
+1984,58,Female,116601,49,Standard,6,7,Online,Beauty
+1985,22,Female,49180,92,Premium,21,1,Online,Clothing
+1986,58,Male,116601,35,Premium,5,9,In-Store,Clothing
+1987,58,Male,90341,25,Basic,9,7,In-Store,Books
+1988,38,Male,116601,68,Premium,11,5,Mobile App,Electronics
+1989,22,Male,49180,84,Basic,8,1,Online,Clothing
+1990,22,Female,49180,86,Standard,11,1,Mobile App,Home & Kitchen
+1991,22,Female,90341,85,Basic,8,4,Online,Home & Kitchen
+1992,58,Female,116601,44,Premium,5,6,In-Store,Books
+1993,58,Female,90341,25,Premium,14,6,Mobile App,Beauty
+1994,58,Male,49180,39,Basic,14,5,In-Store,Books
+1995,22,Male,90341,74,Premium,29,1,Online,Toys
+1996,22,Male,116601,85,Standard,19,1,Mobile App,Automotive
+1997,38,Male,116601,49,Standard,17,5,Online,Books
+1998,38,Female,49180,74,Standard,13,3,Mobile App,Sports
+1999,38,Male,49180,65,Standard,16,6,Mobile App,Beauty
+2000,22,Female,90341,99,Standard,14,4,Online,Beauty
