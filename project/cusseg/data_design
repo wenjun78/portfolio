@@ -1,0 +1,84 @@
+# import pandas as pd
+# import numpy as np
+# # Set random seed for reproducibility
+# np.random.seed(1600)
+
+# # Define number of customers
+# num_customers = 2000
+
+# # Generate Age: Clustered into younger (18-30), middle-aged (31-50), and older (51-70) groups
+# age_groups = np.random.choice([np.random.randint(18, 30), np.random.randint(31, 50), np.random.randint(51, 70)], num_customers)
+
+# # Generate Gender: Balanced distribution
+# gender_choices = ['Male', 'Female']
+# gender = np.random.choice(gender_choices, num_customers)
+
+# # Generate Annual Income: Clustered into low, medium, and high-income groups
+# income_levels = np.random.choice([np.random.randint(20000, 50000), np.random.randint(50001, 100000), np.random.randint(100001, 150000)], num_customers)
+
+# # Generate Spending Score: Higher spending for younger and middle-aged, lower for older customers
+# spending_score = np.where(age_groups < 30, np.random.randint(70, 100, num_customers),
+#                  np.where(age_groups < 50, np.random.randint(40, 80, num_customers),
+#                           np.random.randint(10, 50, num_customers)))
+
+# # Generate Subscription Type: Basic, Standard, Premium (clustered with income levels)
+# subscription_choices = ['Basic', 'Standard', 'Premium']
+# subscription_probs = np.array([
+#     [0.7, 0.2, 0.1] if income < 50000 else
+#     [0.2, 0.7, 0.1] if income < 100000 else
+#     [0.1, 0.3, 0.6] for income in income_levels
+# ])
+# subscription_type = np.array([np.random.choice(subscription_choices, p=prob) for prob in subscription_probs])
+
+# # Generate Purchase Frequency: Higher for younger and premium subscribers
+# purchase_frequency = np.where((age_groups < 30) & (subscription_type == 'Premium'), np.random.randint(15, 30, num_customers),
+#                      np.where((age_groups < 50) & (subscription_type == 'Standard'), np.random.randint(10, 20, num_customers),
+#                               np.random.randint(1, 15, num_customers)))
+
+# # Generate Customer Tenure: Older customers tend to have longer tenure
+# customer_tenure = np.where(age_groups < 30, np.random.randint(1, 5, num_customers),
+#                    np.where(age_groups < 50, np.random.randint(3, 7, num_customers),
+#                             np.random.randint(5, 10, num_customers)))
+
+# # Generate Channel: Clustered based on age and preference
+# channel_choices = ['Online', 'In-Store', 'Mobile App']
+# channel_probs = np.array([
+#     [0.7, 0.1, 0.2] if age < 30 else
+#     [0.4, 0.4, 0.2] if age < 50 else
+#     [0.2, 0.7, 0.1] for age in age_groups
+# ])
+# channel = np.array([np.random.choice(channel_choices, p=prob) for prob in channel_probs])
+
+# # Generate Product Category: Clustered based on age group
+# product_choices = ['Electronics', 'Clothing', 'Home & Kitchen', 'Beauty', 'Sports', 'Toys', 'Books', 'Automotive']
+# product_probs = np.array([
+#     [0.2, 0.3, 0.1, 0.2, 0.1, 0.1, 0.05, 0.05] if age < 30 else
+#     [0.2, 0.2, 0.2, 0.15, 0.1, 0.05, 0.05, 0.05] if age < 50 else
+#     [0.1, 0.1, 0.3, 0.1, 0.05, 0.05, 0.2, 0.1] for age in age_groups
+# ])
+
+# # Normalize probabilities to ensure they sum to 1
+# product_probs = product_probs / product_probs.sum(axis=1, keepdims=True)
+
+# product_category = np.array([np.random.choice(product_choices, p=prob) for prob in product_probs])
+
+# # Create DataFrame
+# customer_data = pd.DataFrame({
+#     'Customer_ID': range(1, num_customers + 1),
+#     'Age': age_groups,
+#     'Gender': gender,
+#     'Annual_Income': income_levels,
+#     'Spending_Score': spending_score,
+#     'Subscription_Type': subscription_type,
+#     'Purchase_Frequency': purchase_frequency,
+#     'Customer_Tenure': customer_tenure,
+#     'Channel': channel,
+#     'Product_Category': product_category
+# })
+
+# # Save the dataset to a CSV file
+# file_path = "customer_segmentation_clustered.csv"
+# customer_data.to_csv(file_path, index=False)
+
+# # Display the first 10 rows of the dataset
+# print(customer_data.head(10))
