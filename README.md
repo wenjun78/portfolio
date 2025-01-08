@@ -8,12 +8,12 @@
 ### Technical Expertise 👨‍💻
 **Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing Power BI and Tableau. My portfolio showcases my ability to transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
 
-**Data Science & Machine Learning:** I have a strong foundation in data science and machine learning, encompassing feature selection, regularized linear modeling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and advanced algorithms such as Apriori association rules and big data longitudinal analysis. My experience also includes applying neural networks and other optimization techniques to solve complex problems.
+**Machine Learning:** I have a strong foundation in machine learning, encompassing feature selection, regularized linear modeling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and advanced algorithms such as Apriori association rules and big data longitudinal analysis. My experience also includes applying neural networks and other optimization techniques to solve complex problems.
 
 **App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.
 
 ### Goals :dart:
-I am committed to continuous learning and improvement in the fields of data science, machine learning, and data analytics. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
+I am committed to continuous learning and improvement in the fields of machine learning, and data analytics. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
 
 ## Portfolio :writing_hand:
 
