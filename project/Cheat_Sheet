@@ -1,0 +1,66 @@
+Cheat Sheet
+
+rules of thumb for selecting the range of k to test in clustering:
+
+Sturges' Formula: k = 1 + 3.322 * log10(N)
+
+Small N (100): ~8 clusters
+Medium N (2000): ~12 clusters
+Large N (100,000): ~18 clusters
+Very Large N (1M): ~21 clusters
+➡️ Most versatile: grows very slowly with N
+
+√(n/2) rule
+
+Small N (100): ~7 clusters
+Medium N (2000): ~32 clusters
+Large N (100,000): ~224 clusters
+Very Large N (1M): ~707 clusters
+❌ Becomes impractical for large datasets
+
+√N rule
+
+Small N (100): ~10 clusters
+Medium N (2000): ~45 clusters
+Large N (100,000): ~316 clusters
+Very Large N (1M): ~1000 clusters
+❌ Grows too fast for large data
+
+Rice Rule: k = 2 * N^(1/3)
+
+Small N (100): ~9 clusters
+Medium N (2000): ~25 clusters
+Large N (100,000): ~93 clusters
+Very Large N (1M): ~200 clusters
+✓ Reasonable growth rate
+
+Verdict: Sturges' Formula is the most versatile because:
+
+Provides reasonable numbers across all dataset sizes
+Logarithmic growth prevents explosion for large datasets
+Still gives enough clusters for small datasets to be meaningful
+Results stay interpretable even with very large datasets
+
+
+# Get the total number of rows in the dataset
+num_rows = df.shape[0] 
+
+# Sturges Rule
+rt_sturges = int(round(1 + 3.322 * np.log10(num_rows), 0))
+
+# Rice Rule: k = 2 * N^(1/3)
+rt_rice = int(round(2 * np.power(num_rows, 1/3), 0))
+
+# √(n/2) rule
+rt_sqrt_half = int(round(np.sqrt(num_rows/2), 0))
+
+# √N rule
+rt_sqrt = int(round(np.sqrt(num_rows), 0))
+
+# Use the most conservative estimate
+rt = min(
+   int(round(1 + 3.322 * np.log10(num_rows), 0)),     # Sturges
+   int(round(2 * np.power(num_rows, 1/3), 0)),        # Rice  
+   int(round(np.sqrt(num_rows/2), 0)),                # √(n/2)
+   int(round(np.sqrt(num_rows), 0))                   # √N
+)
