@@ -7516,7 +7516,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Customer-Segmentation-Analysis:-for-Personalized-Marketing-Strategies"><strong>Customer Segmentation Analysis: for Personalized Marketing Strategies</strong><a class="anchor-link" href="#Customer-Segmentation-Analysis:-for-Personalized-Marketing-Strategies">¶</a></h1>
+<h1 id="Customer-Segmentation-Analysis-for-Personalized-Marketing-Strategies"><strong>Customer Segmentation Analysis for Personalized Marketing Strategies</strong><a class="anchor-link" href="#Customer-Segmentation-Analysis-for-Personalized-Marketing-Strategies">¶</a></h1>
 </div>
 </div>
 </div>
@@ -7557,7 +7557,7 @@ a.anchor-link {
 </ul>
 </li>
 <li><a href="#6.-Cluster-Analysis">Cluster Analysis</a><ul>
-<li>6.1. <a href="#6.1.-3D-Visualization-of-Customer-Segmentation-Using-PCA">3D Visualization of Customer Segmentation Using PCA</a></li>
+<li>6.1. <a href="#6.1.-2D-Visualization-of-Customer-Segmentation-Using-PCA">2D Visualization of Customer Segmentation Using PCA</a></li>
 <li>6.2. <a href="#6.2.-Cluster-Distribution">Cluster Distribution</a></li>
 <li>6.3. <a href="#6.3.-Customer-Behaviour-Analysis">Customer Behaviour Analysis</a><ul>
 <li>6.3.1. <a href="#6.3.1.-Cluster-1:-Young-Digital-Savvy-Spenders">Cluster 1: Young Digital-Savvy Spenders</a></li>
@@ -8501,7 +8501,7 @@ Optimal number of clusters (Silhouette Score): 5
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="6.1.-3D-Visualization-of-Customer-Segmentation-Using-PCA"><a href="#Table-of-Contents">6.1. 3D Visualization of Customer Segmentation Using PCA</a><a class="anchor-link" href="#6.1.-3D-Visualization-of-Customer-Segmentation-Using-PCA">¶</a></h3>
+<h3 id="6.1.-2D-Visualization-of-Customer-Segmentation-Using-PCA"><a href="#Table-of-Contents">6.1. 2D Visualization of Customer Segmentation Using PCA</a><a class="anchor-link" href="#6.1.-2D-Visualization-of-Customer-Segmentation-Using-PCA">¶</a></h3>
 </div>
 </div>
 </div>
@@ -8512,7 +8512,7 @@ Optimal number of clusters (Silhouette Score): 5
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Using <strong>K-Means clustering with K=4</strong>, customers were segmented into distinct groups based on their demographic and behavioral attributes. To simplify the high-dimensional data, <strong>Principal Component Analysis (PCA)</strong> reduced the features to <strong>three components (PCA1, PCA2, PCA3)</strong>, retaining most of the variance. A <strong>3D scatter plot</strong> was created to visualize the clusters, where each point represents a customer and is color-coded by cluster. The interactive plot highlights cluster separations and overlaps, providing insights into customer behavior patterns. This visualization aids in <strong>identifying distinct customer segments, supporting targeted marketing strategies and personalized engagement efforts</strong>.</p>
+<p>Using <strong>K-Means clustering with K=4</strong>, customers were segmented into distinct groups based on their demographic and behavioral attributes. To simplify the high-dimensional data, <strong>Principal Component Analysis (PCA)</strong> reduced the features to <strong>twocomponents (PCA1 &amp; PCA2)</strong>, retaining most of the variance. A <strong>2D scatter plot</strong> was created to visualize the clusters, where each point represents a customer and is color-coded by cluster. The interactive plot highlights cluster separations and overlaps, providing insights into customer behavior patterns. This visualization aids in <strong>identifying distinct customer segments, supporting targeted marketing strategies and personalized engagement efforts</strong>.</p>
 </div>
 </div>
 </div>
@@ -8528,47 +8528,8 @@ Optimal number of clusters (Silhouette Score): 5
 <span class="n">kmeans</span> <span class="o">=</span> <span class="n">KMeans</span><span class="p">(</span><span class="n">n_clusters</span><span class="o">=</span><span class="n">optimal_k</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">n_init</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">'Cluster'</span><span class="p">]</span> <span class="o">=</span> <span class="n">kmeans</span><span class="o">.</span><span class="n">fit_predict</span><span class="p">(</span><span class="n">X_transformed</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span>
 <span class="c1"># PCA for Visualization</span>
-<span class="c1"># Perform PCA with 3 components</span>
-<span class="n">pca</span> <span class="o">=</span> <span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-<span class="n">X_pca</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_transformed</span><span class="p">)</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">'PCA1'</span><span class="p">]</span> <span class="o">=</span> <span class="n">X_pca</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">'PCA2'</span><span class="p">]</span> <span class="o">=</span> <span class="n">X_pca</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">'PCA3'</span><span class="p">]</span> <span class="o">=</span> <span class="n">X_pca</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span> 
-<span class="c1"># Create a 3D scatter plot with Plotly</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
-<span class="c1"># Define colors for clusters</span>
-<span class="n">colors</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">colors</span><span class="o">.</span><span class="n">qualitative</span><span class="o">.</span><span class="n">Plotly</span>  <span class="c1"># Use Plotly's default qualitative colors</span>
-<span class="c1"># Add data points for each cluster separately</span>
-<span class="k">for</span> <span class="n">cluster</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Cluster'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()):</span>
-    <span class="n">cluster_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'Cluster'</span><span class="p">]</span> <span class="o">==</span> <span class="n">cluster</span><span class="p">]</span>
-    <span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter3d</span><span class="p">(</span>
-        <span class="n">x</span><span class="o">=</span><span class="n">cluster_data</span><span class="p">[</span><span class="s1">'PCA1'</span><span class="p">],</span>  <span class="c1"># PCA Component 1</span>
-        <span class="n">y</span><span class="o">=</span><span class="n">cluster_data</span><span class="p">[</span><span class="s1">'PCA2'</span><span class="p">],</span>  <span class="c1"># PCA Component 2</span>
-        <span class="n">z</span><span class="o">=</span><span class="n">cluster_data</span><span class="p">[</span><span class="s1">'PCA3'</span><span class="p">],</span>  <span class="c1"># PCA Component 3</span>
-        <span class="n">mode</span><span class="o">=</span><span class="s1">'markers'</span><span class="p">,</span>
-        <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-            <span class="n">size</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>  <span class="c1"># Marker size</span>
-            <span class="n">opacity</span><span class="o">=</span><span class="mf">0.7</span>  <span class="c1"># Transparency</span>
-        <span class="p">),</span>
-        <span class="n">name</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Cluster </span><span class="si">{</span><span class="n">cluster</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span>  <span class="c1"># Legend label</span>
-        <span class="n">hovertext</span><span class="o">=</span><span class="n">cluster_data</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>  <span class="c1"># Tooltip: Show customer ID or index</span>
-        <span class="n">hovertemplate</span><span class="o">=</span><span class="s1">'Customer ID: %</span><span class="si">{hovertext}</span><span class="s1">&lt;br&gt;PCA1: %</span><span class="si">{x}</span><span class="s1">&lt;br&gt;PCA2: %</span><span class="si">{y}</span><span class="s1">&lt;br&gt;PCA3: %</span><span class="si">{z}</span><span class="s1">'</span>  <span class="c1"># Custom tooltip</span>
-    <span class="p">))</span>
-<span class="c1"># Set the title and layout details</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
-    <span class="n">title</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s1">'3D Visualization of Customer Clusters in PCA Space'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span>  <span class="c1"># Centered title</span>
-    <span class="n">scene</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
-        <span class="n">xaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'PCA Component 1'</span><span class="p">,</span> <span class="n">backgroundcolor</span><span class="o">=</span><span class="s2">"#fcf0dc"</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">),</span>
-        <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'PCA Component 2'</span><span class="p">,</span> <span class="n">backgroundcolor</span><span class="o">=</span><span class="s2">"#fcf0dc"</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">),</span>
-        <span class="n">zaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'PCA Component 3'</span><span class="p">,</span> <span class="n">backgroundcolor</span><span class="o">=</span><span class="s2">"#fcf0dc"</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">),</span>
-    <span class="p">),</span>
-    <span class="n">width</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span>  <span class="c1"># Plot width</span>
-    <span class="n">height</span><span class="o">=</span><span class="mi">800</span>  <span class="c1"># Plot height</span>
-<span class="p">)</span>
-<span class="c1"># Show the plot</span>
-<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 
-
+<span class="c1"># # 2D Scatterplot</span>
 <span class="c1"># pca = PCA(n_components=2)</span>
 <span class="c1"># X_pca = pca.fit_transform(X_transformed)</span>
 <span class="c1"># df['PCA1'] = X_pca[:, 0]</span>
@@ -8602,6 +8563,54 @@ Optimal number of clusters (Silhouette Score): 5
 <span class="c1">#     )</span>
 
 <span class="c1"># plt.show()</span>
+
+<span class="c1"># Perform PCA with 3 components</span>
+<span class="n">pca</span> <span class="o">=</span> <span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">X_pca</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_transformed</span><span class="p">)</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'PCA1'</span><span class="p">]</span> <span class="o">=</span> <span class="n">X_pca</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'PCA2'</span><span class="p">]</span> <span class="o">=</span> <span class="n">X_pca</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="n">df</span><span class="p">[</span><span class="s1">'PCA3'</span><span class="p">]</span> <span class="o">=</span> <span class="n">X_pca</span><span class="p">[:,</span> <span class="mi">2</span><span class="p">]</span> 
+
+<span class="c1"># Create a 3D scatter plot with Plotly</span>
+<span class="n">fig_3d</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">()</span>
+
+<span class="c1"># Define colors for clusters</span>
+<span class="n">colors</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">colors</span><span class="o">.</span><span class="n">qualitative</span><span class="o">.</span><span class="n">Plotly</span>  <span class="c1"># Use Plotly's default qualitative colors</span>
+
+<span class="c1"># Add data points for each cluster separately</span>
+<span class="k">for</span> <span class="n">cluster</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">'Cluster'</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">()):</span>
+    <span class="n">cluster_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">'Cluster'</span><span class="p">]</span> <span class="o">==</span> <span class="n">cluster</span><span class="p">]</span>
+    <span class="n">fig_3d</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Scatter3d</span><span class="p">(</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">cluster_data</span><span class="p">[</span><span class="s1">'PCA1'</span><span class="p">],</span>  
+        <span class="n">y</span><span class="o">=</span><span class="n">cluster_data</span><span class="p">[</span><span class="s1">'PCA2'</span><span class="p">],</span>  
+        <span class="n">z</span><span class="o">=</span><span class="n">cluster_data</span><span class="p">[</span><span class="s1">'PCA3'</span><span class="p">],</span>  
+        <span class="n">mode</span><span class="o">=</span><span class="s1">'markers'</span><span class="p">,</span>
+        <span class="n">marker</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+            <span class="n">size</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span>  
+            <span class="n">opacity</span><span class="o">=</span><span class="mf">0.7</span>  
+        <span class="p">),</span>
+        <span class="n">name</span><span class="o">=</span><span class="sa">f</span><span class="s1">'Cluster </span><span class="si">{</span><span class="n">cluster</span><span class="si">}</span><span class="s1">'</span><span class="p">,</span>  
+        <span class="n">hovertext</span><span class="o">=</span><span class="n">cluster_data</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>  
+        <span class="n">hovertemplate</span><span class="o">=</span><span class="s1">'Customer ID: %</span><span class="si">{hovertext}</span><span class="s1">&lt;br&gt;PCA1: %</span><span class="si">{x}</span><span class="s1">&lt;br&gt;PCA2: %</span><span class="si">{y}</span><span class="s1">&lt;br&gt;PCA3: %</span><span class="si">{z}</span><span class="s1">'</span>  
+    <span class="p">))</span>
+
+<span class="c1"># Set the title and layout details</span>
+<span class="n">fig_3d</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">title</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="s1">'3D Visualization of Customer Clusters in PCA Space'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="mf">0.5</span><span class="p">),</span>
+    <span class="n">scene</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">xaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'PCA Component 1'</span><span class="p">,</span> <span class="n">backgroundcolor</span><span class="o">=</span><span class="s2">"#fcf0dc"</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">),</span>
+        <span class="n">yaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'PCA Component 2'</span><span class="p">,</span> <span class="n">backgroundcolor</span><span class="o">=</span><span class="s2">"#fcf0dc"</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">),</span>
+        <span class="n">zaxis</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s1">'PCA Component 3'</span><span class="p">,</span> <span class="n">backgroundcolor</span><span class="o">=</span><span class="s2">"#fcf0dc"</span><span class="p">,</span> <span class="n">gridcolor</span><span class="o">=</span><span class="s1">'white'</span><span class="p">),</span>
+    <span class="p">),</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">900</span><span class="p">,</span>  
+    <span class="n">height</span><span class="o">=</span><span class="mi">800</span>  
+<span class="p">)</span>
+
+<span class="c1"># Show the interactive plot</span>
+<span class="n">fig_3d</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+<span class="c1"># Save as an interactive HTML file for GitHub compatibility</span>
+<span class="n">fig_3d</span><span class="o">.</span><span class="n">write_html</span><span class="p">(</span><span class="s2">"3D_PCA_Visualization.html"</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
