@@ -3,21 +3,21 @@
 
 ## About Me 👦
 
-👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, data science, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
+👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
 
 ### Technical Expertise 👨‍💻
-**Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing Power BI and Tableau. My portfolio showcases my ability to transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
+**Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing, SQL, Power BI and Tableau. My portfolio showcases my ability to extract and transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
 
 **Machine Learning:** I have a strong foundation in machine learning, encompassing feature selection, regularized linear modeling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and advanced algorithms such as Apriori association rules and big data longitudinal analysis. My experience also includes applying neural networks and other optimization techniques to solve complex problems.
 
-**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.
+<!---**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.--->
 
 ### Goals :dart:
 I am committed to continuous learning and improvement in the fields of machine learning, and data analytics. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
 
 ## Portfolio :writing_hand:
 
-My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning, including interactive dashboards and R Shiny app.
+My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
 Machine Learning Portfolio:
