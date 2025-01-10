@@ -45,7 +45,7 @@ Machine Learning Portfolio:
 - **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
 - **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**-->
 
-Data Visualization Dashboards:
+<!---Data Visualization Dashboards:
 - **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
 - **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)** (Power BI)
 - **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)** (Power BI)
@@ -55,8 +55,8 @@ Data Visualization Dashboards:
 <!--- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**-->
 <!---- **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**-->
 
-App:
-- **[R Shiny App](https://f7cnn8-wj-lau.shinyapps.io/Assign5/)** 
+<!---App:
+- **[R Shiny App](https://f7cnn8-wj-lau.shinyapps.io/Assign5/)**-->
 
 ## Let's Connect :handshake:
 Thank you for visiting my page. I am always open to collaboration, feedback, and opportunities to engage with like-minded professionals and enthusiasts in the world of data and technology.
