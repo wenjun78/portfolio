@@ -13,7 +13,7 @@
 <!---**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.--->
 
 ### Goals :dart:
-I am committed to continuous learning and improvement in the fields of machine learning, and data analytics. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
+I am committed to continuous learning and improvement in the fields of data analytics and machine learning. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
 
 ## Portfolio :writing_hand:
 
@@ -45,12 +45,12 @@ Machine Learning Portfolio:
 - **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
 - **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**-->
 
-<!---Data Visualization Dashboards:
+Data Visualization Dashboards:
 - **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
-- **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)** (Power BI)
-- **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)** (Power BI)
 - **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
 - **[Job Sphere Analytics](https://public.tableau.com/views/TableauinDataJobSphereAnAnalyticalDashboard/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
+<!---- **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)** (Power BI)-->
+<!---- **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)** (Power BI)-->
 <!---- **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**-->
 <!--- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**-->
 <!---- **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**-->
