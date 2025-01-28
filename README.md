@@ -47,7 +47,7 @@ Machine Learning Portfolio:
 - **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**-->
 
 Data Visualization Dashboards:
-- **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
+<!---- - **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
 - **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
 - **[Job Sphere Analytics](https://public.tableau.com/views/TableauinDataJobSphereAnAnalyticalDashboard/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
 <!---- **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)** (Power BI)-->
