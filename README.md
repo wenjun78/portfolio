@@ -6,7 +6,7 @@
 👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
 
 ### Technical Expertise 👨‍💻
-**Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing, SQL, Power BI and Tableau. My portfolio showcases my ability to extract and transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
+**Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing, SQL, Python, Power BI and Tableau. My portfolio showcases my ability to extract and transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
 
 **Machine Learning:** I have a strong foundation in machine learning, encompassing feature selection, regularized linear modeling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and advanced algorithms such as Apriori association rules and big data longitudinal analysis. My experience also includes applying neural networks and other optimization techniques to solve complex problems.
 
