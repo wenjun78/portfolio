@@ -6,14 +6,24 @@
 👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
 
 ### Technical Expertise 👨‍💻
-**Data Analytics:** I am proficient in data analytics, with a particular emphasis on utilizing, SQL, Python, Power BI and Tableau. My portfolio showcases my ability to extract and transform raw data into meaningful insights through compelling visualizations and interactive dashboards.
+## Data Analytics & Visualization:
+I specialize in SQL, Python, and Tableau/Power BI to clean, model, and visualize large datasets. My projects include SQL-based exploration of public datasets, A/B testing experiments, and dashboard creation for stakeholder reporting.
 
-**Machine Learning:** I have a strong foundation in machine learning, encompassing feature selection, regularized linear modeling, dimensionality reduction, lazy learning, Naive Bayes, decision trees, forecasting, and advanced algorithms such as Apriori association rules and big data longitudinal analysis. My experience also includes applying neural networks and other optimization techniques to solve complex problems.
+## Machine Learning & Statistical Modeling:
+My machine learning portfolio spans Python and R, covering:
 
+- Supervised & Unsupervised Learning: Decision Trees, Naive Bayes, k-NN, and Customer Segmentation.
+
+- Modeling & Optimization: Feature Selection, Regularized Regression, Forecasting, Function Optimization.
+
+- Advanced Topics: Apriori Rule Mining, Time Series Anomaly Detection, Deep Learning, and Big Data Longitudinal Analysis.
+
+## ETL & Data Engineering:
+Experienced with web scraping, working with StarRocks, and creating pipelines for replicating and syncing data across environments using tools like Pentaho and AWS S3.
 <!---**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.--->
 
 ### Goals :dart:
-I am committed to continuous learning and improvement in the fields of data analytics and machine learning. My goal is to contribute to projects that leverage data for insightful decision-making and to drive innovation in these areas.
+I aim to deepen my expertise in machine learning and cloud-based data engineering. I’m especially keen on projects involving personalization, automation, and real-time analytics that transform data into competitive advantage.
 
 ## Portfolio :writing_hand:
 
