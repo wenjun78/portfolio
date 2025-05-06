@@ -12,13 +12,7 @@ I enjoy building end-to-end solutions — from extracting and transforming data 
 I specialize in SQL, Python, and Tableau/Power BI to clean, model, and visualize large datasets. My projects include SQL-based exploration of public datasets, A/B testing experiments, and dashboard creation for stakeholder reporting.
 
 ### Machine Learning & Statistical Modeling:
-My machine learning portfolio spans Python and R, covering:
-
-- Supervised & Unsupervised Learning: Decision Trees, Naive Bayes, k-NN, and Customer Segmentation.
-
-- Modeling & Optimization: Feature Selection, Regularized Regression, Forecasting, Function Optimization.
-
-- Advanced Topics: Apriori Rule Mining, Time Series Anomaly Detection, Deep Learning, and Big Data Longitudinal Analysis.
+My machine learning experience spans both supervised and unsupervised learning, including decision trees, Naive Bayes, and k-nearest neighbors. I’ve worked on scenario-driven applications such as customer segmentation and user journey analysis to uncover behavioral patterns and optimize engagement strategies. In terms of modeling and optimization, I apply techniques like feature selection, regularized regression, forecasting, and function optimization to improve model performance and interpretability. My portfolio also explores advanced topics such as Apriori association rule mining, anomaly detection in time series data, deep learning models, and longitudinal analysis using big data frameworks.
 
 ### ETL & Data Engineering:
 Experienced with web scraping, working with AWS and StarRocks, and creating pipelines for replicating and syncing data across environments using tools like Pentaho and AWS S3.
