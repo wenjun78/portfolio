@@ -20,9 +20,10 @@ I am committed to continuous learning and improvement in the fields of data anal
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
-Machine Learning Portfolio:
+Machine Learning Project:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
+- **[A/B Testing: Evaluating UX Redesign on Conversion and Engagement Metrics](https://github.com/wenjun78/portfolio/blob/main/project/abtest_ux/abtest_ux.html)** (Python) 
 - **[Customer Segmentation for Personalized Marketing Strategies](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)** (Python)
 - **[Anomaly Detection in Time Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)** (Python)
 - **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python) 
@@ -31,7 +32,7 @@ Machine Learning Portfolio:
 - **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)** (Python)
 <!---- **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)-->
 
-<!----Machine Learning Portfolio (Rstudio):
+Machine Learning Portfolio (Rstudio):
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
 - **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
 - **[Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html)**
@@ -44,7 +45,7 @@ Machine Learning Portfolio:
 - **[Specialized Machine Learning Topics](https://wenjun78.github.io/portfolio/Specialized%20Machine%20Learning%20Topics.html)**
 - **[Big Data Longitudinal Analysis](https://wenjun78.github.io/portfolio/Big%20Data%20Longitudinal%20Analysis.html)**
 - **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
-- **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**-->
+- **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**
 
 <!----Data Visualization Dashboards:
 - **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
