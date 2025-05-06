@@ -21,7 +21,7 @@ My machine learning portfolio spans Python and R, covering:
 - Advanced Topics: Apriori Rule Mining, Time Series Anomaly Detection, Deep Learning, and Big Data Longitudinal Analysis.
 
 ### ETL & Data Engineering:
-Experienced with web scraping, working with StarRocks, and creating pipelines for replicating and syncing data across environments using tools like Pentaho and AWS S3.
+Experienced with web scraping, working with AWS and StarRocks, and creating pipelines for replicating and syncing data across environments using tools like Pentaho and AWS S3.
 <!---**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.--->
 
 ## Goals :dart:
