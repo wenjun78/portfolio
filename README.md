@@ -3,7 +3,9 @@
 
 ## About Me 👦
 
-👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
+👋 Hi, I'm Wen Jun — a dedicated professional with a strong passion for data analytics, machine learning, statistics, and data engineering. My journey in the tech world is driven by a fascination with how data can unlock powerful insights and enable smarter decision-making.
+
+I enjoy building end-to-end solutions — from extracting and transforming data to applying machine learning models and visualizing results. My long-term goal is to become a Machine Learning Engineer, combining my skills in analytics, modeling, and engineering to develop intelligent, scalable systems.
 
 ## Technical Expertise 👨‍💻
 ### Data Analytics & Visualization:
