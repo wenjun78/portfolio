@@ -26,7 +26,7 @@ I aim to deepen my expertise in machine learning and cloud-based data engineerin
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
-Machine Learning Project:
+Hands-On Data Projects:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
 - **[A/B Testing: Evaluating UX Redesign on Conversion and Engagement Metrics](https://wenjun78.github.io/portfolio/project/abtest_ux/abtest_ux.html)** (Python) 
@@ -38,7 +38,7 @@ Machine Learning Project:
 - **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)** (Python)
 <!---- **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)-->
 
-Machine Learning Portfolio (Rstudio):
+ML Techniques & Theory (R):
 - **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
 - **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
 - **[Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html)**
