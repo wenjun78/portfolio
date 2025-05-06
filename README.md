@@ -23,7 +23,7 @@ Each project in my portfolio is a testament to my ability to analyze, interpret,
 Machine Learning Project:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
-- **[A/B Testing: Evaluating UX Redesign on Conversion and Engagement Metrics](https://github.com/wenjun78/portfolio/blob/main/project/abtest_ux/abtest_ux.html)** (Python) 
+- **[A/B Testing: Evaluating UX Redesign on Conversion and Engagement Metrics](https://wenjun78.github.io/portfolio/project/abtest_ux/abtest_ux.html)** (Python) 
 - **[Customer Segmentation for Personalized Marketing Strategies](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)** (Python)
 - **[Anomaly Detection in Time Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)** (Python)
 - **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python) 
