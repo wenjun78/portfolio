@@ -5,11 +5,11 @@
 
 👋 Hi, I'm Wen Jun, a dedicated professional with a strong passion for data analytics, machine learning and statistics. My journey in the tech world is fueled by a fascination with the power of data and the insights it can provide.
 
-### Technical Expertise 👨‍💻
-## Data Analytics & Visualization:
+## Technical Expertise 👨‍💻
+### Data Analytics & Visualization:
 I specialize in SQL, Python, and Tableau/Power BI to clean, model, and visualize large datasets. My projects include SQL-based exploration of public datasets, A/B testing experiments, and dashboard creation for stakeholder reporting.
 
-## Machine Learning & Statistical Modeling:
+### Machine Learning & Statistical Modeling:
 My machine learning portfolio spans Python and R, covering:
 
 - Supervised & Unsupervised Learning: Decision Trees, Naive Bayes, k-NN, and Customer Segmentation.
@@ -18,11 +18,11 @@ My machine learning portfolio spans Python and R, covering:
 
 - Advanced Topics: Apriori Rule Mining, Time Series Anomaly Detection, Deep Learning, and Big Data Longitudinal Analysis.
 
-## ETL & Data Engineering:
+### ETL & Data Engineering:
 Experienced with web scraping, working with StarRocks, and creating pipelines for replicating and syncing data across environments using tools like Pentaho and AWS S3.
 <!---**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.--->
 
-### Goals :dart:
+## Goals :dart:
 I aim to deepen my expertise in machine learning and cloud-based data engineering. I’m especially keen on projects involving personalization, automation, and real-time analytics that transform data into competitive advantage.
 
 ## Portfolio :writing_hand:
