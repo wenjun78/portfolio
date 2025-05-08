@@ -29,7 +29,7 @@ Each project in my portfolio is a testament to my ability to analyze, interpret,
 Hands-On Data Projects:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
-- **[Oil Palm Prediction](https://wenjun78.github.io/portfolio/project/oilpalm/oilproduction_prediction_LauWJ.html)** (Python)
+- **[Oil Palm Production Prediction](https://wenjun78.github.io/portfolio/project/oilpalm/oilproduction_prediction_LauWJ.html)** (Python)
 - **[A/B Testing: Evaluating UX Redesign on Conversion and Engagement Metrics](https://wenjun78.github.io/portfolio/project/abtest_ux/abtest_ux.html)** (Python) 
 - **[Customer Segmentation for Personalized Marketing Strategies](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)** (Python)
 - **[Anomaly Detection in Time Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)** (Python)
