@@ -26,6 +26,9 @@ I aim to deepen my expertise in machine learning and cloud-based data engineerin
 My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning.
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
+AI Projects:
+- **[MedVQA Slake](https://wenjun78.github.io/portfolio/project/AI/WOA7015_MedVQA_Final_Group8.html)** (Python)
+
 Hands-On Data Projects:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
 - **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
