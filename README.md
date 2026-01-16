@@ -27,7 +27,7 @@ My GitHub page serves as a dynamic portfolio displaying my diverse range of proj
 Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
 
 AI Projects:
-- **[MedVQA Slake](https://wenjun78.github.io/portfolio/project/AI/WOA7015_MedVQA_Final_Group8.html)** (Python)
+- **[MedVQA Slake](https://wenjun78.github.io/portfolio/project/AI/WOA7015_MedVQA_FINAL_GROUP8.html)** (Python)
 
 Hands-On Data Projects:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
