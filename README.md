@@ -28,6 +28,7 @@ Each project in my portfolio is a testament to my ability to analyze, interpret,
 
 AI Projects:
 - **[MedVQA Slake](https://wenjun78.github.io/portfolio/AI/WOA7015_MedVQA_FINAL_GROUP8.html)** (Python)
+- **[NASA Turbo Engine RUL](https://wenjun78.github.io/portfolio/XAI/xai_dashboard.html)** (Python)
 
 Hands-On Data Projects:
 - **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
