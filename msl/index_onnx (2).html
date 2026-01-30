@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤟 MSL Recognition</title>
+    
+    <!-- MediaPipe -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    
+    <!-- ONNX Runtime Web - Runs your model in browser! -->
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#0f0f23,#1a1a3e);min-height:100vh;color:#fff;padding:20px}
+        .container{max-width:1100px;margin:0 auto}
+        .header{text-align:center;margin-bottom:25px}
+        .header h1{font-size:2rem;background:linear-gradient(135deg,#667eea,#764ba2);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+        .header p{color:rgba(255,255,255,.7);margin-top:5px}
+        .badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.8rem;margin-top:10px;background:#22c55e}
+        .model-status{text-align:center;margin-bottom:15px;padding:10px;border-radius:8px;font-size:.9rem}
+        .model-status.loading{background:rgba(251,191,36,.2);border:1px solid #fbbf24}
+        .model-status.ready{background:rgba(34,197,94,.2);border:1px solid #22c55e}
+        .model-status.error{background:rgba(239,68,68,.2);border:1px solid #ef4444}
+        .tabs{display:flex;gap:10px;margin-bottom:20px;justify-content:center}
+        .tab-btn{padding:12px 30px;font-size:1rem;font-weight:600;border:none;border-radius:10px;cursor:pointer;background:rgba(255,255,255,.1);color:#fff;transition:.3s}
+        .tab-btn:hover{background:rgba(255,255,255,.2)}
+        .tab-btn.active{background:linear-gradient(135deg,#667eea,#764ba2)}
+        .tab-content{display:none}
+        .tab-content.active{display:block}
+        .main-grid{display:grid;grid-template-columns:2fr 1fr;gap:20px}
+        @media(max-width:768px){.main-grid{grid-template-columns:1fr}}
+        .video-section{background:#1e1e3f;border-radius:16px;padding:15px;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+        .video-container{position:relative;width:100%;border-radius:12px;overflow:hidden;background:#000;aspect-ratio:4/3}
+        video{display:none}
+        canvas{width:100%;height:100%;display:block}
+        .status-bar{position:absolute;top:0;left:0;right:0;padding:12px 16px;background:linear-gradient(180deg,rgba(0,0,0,.8),transparent);display:flex;justify-content:space-between;align-items:center}
+        .status-dot{width:12px;height:12px;border-radius:50%;background:#ef4444;display:inline-block;margin-right:8px;transition:.3s}
+        .status-dot.active{background:#22c55e;box-shadow:0 0 10px #22c55e}
+        .buffer-bar{width:100px;height:8px;background:rgba(255,255,255,.2);border-radius:4px;overflow:hidden}
+        .buffer-fill{height:100%;background:linear-gradient(90deg,#667eea,#764ba2);transition:width .1s}
+        .result-overlay{position:absolute;bottom:0;left:0;right:0;padding:20px;background:linear-gradient(0deg,rgba(0,0,0,.95) 70%,transparent);text-align:center}
+        .result-sign{font-size:2.2rem;font-weight:700;margin-bottom:3px}
+        .result-english{font-size:1.1rem;opacity:.9;margin-bottom:10px}
+        .result-confidence{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.9rem;font-weight:600;margin-bottom:10px}
+        .confidence-high{background:#22c55e}
+        .confidence-medium{background:#f59e0b}
+        .confidence-low{background:#ef4444}
+        .top3-overlay{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+        .top3-overlay-item{background:rgba(255,255,255,.1);padding:8px 14px;border-radius:10px;text-align:center;min-width:100px;border:1px solid rgba(255,255,255,.2)}
+        .top3-overlay-item.rank1{background:rgba(34,197,94,.3);border-color:#22c55e}
+        .top3-overlay-item.rank2{background:rgba(59,130,246,.2);border-color:#3b82f6}
+        .top3-overlay-item.rank3{background:rgba(168,85,247,.2);border-color:#a855f7}
+        .top3-overlay-item .gesture{font-weight:600;font-size:.95rem;display:block}
+        .top3-overlay-item .english{font-size:.75rem;opacity:.7;display:block;margin:2px 0}
+        .top3-overlay-item .prob{font-size:1.1rem;font-weight:700;display:block;margin-top:4px}
+        .top3-overlay-item.rank1 .prob{color:#4ade80}
+        .top3-overlay-item.rank2 .prob{color:#60a5fa}
+        .top3-overlay-item.rank3 .prob{color:#c084fc}
+        .controls{display:flex;gap:10px;margin-top:15px;justify-content:center;flex-wrap:wrap}
+        button{padding:14px 28px;font-size:1rem;font-weight:600;border:none;border-radius:10px;cursor:pointer;transition:.3s}
+        button:hover{transform:translateY(-2px);box-shadow:0 5px 20px rgba(0,0,0,.3)}
+        button:disabled{opacity:.5;cursor:not-allowed;transform:none}
+        .btn-start{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff}
+        .btn-reset{background:linear-gradient(135deg,#6366f1,#4f46e5);color:#fff}
+        .btn-upload{background:linear-gradient(135deg,#f59e0b,#d97706);color:#fff}
+        .sidebar{display:flex;flex-direction:column;gap:15px}
+        .card{background:#1e1e3f;border-radius:12px;padding:18px}
+        .card h3{font-size:1rem;margin-bottom:12px;color:#a5b4fc}
+        .card ul{list-style:none}
+        .card li{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.1);font-size:.9rem}
+        .card li:last-child{border-bottom:none}
+        .top3-item{display:flex;justify-content:space-between;padding:8px 12px;background:rgba(255,255,255,.05);border-radius:8px;margin-bottom:6px}
+        .upload-area{border:2px dashed rgba(255,255,255,.3);border-radius:12px;padding:40px;text-align:center;cursor:pointer;transition:.3s}
+        .upload-area:hover{border-color:#667eea;background:rgba(102,126,234,.1)}
+        .loading-overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);display:flex;flex-direction:column;align-items:center;justify-content:center}
+        .spinner{width:50px;height:50px;border:4px solid rgba(255,255,255,.2);border-top-color:#667eea;border-radius:50%;animation:spin 1s linear infinite}
+        @keyframes spin{to{transform:rotate(360deg)}}
+        .footer{text-align:center;margin-top:30px;color:rgba(255,255,255,.5);font-size:.85rem}
+        .gesture-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:6px;max-height:180px;overflow-y:auto}
+        .gesture-item{background:rgba(255,255,255,.05);padding:6px 8px;border-radius:6px;font-size:.75rem}
+        .gesture-item b{color:#c4b5fd}
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>🤟 Malaysian Sign Language Recognition</h1>
+        <p>Real-time Detection • 30 Gestures • 98% Accuracy</p>
+        <span class="badge">✅ Model Runs in Browser (ONNX)</span>
+    </div>
+    
+    <div class="model-status loading" id="modelStatus">⏳ Loading ONNX model...</div>
+    
+    <div class="tabs">
+        <button class="tab-btn active" onclick="switchTab('live')">📷 Live Detection</button>
+        <button class="tab-btn" onclick="switchTab('upload')">📁 Video Upload</button>
+    </div>
+    
+    <div class="tab-content active" id="tab-live">
+        <div class="main-grid">
+            <div class="video-section">
+                <div class="video-container">
+                    <video id="webcam" playsinline></video>
+                    <canvas id="canvas"></canvas>
+                    <div class="loading-overlay" id="loading"><div class="spinner"></div><p style="margin-top:15px">Loading MediaPipe...</p></div>
+                    <div class="status-bar" id="statusBar" style="display:none">
+                        <div><span class="status-dot" id="statusDot"></span><span id="statusText">Waiting...</span></div>
+                        <div style="display:flex;align-items:center;gap:10px"><span id="bufferText">0/30</span><div class="buffer-bar"><div class="buffer-fill" id="bufferFill"></div></div></div>
+                    </div>
+                    <div class="result-overlay" id="resultOverlay" style="display:none">
+                        <div class="result-sign" id="resultSign">---</div>
+                        <div class="result-english" id="resultEnglish">Show your hands</div>
+                        <div class="top3-overlay" id="top3Overlay">
+                            <div class="top3-overlay-item rank1"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+                            <div class="top3-overlay-item rank2"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+                            <div class="top3-overlay-item rank3"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="btn-start" id="startBtn" onclick="startCamera()" disabled>📷 Start Camera</button>
+                    <button class="btn-reset" onclick="resetLive()">🔄 Reset</button>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="card"><h3>📖 How to Use</h3><ul><li>1. Wait for model to load</li><li>2. Click <b>Start Camera</b></li><li>3. Show your hands</li><li>4. Perform a gesture</li></ul></div>
+                <div class="card"><h3>🎯 Top 3</h3><div id="top3List"><div class="top3-item"><span>---</span><span>--%</span></div><div class="top3-item"><span>---</span><span>--%</span></div><div class="top3-item"><span>---</span><span>--%</span></div></div></div>
+                <div class="card"><h3>🎨 Colors</h3><ul><li>🟢 Green = Left Hand</li><li>🔵 Blue = Right Hand</li></ul></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="tab-content" id="tab-upload">
+        <div class="main-grid">
+            <div class="video-section">
+                <div class="video-container">
+                    <video id="uploadVideo" playsinline></video>
+                    <canvas id="uploadCanvas"></canvas>
+                    <div class="upload-area" id="uploadArea" onclick="document.getElementById('fileInput').click()"><div style="font-size:3rem">📁</div><p><b>Click to upload</b></p><p style="font-size:.85rem;opacity:.7;margin-top:8px">MP4, WebM, MOV</p></div>
+                    <input type="file" id="fileInput" accept="video/*" style="display:none">
+                    <div class="status-bar" id="uploadStatusBar" style="display:none"><div><span class="status-dot active"></span><span id="uploadStatusText">Processing...</span></div><div style="display:flex;align-items:center;gap:10px"><span id="uploadProgress">0%</span><div class="buffer-bar"><div class="buffer-fill" id="uploadFill"></div></div></div></div>
+                    <div class="result-overlay" id="uploadResultOverlay" style="display:none">
+                        <div class="result-sign" id="uploadResultSign">---</div>
+                        <div class="result-english" id="uploadResultEnglish">Upload video</div>
+                        <div class="top3-overlay" id="uploadTop3Overlay">
+                            <div class="top3-overlay-item rank1"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+                            <div class="top3-overlay-item rank2"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+                            <div class="top3-overlay-item rank3"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="btn-upload" onclick="document.getElementById('fileInput').click()">📁 Choose</button>
+                    <button class="btn-start" id="processBtn" onclick="processUpload()" disabled>🔍 Process</button>
+                    <button class="btn-reset" onclick="resetUpload()">🔄 Reset</button>
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="card"><h3>📖 How to Use</h3><ul><li>1. Upload video</li><li>2. Click Process</li><li>3. View results</li></ul></div>
+                <div class="card" id="uploadResultsCard" style="display:none"><h3>📊 Results</h3><div id="uploadTop3"></div><p style="margin-top:10px;font-size:.85rem;opacity:.7" id="uploadStats"></p></div>
+                <div class="card"><h3>📚 Gestures</h3><div class="gesture-grid" id="gestureGrid"></div></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">WQF7006 Computer Vision — Group 13<br><small>Model runs entirely in browser using ONNX Runtime</small></div>
+</div>
+
+<script>
+// ============================================
+// GESTURE DATA
+// ============================================
+const gestures=['abang','perlahan','berapa','keluarga','apa','kakak','bagaimana','hujan','siapa','saudara','lemak','main','pukul','marah','buat','hari','pinjam','hi','bomba','ribut','panas','jahat','ayah','masalah','beli','emak','apa_khabar','kereta','mana','sejuk'];
+const translations={'abang':'Elder Brother','perlahan':'Slow','berapa':'How Much','keluarga':'Family','apa':'What','kakak':'Elder Sister','bagaimana':'How','hujan':'Rain','siapa':'Who','saudara':'Relative','lemak':'Fat','main':'Play','pukul':'Hit','marah':'Angry','buat':'Do/Make','hari':'Day','pinjam':'Borrow','hi':'Hi','bomba':'Fire Brigade','ribut':'Storm','panas':'Hot','jahat':'Evil','ayah':'Father','masalah':'Problem','beli':'Buy','emak':'Mother','apa_khabar':'How Are You','kereta':'Car','mana':'Where','sejuk':'Cold'};
+
+document.getElementById('gestureGrid').innerHTML=gestures.map(g=>`<div class="gesture-item"><b>${g.replace('_',' ')}</b> <small>${translations[g]}</small></div>`).join('');
+
+// ============================================
+// ONNX MODEL - Runs in browser!
+// ============================================
+let onnxSession = null;
+
+async function loadONNXModel() {
+    const statusEl = document.getElementById('modelStatus');
+    try {
+        statusEl.className = 'model-status loading';
+        statusEl.innerHTML = '⏳ Loading ONNX model (may take a few seconds)...';
+        
+        // Load ONNX model
+        const modelUrl = 'https://wenjun78.github.io/portfolio/msl/msl_model.onnx';
+        console.log('Loading model from:', modelUrl);
+        onnxSession = await ort.InferenceSession.create(modelUrl);
+        
+        statusEl.className = 'model-status ready';
+        statusEl.innerHTML = '✅ Model loaded! Ready for detection.';
+        document.getElementById('startBtn').disabled = false;
+        
+        console.log('ONNX model loaded successfully!');
+        console.log('Input names:', onnxSession.inputNames);
+        console.log('Output names:', onnxSession.outputNames);
+        
+    } catch (e) {
+        console.error('Failed to load ONNX model:', e);
+        statusEl.className = 'model-status error';
+        statusEl.innerHTML = '❌ Failed to load model. Make sure msl_model.onnx is in the same folder.';
+    }
+}
+
+async function runONNXInference(keypoints) {
+    if (!onnxSession || keypoints.length < 30) return null;
+    
+    try {
+        // Prepare input tensor (1, 30, 258)
+        const inputData = Float32Array.from(keypoints.slice(-30).flat());
+        const inputTensor = new ort.Tensor('float32', inputData, [1, 30, 258]);
+        
+        // Run inference
+        const results = await onnxSession.run({ input: inputTensor });
+        const output = results.output.data;
+        
+        // Softmax
+        const maxVal = Math.max(...output);
+        const expValues = output.map(v => Math.exp(v - maxVal));
+        const sumExp = expValues.reduce((a, b) => a + b, 0);
+        const probs = expValues.map(v => v / sumExp);
+        
+        // Get top 3
+        const indexed = probs.map((p, i) => ({prob: p, idx: i}));
+        indexed.sort((a, b) => b.prob - a.prob);
+        
+        return indexed.slice(0, 3).map(item => ({
+            gesture: gestures[item.idx],
+            english: translations[gestures[item.idx]],
+            confidence: Math.round(item.prob * 100)
+        }));
+        
+    } catch (e) {
+        console.error('Inference error:', e);
+        return null;
+    }
+}
+
+// ============================================
+// MEDIAPIPE & CAMERA
+// ============================================
+let holistic, running = false, kps = [];
+const vid = document.getElementById('webcam'), can = document.getElementById('canvas'), ctx = can.getContext('2d');
+
+function switchTab(t) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    document.querySelector(`[onclick="switchTab('${t}')"]`).classList.add('active');
+    document.getElementById('tab-' + t).classList.add('active');
+}
+
+async function initMediaPipe() {
+    holistic = new Holistic({locateFile: f => `https://cdn.jsdelivr.net/npm/@mediapipe/holistic/${f}`});
+    holistic.setOptions({modelComplexity: 0, smoothLandmarks: true, minDetectionConfidence: 0.5, minTrackingConfidence: 0.5});
+    holistic.onResults(onRes);
+    document.getElementById('loading').querySelector('p').textContent = 'Ready!';
+}
+
+function extract(r) {
+    let p = Array(132).fill(0), l = Array(63).fill(0), rh = Array(63).fill(0);
+    if (r.poseLandmarks) p = r.poseLandmarks.flatMap(x => [x.x, x.y, x.z, x.visibility || 0]);
+    if (r.leftHandLandmarks) l = r.leftHandLandmarks.flatMap(x => [x.x, x.y, x.z]);
+    if (r.rightHandLandmarks) rh = r.rightHandLandmarks.flatMap(x => [x.x, x.y, x.z]);
+    return [...p, ...l, ...rh];
+}
+
+function onRes(r) {
+    if (!running) return;
+    
+    ctx.save();
+    ctx.clearRect(0, 0, can.width, can.height);
+    ctx.drawImage(r.image, 0, 0, can.width, can.height);
+    
+    if (r.leftHandLandmarks) {
+        drawConnectors(ctx, r.leftHandLandmarks, HAND_CONNECTIONS, {color: '#0F0', lineWidth: 3});
+        drawLandmarks(ctx, r.leftHandLandmarks, {color: '#0F0', radius: 4});
+    }
+    if (r.rightHandLandmarks) {
+        drawConnectors(ctx, r.rightHandLandmarks, HAND_CONNECTIONS, {color: '#0AF', lineWidth: 3});
+        drawLandmarks(ctx, r.rightHandLandmarks, {color: '#0AF', radius: 4});
+    }
+    ctx.restore();
+    
+    const h = r.leftHandLandmarks || r.rightHandLandmarks;
+    document.getElementById('statusDot').className = h ? 'status-dot active' : 'status-dot';
+    document.getElementById('statusText').textContent = h ? '✓ Hands' : 'Show hands...';
+    
+    kps.push(extract(r));
+    if (kps.length > 30) kps.shift();
+    
+    document.getElementById('bufferFill').style.width = (kps.length / 30 * 100) + '%';
+    document.getElementById('bufferText').textContent = kps.length + '/30';
+    
+    if (h && kps.length >= 30) predict();
+}
+
+let lastT = 0;
+async function predict() {
+    if (Date.now() - lastT < 300) return;
+    lastT = Date.now();
+    
+    const res = await runONNXInference(kps);
+    if (res && res.length) {
+        const t = res[0];
+        document.getElementById('resultSign').textContent = t.gesture.toUpperCase().replace('_', ' ');
+        document.getElementById('resultEnglish').textContent = t.english + ' (' + t.confidence + '%)';
+        
+        // Update top 3 overlay
+        const top3Html = res.map((item, i) => 
+            `<div class="top3-overlay-item rank${i+1}">
+                <span class="gesture">${item.gesture.replace('_', ' ')}</span>
+                <span class="english">${item.english}</span>
+                <span class="prob">${item.confidence}%</span>
+            </div>`
+        ).join('');
+        document.getElementById('top3Overlay').innerHTML = top3Html;
+        
+        // Update sidebar top 3
+        document.getElementById('top3List').innerHTML = res.map(x => `<div class="top3-item"><span>${x.gesture.replace('_', ' ')}</span><span>${x.confidence}%</span></div>`).join('');
+    }
+}
+
+async function startCamera() {
+    try {
+        document.getElementById('startBtn').textContent = '⏳...';
+        document.getElementById('startBtn').disabled = true;
+        
+        const s = await navigator.mediaDevices.getUserMedia({video: {width: 640, height: 480}});
+        vid.srcObject = s;
+        await vid.play();
+        can.width = vid.videoWidth || 640;
+        can.height = vid.videoHeight || 480;
+        
+        running = true;
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('statusBar').style.display = 'flex';
+        document.getElementById('resultOverlay').style.display = 'block';
+        document.getElementById('startBtn').textContent = '✅ Running';
+        
+        async function loop() {
+            if (!running) return;
+            await holistic.send({image: vid});
+            requestAnimationFrame(loop);
+        }
+        loop();
+    } catch (e) {
+        alert('Camera error: ' + e.message);
+        document.getElementById('startBtn').textContent = '📷 Start';
+        document.getElementById('startBtn').disabled = false;
+    }
+}
+
+function resetLive() {
+    kps = [];
+    document.getElementById('bufferFill').style.width = '0%';
+    document.getElementById('bufferText').textContent = '0/30';
+    document.getElementById('resultSign').textContent = '---';
+    document.getElementById('resultEnglish').textContent = 'Reset - show your hands';
+    document.getElementById('top3Overlay').innerHTML = `
+        <div class="top3-overlay-item rank1"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+        <div class="top3-overlay-item rank2"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+        <div class="top3-overlay-item rank3"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>`;
+    document.getElementById('top3List').innerHTML = '<div class="top3-item"><span>---</span><span>--%</span></div>'.repeat(3);
+}
+
+// ============================================
+// VIDEO UPLOAD
+// ============================================
+let upFile = null;
+document.getElementById('fileInput').onchange = e => {
+    if (e.target.files[0]) {
+        upFile = e.target.files[0];
+        document.getElementById('uploadArea').innerHTML = `<div style="font-size:3rem">🎬</div><p><b>${upFile.name}</b></p>`;
+        document.getElementById('processBtn').disabled = !onnxSession;
+    }
+};
+
+async function processUpload() {
+    if (!upFile || !onnxSession) return;
+    
+    const uv = document.getElementById('uploadVideo'), uc = document.getElementById('uploadCanvas'), uctx = uc.getContext('2d');
+    document.getElementById('uploadArea').style.display = 'none';
+    uc.style.display = 'block';
+    document.getElementById('uploadStatusBar').style.display = 'flex';
+    document.getElementById('uploadResultOverlay').style.display = 'block';
+    document.getElementById('processBtn').disabled = true;
+    
+    uv.src = URL.createObjectURL(upFile);
+    await new Promise(r => uv.onloadedmetadata = r);
+    uc.width = uv.videoWidth || 640;
+    uc.height = uv.videoHeight || 480;
+    
+    const dur = uv.duration, fps = 15, tot = ~~(dur * fps);
+    let uk = [], up = [], proc = 0;
+    
+    const vh = new Holistic({locateFile: f => `https://cdn.jsdelivr.net/npm/@mediapipe/holistic/${f}`});
+    vh.setOptions({modelComplexity: 0, smoothLandmarks: true, minDetectionConfidence: 0.5, minTrackingConfidence: 0.5});
+    
+    vh.onResults(async r => {
+        proc++;
+        document.getElementById('uploadFill').style.width = (proc / tot * 100) + '%';
+        document.getElementById('uploadProgress').textContent = ~~(proc / tot * 100) + '%';
+        document.getElementById('uploadStatusText').textContent = `Frame ${proc}/${tot}`;
+        
+        uctx.drawImage(r.image, 0, 0, uc.width, uc.height);
+        if (r.leftHandLandmarks) drawConnectors(uctx, r.leftHandLandmarks, HAND_CONNECTIONS, {color: '#0F0', lineWidth: 2});
+        if (r.rightHandLandmarks) drawConnectors(uctx, r.rightHandLandmarks, HAND_CONNECTIONS, {color: '#0AF', lineWidth: 2});
+        
+        uk.push(extract(r));
+        if (uk.length > 30) uk.shift();
+        
+        if ((r.leftHandLandmarks || r.rightHandLandmarks) && uk.length >= 30) {
+            const res = await runONNXInference(uk);
+            if (res) up.push(...res.slice(0, 1));
+        }
+    });
+    
+    for (let i = 0; i < tot; i++) {
+        uv.currentTime = i / fps;
+        await new Promise(r => setTimeout(r, 50));
+        await vh.send({image: uv});
+    }
+    
+    if (up.length) {
+        const cnt = {};
+        up.forEach(p => cnt[p.gesture] = (cnt[p.gesture] || 0) + 1);
+        const srt = Object.entries(cnt).sort((a, b) => b[1] - a[1]);
+        const best = up.find(p => p.gesture === srt[0][0]);
+        
+        document.getElementById('uploadResultSign').textContent = best.gesture.toUpperCase().replace('_', ' ');
+        document.getElementById('uploadResultEnglish').textContent = best.english + ' (' + best.confidence + '%)';
+        
+        // Show top 3 in overlay
+        const top3Data = srt.slice(0, 3).map(([g, c]) => ({
+            gesture: g,
+            english: translations[g],
+            confidence: Math.round(c / up.length * 100)
+        }));
+        document.getElementById('uploadTop3Overlay').innerHTML = top3Data.map((item, i) => 
+            `<div class="top3-overlay-item rank${i+1}">
+                <span class="gesture">${item.gesture.replace('_', ' ')}</span>
+                <span class="english">${item.english}</span>
+                <span class="prob">${item.confidence}%</span>
+            </div>`
+        ).join('');
+        
+        document.getElementById('uploadResultsCard').style.display = 'block';
+        document.getElementById('uploadTop3').innerHTML = srt.slice(0, 3).map(([g, c]) => `<div class="top3-item"><span>${g.replace('_', ' ')}</span><span>${~~(c / up.length * 100)}%</span></div>`).join('');
+        document.getElementById('uploadStats').textContent = `${proc} frames, ${up.length} predictions`;
+    } else {
+        document.getElementById('uploadResultSign').textContent = 'No Hands';
+        document.getElementById('uploadResultEnglish').textContent = 'No hands detected';
+    }
+    
+    document.getElementById('processBtn').disabled = false;
+}
+
+function resetUpload() {
+    upFile = null;
+    document.getElementById('uploadArea').style.display = 'block';
+    document.getElementById('uploadArea').innerHTML = '<div style="font-size:3rem">📁</div><p><b>Click to upload</b></p>';
+    document.getElementById('uploadCanvas').style.display = 'none';
+    document.getElementById('uploadStatusBar').style.display = 'none';
+    document.getElementById('uploadResultOverlay').style.display = 'none';
+    document.getElementById('uploadResultsCard').style.display = 'none';
+    document.getElementById('processBtn').disabled = true;
+    document.getElementById('uploadTop3Overlay').innerHTML = `
+        <div class="top3-overlay-item rank1"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+        <div class="top3-overlay-item rank2"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>
+        <div class="top3-overlay-item rank3"><span class="gesture">---</span><span class="english">---</span><span class="prob">--%</span></div>`;
+}
+
+// ============================================
+// INIT
+// ============================================
+initMediaPipe();
+loadONNXModel();
+</script>
+</body>
+</html>
