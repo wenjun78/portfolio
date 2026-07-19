@@ -22,7 +22,7 @@ Click and try them in your browser — no installation needed.
 
 ### Medical AI
 
-- **[Medical Visual Question Answering](https://huggingface.co/spaces/wenjun78/medvqa)** (PyTorch, Transformers) — ask questions about medical images; CNN-Transformer vs BiomedCLIP on the SLAKE dataset · [full report](https://wenjun78.github.io/portfolio/AI/WOA7015_MedVQA_FINAL_GROUP8.html)
+- **[Medical Visual Question Answering](https://huggingface.co/spaces/wenjun78/medvqa)** (PyTorch, Transformers) — ask questions about medical images; CNN-Transformer vs BiomedCLIP on the SLAKE dataset.
 - **[Bone Fracture Detection](https://huggingface.co/spaces/wenjun78/bonefracture)** (YOLO12, Grad-CAM) — detect fractures in X-rays with explainable visual localisation.
 - **[Blood Cell Classification with XAI](https://huggingface.co/spaces/wenjun78/blood_cell)** (Deep Learning, XAI) — classify blood cell types with visual explanations of model decisions.
 - **[Pneumonia Detection](https://huggingface.co/spaces/wenjun78/pneumonia_detection)** (Deep Learning) — chest X-ray pneumonia screening.
