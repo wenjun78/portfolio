@@ -1,78 +1,72 @@
-# My Analytical Adventure: A Blend of Science, Art, and Data
+# Wen Jun — AI & Data Engineering Portfolio
+
 ![](https://user-images.githubusercontent.com/74038190/240906093-9be4d344-6782-461a-b5a6-32a07bf7b34e.gif)
 
 ## About Me 👦
 
-👋 Hi, I'm Wen Jun — a dedicated professional with a strong passion for data analytics, machine learning, statistics, and data engineering. My journey in the tech world is driven by a fascination with how data can unlock powerful insights and enable smarter decision-making.
+👋 Hi, I'm Wen Jun — an AI Engineer working on LLM-powered knowledge systems and enterprise-scale data pipelines at Lenovo, with a background spanning machine learning, statistics, and data engineering. I enjoy building end-to-end systems: from raw data through models to working applications people can actually use.
 
-I enjoy building end-to-end solutions — from extracting and transforming data to applying machine learning models and visualizing results. My long-term goal is to become a Machine Learning Engineer, combining my skills in analytics, modeling, and engineering to develop intelligent, scalable systems.
+Current focus: LLM/RAG systems, multi-agent orchestration, computer vision, and reinforcement learning applied to real decision problems.
+
+## Live Demos :rocket:
+
+Click and try them in your browser — no installation needed.
+
+### Flagship
+
+- **[MOLOA — Multi-Agent Loan Origination & Lifecycle Decisioning](https://wenjun78.github.io/MOLOA/demo/moloa_demo.html)** (PyTorch, XGBoost) — Master's thesis: a multi-agent AI system scoring 50,000 real Freddie Mac mortgages across origination, monitoring, and distress intervention — learned attention routing, causal treatment-effect modelling, and honestly reported negative results.
+- **[RefVision — Referee Signal Recognition](https://wenjun78.github.io/FIFA/RefVision/docs/refvision.html)** (MediaPipe, JavaScript) — a camera reads the referee's signals (free kicks, penalty, advantage, VAR, cards) and logs each decision in real time — fully on-device, no cloud, no LLM.
+- **[Penalty Save Simulation](https://wenjun78.github.io/FIFA/PenaltySaver/vr_penalty_saver.html)** (Three.js, WebXR) — first-person VR goalkeeper simulation with physics-based ball flight and research-calibrated penalty-anticipation cues.
+
+### Medical AI
+
+- **[Medical Visual Question Answering](https://huggingface.co/spaces/wenjun78/medvqa)** (PyTorch, Transformers) — ask questions about medical images; CNN-Transformer vs BiomedCLIP on the SLAKE dataset · [full report](https://wenjun78.github.io/portfolio/AI/WOA7015_MedVQA_FINAL_GROUP8.html)
+- **[Bone Fracture Detection](https://huggingface.co/spaces/wenjun78/bonefracture)** (YOLO12, Grad-CAM) — detect fractures in X-rays with explainable visual localisation.
+- **[Blood Cell Classification with XAI](https://huggingface.co/spaces/wenjun78/blood_cell)** (Deep Learning, XAI) — classify blood cell types with visual explanations of model decisions.
+- **[Pneumonia Detection](https://huggingface.co/spaces/wenjun78/pneumonia_detection)** (Deep Learning) — chest X-ray pneumonia screening.
+
+### Interactive Vision
+
+- **[Malaysian Sign Language Recognition](https://huggingface.co/spaces/wenjun78/gesture)** (MediaPipe, PyTorch) — real-time sign language gesture recognition from your webcam.
+
+## Publication :page_facing_up:
+
+Lau, W., Abdul Rahman, H. (2026). *Predicting academic performance through machine learning: integrating demographic, psychological, and behavioral predictors using explainable AI.* Asia Pacific Education Review. [doi:10.1007/s12564-026-10124-y](https://doi.org/10.1007/s12564-026-10124-y)
 
 ## Technical Expertise 👨‍💻
-### Data Analytics & Visualization:
-I specialize in SQL, Python, and Tableau/Power BI to clean, model, and visualize large datasets. My projects include SQL-based exploration of public datasets, A/B testing experiments, and dashboard creation for stakeholder reporting.
 
-### Machine Learning & Statistical Modeling:
-My machine learning experience spans both supervised and unsupervised learning, including decision trees, Naive Bayes, and k-nearest neighbors. I’ve worked on scenario-driven applications such as customer segmentation and user journey analysis to uncover behavioral patterns and optimize engagement strategies. In terms of modeling and optimization, I apply techniques like feature selection, regularized regression, forecasting, and function optimization to improve model performance and interpretability. My portfolio also explores advanced topics such as Apriori association rule mining, anomaly detection in time series data, deep learning models, and longitudinal analysis using big data frameworks.
+**AI & Machine Learning** — LLM/RAG systems (LangChain), multi-agent orchestration, computer vision (YOLO, MediaPipe), reinforcement learning (DQN), and explainable AI (SHAP, LIME, Grad-CAM); deployed via Streamlit, Gradio, and Hugging Face Spaces.
 
-### ETL & Data Engineering:
-Experienced with web scraping, working with AWS and StarRocks, and creating pipelines for replicating and syncing data across environments using tools like Pentaho and AWS S3.
-<!---**App Development:** I also have experience in developing applications, particularly with R Shiny, enabling me to turn complex analyses into user-friendly web apps.--->
+**Data Engineering** — streaming pipelines (Kafka, Flink), Pentaho Data Integration, Airflow, AWS, StarRocks, and enterprise master-data systems at 13M+ record scale.
 
-## Goals :dart:
-I aim to deepen my expertise in machine learning and cloud-based data engineering. I’m especially keen on projects involving personalization, automation, and real-time analytics that transform data into competitive advantage.
+**Analytics & Statistics** — SQL, Python, R; A/B testing and causal inference; forecasting; dashboards in Tableau and Power BI.
 
-## Portfolio :writing_hand:
+## More Projects :writing_hand:
 
-My GitHub page serves as a dynamic portfolio displaying my diverse range of projects and skills. Here, you'll find detailed examples of my work in data analytics and machine learning.
-Each project in my portfolio is a testament to my ability to analyze, interpret, and present data in innovative and impactful ways.
+### Explainable AI
 
-AI Projects:
-- **[MedVQA Slake](https://wenjun78.github.io/portfolio/AI/WOA7015_MedVQA_FINAL_GROUP8.html)** (Python)
-- **[NASA Turbo Engine RUL](https://wenjun78.github.io/portfolio/XAI/xai_dashboard.html)** (Python)
+- **[NASA Turbo Engine Remaining Useful Life](https://wenjun78.github.io/portfolio/XAI/xai_dashboard.html)** — XAI dashboard for predictive maintenance.
 
-Hands-On Data Projects:
-- **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)** (Python)
-- **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)** (Python)
-- **[Oil Palm Production Prediction](https://wenjun78.github.io/portfolio/project/oilpalm/oilproduction_prediction_LauWJ.html)** (Python)
-- **[A/B Testing Report: Evaluating UX Redesign on Conversion and Engagement Metrics](https://wenjun78.github.io/portfolio/project/abtest_ux/abtest_ux.html)** (Python)
-- **[A/B Testing Report: Evaluating Discount Impact on GMV and ROI](https://wenjun78.github.io/portfolio/project/abtest_gmv/abtest_gmv.html)** (Python)
-- **[Customer Segmentation for Personalized Marketing Strategies](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)** (Python)
-- **[Anomaly Detection in Time Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)** (Python)
-- **[Enhancing Transaction Security with A/B Testing and Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)** (Python) 
-- **[Analyzing Students' Mental Health](https://app.datacamp.com/workspace/w/2ca41a13-c686-4e7e-a5c8-185065a4fd2e/edit)** (SQL)
-- **[Exploring London's Travel Network](https://app.datacamp.com/workspace/w/0f2a359f-96d0-4291-8e3a-c2eeacb8efb2/edit)** (SQL & Amazon Redshift)
-- **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)** (Python)
-<!---- **[Winning Space Race in Data Science](https://github.com/wenjun78/ibmdatasciencecap/blob/main/ds-capstone-coursera-LauWJ.pdf)** (Python & SQL)-->
+### Data Science & Analytics
 
-ML Techniques & Theory (R):
-- **[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html)**
-- **[Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html)**
-- **[Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html)**
-- **[Lazy Learning](https://wenjun78.github.io/portfolio/Lazy%20Learning.html)**
-- **[Naive Bayes](https://wenjun78.github.io/portfolio/Naive%20Bayes.html)**
-- **[Decision Tree](https://wenjun78.github.io/portfolio/Decision%20Tree.html)**
-- **[Forecasting](https://wenjun78.github.io/portfolio/Forecasting.html)**
-- **[Blackbox](https://wenjun78.github.io/portfolio/Black%20Box.html)**
-- **[Apriori Association Rules Learning](https://wenjun78.github.io/portfolio/Apriori%20Association.html)**
-- **[Specialized Machine Learning Topics](https://wenjun78.github.io/portfolio/Specialized%20Machine%20Learning%20Topics.html)**
-- **[Big Data Longitudinal Analysis](https://wenjun78.github.io/portfolio/Big%20Data%20Longitudinal%20Analysis.html)**
-- **[Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html)**
-- **[Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)**
+- **[Loan Repayment Prediction](https://wenjun78.github.io/portfolio/project/LoanRepay/DS_LoanRepayment_Lau.html)**
+- **[Car Price Prediction](https://wenjun78.github.io/portfolio/project/Carsale/prediction_model.html)**
+- **[Oil Palm Production Prediction](https://wenjun78.github.io/portfolio/project/oilpalm/oilproduction_prediction_LauWJ.html)**
+- **[A/B Testing: UX Redesign on Conversion & Engagement](https://wenjun78.github.io/portfolio/project/abtest_ux/abtest_ux.html)**
+- **[A/B Testing: Discount Impact on GMV & ROI](https://wenjun78.github.io/portfolio/project/abtest_gmv/abtest_gmv.html)**
+- **[Customer Segmentation for Personalised Marketing](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)**
+- **[Anomaly Detection in Time-Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)**
+- **[Transaction Security: A/B Testing & Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)**
+- **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)**
 
-<!----Data Visualization Dashboards:
-- **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
-- **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
-- **[Job Sphere Analytics](https://public.tableau.com/views/TableauinDataJobSphereAnAnalyticalDashboard/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
-<!---- **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)** (Power BI)-->
-<!---- **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)** (Power BI)-->
-<!---- **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**-->
-<!--- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**-->
-<!---- **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**-->
+### ML Foundations (R notebooks)
 
-<!---App:
-- **[R Shiny App](https://f7cnn8-wj-lau.shinyapps.io/Assign5/)**-->
+[Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html) · [Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html) · [Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html) · [Lazy Learning](https://wenjun78.github.io/portfolio/Lazy%20Learning.html) · [Naive Bayes](https://wenjun78.github.io/portfolio/Naive%20Bayes.html) · [Decision Tree](https://wenjun78.github.io/portfolio/Decision%20Tree.html) · [Forecasting](https://wenjun78.github.io/portfolio/Forecasting.html) · [Black Box](https://wenjun78.github.io/portfolio/Black%20Box.html) · [Apriori Association Rules](https://wenjun78.github.io/portfolio/Apriori%20Association.html) · [Specialized ML Topics](https://wenjun78.github.io/portfolio/Specialized%20Machine%20Learning%20Topics.html) · [Big Data Longitudinal Analysis](https://wenjun78.github.io/portfolio/Big%20Data%20Longitudinal%20Analysis.html) · [Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html) · [Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)
 
 ## Let's Connect :handshake:
-Thank you for visiting my page. I am always open to collaboration, feedback, and opportunities to engage with like-minded professionals and enthusiasts in the world of data and technology.
 
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wjun/)
+Always open to collaboration, feedback, and interesting problems in AI and data.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wjun/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/wenjun78)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wenjun78)
