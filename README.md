@@ -65,6 +65,21 @@ Lau, W., Abdul Rahman, H. (2026). *Predicting academic performance through machi
 
 [Feature Selection](https://wenjun78.github.io/portfolio/Feature%20Selection.html) · [Regularized Linear Modeling](https://wenjun78.github.io/portfolio/Regularized%20Linear%20Regression.html) · [Dimensionality Reduction](https://wenjun78.github.io/portfolio/Dimensionality%20Reduction.html) · [Lazy Learning](https://wenjun78.github.io/portfolio/Lazy%20Learning.html) · [Naive Bayes](https://wenjun78.github.io/portfolio/Naive%20Bayes.html) · [Decision Tree](https://wenjun78.github.io/portfolio/Decision%20Tree.html) · [Forecasting](https://wenjun78.github.io/portfolio/Forecasting.html) · [Black Box](https://wenjun78.github.io/portfolio/Black%20Box.html) · [Apriori Association Rules](https://wenjun78.github.io/portfolio/Apriori%20Association.html) · [Specialized ML Topics](https://wenjun78.github.io/portfolio/Specialized%20Machine%20Learning%20Topics.html) · [Big Data Longitudinal Analysis](https://wenjun78.github.io/portfolio/Big%20Data%20Longitudinal%20Analysis.html) · [Function Optimization](https://wenjun78.github.io/portfolio/Optimization.html) · [Deep Learning](https://wenjun78.github.io/portfolio/DeepLearning.html)
 
+<!----Data Visualization Dashboards:
+- **[Malaysian Car Market Analysis](https://app.powerbi.com/view?r=eyJrIjoiZGE1NTFmMTYtMjVjNy00NzAxLTgzYzktNzY3YjkyNDVlY2I3IiwidCI6ImE5ODIzYTlkLWJjYTItNDY5ZC1iNGZmLTJlMmIyZDE3NzY5MiIsImMiOjEwfQ%3D%3D)** (Power BI)
+- **[Healthcare Analytics](https://public.tableau.com/views/HealthcareAnalytics_17015232280100/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
+- **[Job Sphere Analytics](https://public.tableau.com/views/TableauinDataJobSphereAnAnalyticalDashboard/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link)** (Tableau)
+<!---- **[Employer Satisfaction Survey 2017](https://tinyurl.com/2017-ess)** (Power BI)-->
+<!---- **[Graduate Employment Study 2017](https://tinyurl.com/2017-sls)** (Power BI)-->
+<!---- **[Analysis of Sales & Profit of Superstore Ltd](https://tinyurl.com/dynamiklau)**-->
+<!--- **[Insight into the inpatient services of Hospital (2020)](https://tinyurl.com/laujpmc23)**-->
+<!---- **[Airline Satisfaction Study](https://tinyurl.com/flightsatrat)**-->
+
+<!---App:
+- **[R Shiny App](https://f7cnn8-wj-lau.shinyapps.io/Assign5/)**-->
+
+
+
 ## Let's Connect :handshake:
 
 Always open to collaboration, feedback, and interesting problems in AI and data.
