@@ -45,6 +45,10 @@ Lau, W., Abdul Rahman, H. (2026). *Predicting academic performance through machi
 
 ## More Projects :writing_hand:
 
+### Clinical Decision Support (Research)
+
+- **ACS Triage RL Agent** (DQN, PyTorch) — reinforcement-learning agent recommending disposition decisions (discharge / observe / admit) from acute coronary syndrome triage vectors — demographics, vitals, ECG findings, serial troponin — with a safety-weighted reward penalising missed MACE most heavily to limit over-triage.
+
 ### Explainable AI
 
 - **[NASA Turbo Engine Remaining Useful Life](https://wenjun78.github.io/portfolio/XAI/xai_dashboard.html)** — XAI dashboard for predictive maintenance.
