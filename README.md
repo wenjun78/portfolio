@@ -60,8 +60,9 @@ Lau, W., Abdul Rahman, H. (2026). *Predicting academic performance through machi
 - **[Oil Palm Production Prediction](https://wenjun78.github.io/portfolio/project/oilpalm/oilproduction_prediction_LauWJ.html)**
 - **[A/B Testing: UX Redesign on Conversion & Engagement](https://wenjun78.github.io/portfolio/project/abtest_ux/abtest_ux.html)**
 - **[A/B Testing: Discount Impact on GMV & ROI](https://wenjun78.github.io/portfolio/project/abtest_gmv/abtest_gmv.html)**
-- **[Customer Segmentation for Personalised Marketing](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)**
-- **[Anomaly Detection in Time-Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)**
+- **[Customer Segmentation for Personalised Marketing](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)** (Python, K-Means, clustering validation, association-rule mining) — segmented customers by behavioural patterns, assessed cluster quality and interpretability, and analysed within-segment affinities to inform targeted promotions and engagement.
+- **Customer Journey & Funnel Analysis** (Python, funnel analysis, Sankey diagrams, sequential-pattern mining) — mapped customer activity sequences, identified journey drop-offs and common behavioural paths, and translated findings into opportunities for conversion and retention improvements.
+- **[Anomaly Detection in Time-Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)** (Python, Isolation Forest, LSTM, MLflow) — explored point and temporal anomalies in sales behaviour, evaluated detection on held-out observations, and tracked modelling experiments for reproducibility.
 - **[Transaction Security: A/B Testing & Risk Pattern Analysis](https://wenjun78.github.io/portfolio/project/trans_security/transactionsec.html)**
 <!----- **[Web Scraping](https://wenjun78.github.io/portfolio/project/Python/Web_Scraping/Web_Scraping.html)**
 
