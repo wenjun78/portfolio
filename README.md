@@ -214,7 +214,7 @@ Analysed a **synthetic experiment** comparing a checkout discount with a no-disc
 
 **Technologies:** Python, Pandas, SciPy, A/B Testing, GMV Analysis
 
-#### [Customer Segmentation for Personalised Marketing](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)
+#### [User Segmentation & In-App Purchase Behaviour Analysis](https://wenjun78.github.io/portfolio/project/cusseg/customer_segmentation_20250109.html)
 
 **Customer Analytics | K-Means | Unsupervised Learning**
 
@@ -228,7 +228,7 @@ Segmented **2,000 synthetic customer records** using demographic, spending and p
 
 **Technologies:** Python, Pandas, Scikit-learn, K-Means, PCA, Customer Analytics
 
-#### User Journey Analysis & Behavioural Pattern Mining
+#### User Journey & Conversion Funnel Analysis
 
 **Product Analytics | Funnel Analysis | Sequential Pattern Mining**
 
@@ -240,7 +240,7 @@ Analysed customer activity sequences to understand how users progressed through 
 
 **Technologies:** Python, Pandas, Funnel Analysis, Sankey Diagrams, Apriori, Sequential-Pattern Mining
 
-#### [Anomaly Detection in Time-Series Sales Data](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)
+#### [Anomaly Detection in User Transaction Behaviour](https://wenjun78.github.io/portfolio/project/anomaly/Anomaly%20Detection.html)
 
 **Anomaly Detection | Time Series | Statistical & Deep Learning Methods**
 
