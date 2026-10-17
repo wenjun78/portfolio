@@ -103,9 +103,22 @@ Developed a YOLO-based object detection approach to locate and classify bone-fra
 
 ---
 
-## Publication :page_facing_up:
+## Publications :page_facing_up:
+
+[Explore the publications page](https://wenjun78.github.io/portfolio/publications.html) for the peer-reviewed article, research summary, DOI and citation download.
 
 Lau, W., Abdul Rahman, H. (2026). *Predicting academic performance through machine learning: integrating demographic, psychological, and behavioral predictors using explainable AI.* Asia Pacific Education Review. [doi:10.1007/s12564-026-10124-y](https://doi.org/10.1007/s12564-026-10124-y)
+
+## Dashboards & Analytics :bar_chart:
+
+[Explore professional dashboard and analytics case studies](https://wenjun78.github.io/portfolio/dashboards.html).
+
+- **Education Statistics 2022–2024** — Ministry of Education, Brunei
+- **Employer Satisfaction Survey 2022–2023** — Ministry of Education, Brunei
+- **Graduate Employment Study 2022–2024** — Ministry of Education, Brunei
+- **User Monetisation & Marketing ROI Dashboard** — BPO
+
+These summaries describe internal work; employer dashboards and source datasets are not publicly shared.
 
 ## More Projects :writing_hand:
 
