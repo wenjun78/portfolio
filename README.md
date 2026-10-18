@@ -16,6 +16,7 @@ Click and try them in your browser — no installation needed.
 
 ### Flagship
 
+- **[Ask WJ — Source-grounded Personal AI Assistant](https://wenjun78.github.io/portfolio/ask-wj.html)** ([source](https://github.com/wenjun78/ask_wj)) (FastAPI, hybrid BM25 + embedding retrieval, RRF, PostgreSQL, SSE) — an end-to-end, auditable RAG application with cited answers, an owner dashboard, prompt versioning, privacy and rate-limit controls, retrieval evaluation fixtures and automated CI checks. Case study documents current limitations; no unverified user metrics or live deployment claims.
 - **[MOLOA — Multi-Agent Loan Origination & Lifecycle Decisioning](https://wenjun78.github.io/MOLOA/demo/moloa_demo.html)** (PyTorch, XGBoost) — Master's thesis: a multi-agent AI system scoring 50,000 real Freddie Mac mortgages across origination, monitoring, and distress intervention — learned attention routing, causal treatment-effect modelling, and honestly reported negative results.
 - **[RefVision — Referee Signal Recognition](https://wenjun78.github.io/FIFA/RefVision/docs/refvision.html)** (MediaPipe, JavaScript) — a camera reads the referee's signals (free kicks, penalty, advantage, VAR, cards) and logs each decision in real time — fully on-device, no cloud, no LLM.
 - **[Penalty Save Simulation](https://wenjun78.github.io/FIFA/PenaltySaver/vr_penalty_saver.html)** (Three.js, WebXR) — first-person VR goalkeeper simulation with physics-based ball flight and research-calibrated penalty-anticipation cues.
