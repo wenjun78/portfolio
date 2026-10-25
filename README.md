@@ -27,7 +27,7 @@ A collection of applied AI and machine learning projects covering computer visio
 
 ### 1. [Medical Visual Question Answering with BiomedCLIP](https://huggingface.co/spaces/wenjun78/medvqa)
 
-**Multimodal AI | Vision-Language Models | Academic Team Project**
+**Multimodal AI | Vision-Language Models**
 
 **[🤗 Try the Hugging Face Demo](https://huggingface.co/spaces/wenjun78/medvqa)**
 
@@ -42,7 +42,7 @@ Developed and evaluated a medical visual question-answering approach combining m
 
 ### 2. [Malaysian Sign Language Recognition Using MediaPipe and BiLSTM](https://huggingface.co/spaces/wenjun78/gesture)
 
-**Deep Learning | Computer Vision | Sequence Modelling | Academic Team Project**
+**Deep Learning | Computer Vision | Sequence Modelling**
 
 **[🤗 Try the Hugging Face Demo](https://huggingface.co/spaces/wenjun78/gesture)**
 
@@ -59,7 +59,7 @@ Developed a sign-language recognition model that converts sequences of human bod
 
 ### 3. [Pneumonia Detection with Explainable Deep Learning](https://huggingface.co/spaces/wenjun78/pneumonia_detection)
 
-**Medical Imaging | CNNs | Explainable AI | Academic Project**
+**Medical Imaging | CNNs | Explainable AI**
 
 **[🤗 Try the Hugging Face Demo](https://huggingface.co/spaces/wenjun78/pneumonia_detection)**
 
@@ -74,7 +74,7 @@ Developed and compared deep learning models to classify chest X-ray images as no
 
 ### 4. [Blood Cell Classification with Explainable AI](https://huggingface.co/spaces/wenjun78/blood_cell)
 
-**Image Classification | Deep Learning | XAI | Academic Project**
+**Image Classification | Deep Learning | XAI**
 
 **[🤗 Try the Hugging Face Demo](https://huggingface.co/spaces/wenjun78/blood_cell)**
 
@@ -89,7 +89,7 @@ Developed a deep learning comparison study for classifying microscopic blood-cel
 
 ### 5. [Bone Fracture Detection and Classification Using YOLO12](https://huggingface.co/spaces/wenjun78/bonefracture)
 
-**Object Detection | Medical Imaging | Academic Team Project**
+**Object Detection | Medical Imaging**
 
 **[🤗 Try the Hugging Face Demo](https://huggingface.co/spaces/wenjun78/bonefracture)**
 
@@ -135,7 +135,7 @@ Explored reinforcement learning for recommending patient disposition following a
 
 - Modelled **discharge, observation and admission** as possible decisions using clinical features such as vital signs, ECG findings and troponin results.
 - Applied *Deep Q-Network (DQN)* methods with safety-weighted rewards that penalise missed major adverse cardiac events (MACE).
-- Examined trade-offs between avoiding missed high-risk cases and unnecessary admissions. **Academic research only, not a clinical decision tool.**
+- Examined trade-offs between avoiding missed high-risk cases and unnecessary admissions. **Research prototype only, not a clinical decision tool.**
 
 **Technologies:** Python, PyTorch, Reinforcement Learning, DQN, Clinical Data Analysis
 
