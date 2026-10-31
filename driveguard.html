@@ -44,18 +44,20 @@ main section{padding:65px 0}.section-label{color:#56804b;margin-bottom:14px}h2{f
 <section class="tinted"><div class="wrap"><p class="section-label">02 / Architecture</p><h2>One package, three entry points: CLI, notebooks, tests.</h2><p class="intro">Everything lives in one Python package driven by environment variables. The same wheel runs on a laptop with Parquet and a local MLflow store, in CI on local Spark, and inside Databricks jobs with Delta, Unity Catalog and the workspace tracking server. The notebooks only pass widgets through; nothing is rewritten between environments.</p>
 <div class="arch"><div class="stage"><small>LAND</small><b>Bronze</b><span>Daily files from a UC Volume, grouped by header so a decade of schema drift unions cleanly; an ingest log makes re-runs idempotent</span></div><div class="stage"><small>CLEAN</small><b>Silver</b><span>One row per drive-day, failure terminal, ghost rows after failure dropped, unknown capacities filled; a per-drive lifecycle table</span></div><div class="stage"><small>FEATURE</small><b>Gold</b><span>Time-safe window features and the censoring-aware 30-day label, partitioned by month</span></div><div class="stage"><small>TRAIN</small><b>MLflow + UC</b><span>Weighted negatives sample, XGBoost with early stopping, budgeted metrics vs the operator rule, pyfunc with feature spec and drift reference, champion gate</span></div><div class="stage"><small>OPERATE</small><b>Score · monitor · retrain</b><span>Distributed scoring, per-day ranking, TreeSHAP reason codes, PSI and matured-label recall, a task value that gates retraining in the daily job</span></div></div>
 </div></section>
-<section><div class="wrap"><p class="section-label">03 / Evidence</p><h2>The pipeline proven on a synthetic fleet; the model measured on the real one.</h2><p class="intro">The repository ships a generator that writes a synthetic fleet in Backblaze's exact file layout — drives joining and leaving, degradation in the key counters before most but not all failures, schema drift, duplicates, −1 capacities, a ghost row — so the whole system can be exercised without the multi-gigabyte download. The table below is that dry run: 3,000 drives × 400 days, 1.03 M drive-days, 127 failures, two CPU cores, under three minutes end to end. It proves every stage runs and that the comparison against the operator rule is wired in. It is not a model result; real-data numbers from the Backblaze subset replace it, and the README says so in the same words.</p>
+<section><div class="wrap"><p class="section-label">03 / Evidence</p><h2>Measured on the real fleet, forward in time.</h2><p class="intro">Backblaze 2024Q3–2025Q1, 10% of the fleet with whole drive histories (33,144 drives, 366 failures), run end to end on Databricks Free Edition serverless by the repository's own workflow. Time-ordered split with 30-day gaps; the test period is the last 90 days (Dec 2024 – Mar 2025, 120 failing drives, 1.85 M labeled drive-days); alert budget 0.5% of the fleet per day, about 157 drives. The operator rule — Backblaze's five SMART counters, any non-zero — goes through the identical budgeted evaluation.</p>
 <table class="table"><thead><tr><th>metric at the 0.5% alert budget</th><th>validation</th><th>test</th><th>operator rule (test)</th></tr></thead><tbody>
-<tr><td>PR-AUC</td><td>0.548</td><td>0.548</td><td>0.513</td></tr>
-<tr><td>Recall @ budget (drive-days)</td><td>57.7%</td><td>57.5%</td><td>52.1%</td></tr>
-<tr><td>Precision @ budget</td><td>36.0%</td><td>49.1%</td><td>45.6%</td></tr>
-<tr><td>Drive recall @ budget (flagged at least once)</td><td>75.0%</td><td>73.3%</td><td>73.3%</td></tr>
-<tr><td>Median lead time of first alert (days)</td><td>15</td><td>22</td><td>18</td></tr>
-<tr><td>Caught with ≥ 7 days lead</td><td>81%</td><td>91%</td><td>86%</td></tr>
-<tr><td>False alerts / 1,000 healthy drive-days</td><td>3.42</td><td>2.96</td><td>3.09</td></tr>
-<tr><td>Failing drives in period</td><td>28</td><td>30</td><td>30</td></tr>
+<tr><td>PR-AUC</td><td>0.145</td><td>0.184</td><td>0.017</td></tr>
+<tr><td>ROC-AUC</td><td>0.839</td><td>0.924</td><td>0.863</td></tr>
+<tr><td>Drive recall @ budget (flagged ≥ once in the 30 d before failure)</td><td>57.0%</td><td>70.8%</td><td>5.0%</td></tr>
+<tr><td>Recall @ budget (drive-days)</td><td>39.1%</td><td>45.3%</td><td>1.5%</td></tr>
+<tr><td>Precision @ budget</td><td>8.6%</td><td>13.5%</td><td>0.5%</td></tr>
+<tr><td>Median lead time of first alert (days)</td><td>23</td><td>18</td><td>8</td></tr>
+<tr><td>Caught with ≥ 7 d lead</td><td>84%</td><td>79%</td><td>67%</td></tr>
+<tr><td>False alerts / 1,000 healthy drive-days</td><td>4.59</td><td>4.47</td><td>5.03</td></tr>
+<tr><td>Failing drives in period</td><td>100</td><td>120</td><td>120</td></tr>
+<tr><td>Labeled drive-days</td><td>1,773,979</td><td>1,845,383</td><td>1,845,383</td></tr>
 </tbody></table>
-<p class="muted">Synthetic dry run, 31 Oct 2026. The fixture's degradation <em>is</em> the five counters the operator rule watches, so a small margin over the rule is the expected outcome there. Timing: bronze 31 s · silver 21 s · gold 35 s · train 38 s · 45-day scoring replay 28 s · monitor 14 s.</p>
+<p class="muted">Read it as an operator would: of the 120 drives that failed in the test period, 71% were on the daily list at least once in their last 30 days, with a median 18 days' warning; the list is 13.5% right per drive-day against a 0.15% base rate. The five-counter rule is a flag, not a ranking — at the same budget it surfaces the drives with the largest counter values, mostly old survivors, and catches 5% of failures. Live, matured-label recall on the replayed snapshots runs 0.3–0.6 per day (median ≈ 0.5). Numbers from <code>app_snapshot/model.json</code>, exported from the workspace on 31 Oct 2026; the synthetic fixture in the repository is used only for tests and dry runs.</p>
 </div></section>
 <section class="tinted"><div class="wrap"><p class="section-label">04 / Engineering decisions</p><h2>The parts a reviewer should push on.</h2>
 <div class="grid">
