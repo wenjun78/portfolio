@@ -1,4 +1,4 @@
-# Keeps the free Render services awake during the hours visitors are likely around (08:00-22:59 MYT), from a
+# Keeps ask-wj and the BI Copilot demo awake during the hours visitors are likely around (08:00-22:59 MYT), from a
 # public repo so the Actions minutes are free. Render sleeps a free service after 15 idle minutes and suspends
 # ALL free services once 750 instance-hours/month are used - so this pings deliberately few services, for
 # deliberately few hours (~450 h/month each), instead of an always-on monitor. Outside these hours the first
@@ -19,7 +19,7 @@ jobs:
         run: |
           for url in \
             https://ask-wj.onrender.com/healthz \
-            https://driveguard-kf09.onrender.com/healthz; do
+            https://bicopilot.onrender.com/healthz; do
             code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 120 --retry 2 --retry-delay 15 "$url" || echo 000)
             echo "$url -> $code"
           done
